@@ -23,8 +23,8 @@
   "openAccount2": "Open an Account",
   "updates": "Updates",
   "customerMessage": "Dear Customer, We have launched Video KYC facility for new customers to open new accounts.",
-  "moreDetails":"More Details",
-  "getUpBalance":"Get up to 4%* on your Account Balances with AccuIndex.",
+  "moreDetails": "More Details",
+  "getUpBalance": "Get up to 4%* on your Account Balances with AccuIndex.",
   "tradingProducts": "Trading Products",
   "forex": "Forex",
   "indices": "Indices",
@@ -35,8 +35,8 @@
   "tradingConditions": "Trading Conditions",
   "accountTypes": "Account Types",
   "depositWithdrawal": "Deposit & Withdrawal",
-  "english":"English",
-  "arabic":"Arabic",
+  "english": "English",
+  "arabic": "Arabic",
   "realTrades": "Real Trades",
   "greatSuccess": "Great Success",
   "trustedPartner": "Your Trusted Partner in Financial Markets",
@@ -50,6 +50,800 @@
   "innovativeTradingDesc": "We provide advanced platforms and competitive trading conditions for every trader's success.",
   "commitmentToEmpowerment": "Commitment to Empowerment",
   "commitmentToEmpowermentDesc": "Empowering traders with expert support, cutting-edge tools, and actionable market insights.",
-  "newAccountsOpened": "New accounts opened in the past year"
+  "newAccountsOpened": "New accounts opened in the past year",
+  "features": {
+    "title": "What Sets Us Apart",
+    "subtitle": "At Accuindex, our culture is built on a foundation of trust, education, and collaboration. We believe in empowering traders with the tools and knowledge they need to navigate financial markets confidently.",
+    "coreValues": {
+      "title": "Our Core Values",
+      "items": [
+        "Clear pricing and open communication for complete transparency.",
+        "Regulatory compliance to ensure secure and trustworthy trading.",
+        "A client-first mindset, always prioritizing trader success."
+      ]
+    },
+    "empoweringTraders": {
+      "title": "Empowering Traders",
+      "items": [
+        "Expert-led workshops and interactive webinars.",
+        "Comprehensive resources to enhance trading expertise.",
+        "A commitment to building confidence in financial markets."
+      ]
+    },
+    "buttons": {
+      "explore": "EXPLORE ACCUPAY",
+      "metatrader": "ACCUINDEX MetaTrader 5"
+    },
+    "imageAlt": "MetaTrader 5"
+  },
+  "benefits": {
+    "title": "Guided by Purpose, Driven by Excellence",
+    "subtitle": "Discover why Accuindex is a trusted partner for your trading journey.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide traders with the tools, education, and market access needed to succeed in the ever-evolving world of financial markets.",
+      "alt": "Mission Icon"
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the leading broker in the MENA region and globally, recognized for our transparency, innovation, and dedication to client success.",
+      "alt": "Vision Icon"
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "Our values emphasize integrity, innovation, and client-centricity, ensuring transparency, advanced solutions, and a focus on trader needs.",
+      "alt": "Values Icon"
+    }
+  },
+  "milestones": {
+    "titlePart1": "Milestones",
+    "titlePart2": "That Define Us",
+    "description2016": "Accuindex is founded, setting a new standard in trading services.",
+    "description2018": "Expansion into new markets across the GCC region.",
+    "description2020": "Launch of the advanced MT5 trading platform and mobile app, AccuGo.",
+    "description2022": "Recognition for excellence with awards in trading technology and customer service.",
+    "description2023": "Introduction of innovative tools like AccuConnect for copy trading and AccuPay for instant deposits and withdrawals.",
+    "description2024": "Achieving global trader trust, with thousands of active accounts worldwide."
+  },
+  "aboutUsP": {
+    "section1": {
+      "title": "Your Success",
+      "subtitle": "At Accuindex, our clients are more than traders—they are our partners. We are dedicated to fostering their success by offering:",
+      "features": [
+        {
+          "icon": "icon-credit-card",
+          "title": "24/7 Personalized Support",
+          "link": "#"
+        },
+        {
+          "icon": "icon-computer",
+          "title": "Secure Trading Platforms",
+          "link": "#"
+        },
+        {
+          "icon": "icon-book",
+          "title": "Cutting-Edge Innovation",
+          "link": "#"
+        },
+        {
+          "icon": "icon-check-book",
+          "title": "Excellent Trading Tools",
+          "link": "#"
+        }
+      ],
+      "button": {
+        "text": "Trade Now",
+        "link": "#"
+      }
+    },
+    "section2": {
+      "title": "Achieve More with",
+      "brand": "Accuindex",
+      "description": "At Accuindex, we are committed to empowering traders with the resources, technology, and expertise needed to thrive in the markets.",
+      "button": {
+        "text": "Open Your Account",
+        "link": "#"
+      },
+      "steps": [
+        {
+          "number": "01",
+          "title": "Tailored Trading Experience",
+          "description": "We customize your trading journey with features designed to meet the needs of both beginners and seasoned professionals."
+        },
+        {
+          "number": "02",
+          "title": "Market Insights",
+          "description": "Stay informed with real-time market updates, in-depth analysis, and expert guidance to make informed trading decisions."
+        },
+        {
+          "number": "03",
+          "title": "Advanced Platforms",
+          "description": "Trade seamlessly across devices using cutting-edge platforms equipped with tools for precise execution and strategy optimization."
+        }
+      ]
+    }
+  },
+  "introStyle1": {
+    "title": "Choose the Right Account for Your Trading Journey",
+    "subtitle": "Accuindex offers a range of accounts designed to match every trading style and level.",
+    "buttonText": "Open Your Account"
+  },
+  "featuresStyle": {
+    "title": "Flexible Account Options Tailored to Your Needs",
+    "subtitle": "Accuindex offers tailored trading accounts for all levels, providing flexibility, transparency, and essential tools for success.",
+    "buttonText": "Explore Our Account Options"
+  },
+  "serviceStyle": {
+    "mainTitle": "Explore Our Trading Account Types",
+    "mainSubtitle": "Discover the perfect trading account to match your style and goals. Whether you're a beginner or an experienced trader, Accuindex offers a range of accounts designed for flexibility, transparency, and performance. Choose the account that fits your needs and start trading with confidence.",
+    "accounts": [
+      {
+        "title": "Standard Account",
+        "features": [
+          "Minimum Opening Balance: $100",
+          "Leverage: Up to 1:400",
+          "Spreads from 1.4",
+          "No Commissions",
+          "300+ Trading Instruments",
+          "Automated Trading",
+          "Stop Out Level: 20%",
+          "Account Currency: USD"
+        ]
+      },
+      {
+        "title": "Pro Account",
+        "features": [
+          "Minimum Opening Balance: $100",
+          "Leverage: Up to 1:400",
+          "Spreads from 1.4",
+          "No Commissions",
+          "300+ Trading Instruments",
+          "Automated Trading",
+          "Stop Out Level: 20%",
+          "Account Currency: USD"
+        ]
+      },
+      {
+        "title": "Raw Account",
+        "features": [
+          "Minimum Opening Balance: $100",
+          "Leverage: Up to 1:400",
+          "Spreads from 1.4",
+          "No Commissions",
+          "300+ Trading Instruments",
+          "Automated Trading",
+          "Stop Out Level: 20%",
+          "Account Currency: USD"
+        ]
+      },
+      {
+        "title": "Copy Trading Account",
+        "features": [
+          "Minimum Opening Balance: $100",
+          "Leverage: Up to 1:400",
+          "Spreads from 1.4",
+          "No Commissions",
+          "300+ Trading Instruments",
+          "Automated Trading",
+          "Stop Out Level: 20%",
+          "Account Currency: USD"
+        ]
+      }
+    ],
+    "swipeHint": "Swipe right to know more"
+  },
+  "accountDetails": {
+    "accounts": [
+      {
+        "title": "Social Account",
+        "features": [
+          "Minimum Opening Balance: $100",
+          "Leverage: Up to 1:400",
+          "Spreads from 1.4",
+          "No Commissions",
+          "300+ Trading Instruments",
+          "Automated Trading",
+          "Stop Out Level: 20%",
+          "Account Currency: USD"
+        ],
+        "linkText": "Trade now",
+        "linkUrl": "#"
+      },
+      {
+        "title": "Social Account",
+        "features": [
+          "Minimum Opening Balance: $100",
+          "Leverage: Up to 1:400",
+          "Spreads from 1.4",
+          "No Commissions",
+          "300+ Trading Instruments",
+          "Automated Trading",
+          "Stop Out Level: 20%",
+          "Account Currency: USD"
+        ],
+        "linkText": "Trade now",
+        "linkUrl": "#"
+      },
+      {
+        "title": "Social Account",
+        "features": [
+          "Minimum Opening Balance: $100",
+          "Leverage: Up to 1:400",
+          "Spreads from 1.4",
+          "No Commissions",
+          "300+ Trading Instruments",
+          "Automated Trading",
+          "Stop Out Level: 20%",
+          "Account Currency: USD"
+        ],
+        "linkText": "Trade now",
+        "linkUrl": "#"
+      }
+    ]
+  },
+  "awardsA": "Awards",
+  "awards": {
+    "awards-s1-header": "Celebrating Excellence: Recognized for Leadership in Trading Innovation",
+    "awards-s1-content": "At Accuindex, every award and recognition we receive is a testament to our dedication to innovation, transparency, and client-centric service. From pioneering advanced trading tools to fostering a seamless trading experience, our achievements showcase our role as a trusted leader in the global trading industry. These milestones inspire us to continuously push boundaries, ensuring our traders always have access to the best platforms, support, and opportunities to succeed.",
+    "awards-s1-btnOne": "Live Account",
+    "awards-s1-btnTwo": "Try a Demo Account Now",
+    "awards-s2-header": "Award-Winning Excellence in the Financial",
+    "awards-s2-sub": "Setting New Standards in the Financial Industry with Award-Winning Innovation, Transparency, and Client-Centric Excellence",
+    "awards-s2-l1": "Global Forex Awards (Retail)",
+    "awards-s2-l1-winner": "Best Forex Trading Support",
+    "awards-s2-l2": "Dubai Forex Expo",
+    "awards-s2-l2-winner": "Fastest Growing Broker",
+    "awards-s2-r1": "JFEX Award",
+    "awards-s2-r1-winner": "Best Forex Execution",
+    "awards-s2-r2": "JFEX Award",
+    "awards-s2-r2-winner": "Best MT5 Broker",
+    "Year": "Year:",
+    "Winner": "Winner:",
+    "awards-s2-btnOne": "Start trading now",
+    "awards-s2-btnTwo": "Have a look at our Platform",
+    "awards-s3-title": "Excellence That Drives Us Forward.",
+    "awards-s3-subtitle": "Each award we receive reflects our dedication to innovation, transparency, and client success. These recognitions validate our efforts to create a trading environment that empowers investors and traders globally.",
+    "awardOne-title": "Best MT5 Broker – JFEX Award 2020",
+    "awardOne-desc": "This award recognizes Accuindex as the best broker offering the MT5 trading platform, reflecting our dedication to providing traders with advanced tools and technology for superior trading performance.",
+    "awardTwo-title": "Best Forex Trading Support – Global Forex Award Retail 2022",
+    "awardTwo-desc": "This award highlights our exceptional customer support, emphasizing our team's commitment to providing timely and effective assistance to traders, ensuring they have the best trading experience possible.",
+    "awardThree-title": "Fastest Growing Broker – Dubai Forex Expo 2020",
+    "awardThree-desc": "Accuindex was recognized for its rapid growth in the forex trading industry, highlighting our ability to attract and retain traders with our innovative solutions and exceptional trading opportunities.",
+    "awardFour-title": "Best Forex Execution – JFEX Award 2020",
+    "awardFour-desc": "This award is a testament to Accuindex's commitment to providing seamless execution of trades, ensuring that clients experience fast and reliable order execution, even during high-market volatility."
+  },
+  "benefits2": {
+    "title": "Unmatched Benefits Across All Accounts",
+    "subtitle": "Experience Premium Features and Support Designed to Support Your Trading Journey",
+    "items": [
+      {
+        "title": "Secure Investments",
+        "description": "Protect your capital with negative balance protection and flexible payment solutions."
+      },
+      {
+        "title": "Advanced Platforms",
+        "description": "Trade with Accuindex MetaTrader 5 and seamless access across mobile and desktop devices."
+      },
+      {
+        "title": "24/5 Support",
+        "description": "Enjoy personalized assistance and fast deposits or withdrawals anytime during the trading week."
+      }
+    ]
+  },
+  "tradeNow": "Trade Now",
+  "exploreTradingAccountTypes": "Explore Our Trading Account Types",
+  "discoverAccountDescription": "Discover the perfect trading account to match your style and goals...",
+  "standardAccount": "Standard Account",
+  "proAccount": "Pro Account",
+  "rawAccount": "Raw Account",
+  "copyTradingAccount": "Copy Trading Account",
+  "minimumBalance": "Minimum Opening Balance",
+  "leverage": "Leverage",
+  "spreads": "Spreads",
+  "noCommissions": "No Commissions",
+  "tradingInstruments": "300+ Trading Instruments",
+  "automatedTrading": "Automated Trading",
+  "stopOutLevel": "Stop Out Level",
+  "accountCurrency": "Account Currency",
+  "swipeRightToKnowMore": "Swipe right to know more",
+  "intro": {
+    "imageAlt": "Market Demo",
+    "title": "Experience the Market Risk-Free with an Accuindex Demo Account",
+    "description": "Perfect your strategies and explore the world of trading without any financial commitment.",
+    "buttonText": "Use Demo Account",
+    "buttonLink": "#"
+  },
+  "features2": {
+    "title": "Practice Trading in a Safe, Risk-Free Environment",
+    "description": "An Accuindex Demo Account is designed to help you practice trading in a simulated market environment using real-time market data. It’s an excellent way for beginners to learn the basics and for experienced traders to refine their strategies without financial risk.",
+    "buttonText": "Explore Our Account Options",
+    "buttonLink": "#",
+    "imageSrc": "assets/MetaTrader5.png",
+    "imageAlt": "MetaTrader 5"
+  },
+  "service": {
+    "title": "Experience Trading Without Risk",
+    "description": "Step into the world of trading with confidence using our Demo Account. Trade in a realistic market environment with live market data, without the risk of financial loss. Access a wide range of assets, including Forex, commodities, and indices, and explore the full suite of tools and features on the Accuindex MT5 platform. Perfect your strategies and gain valuable experience before trading live.",
+    "demoAccountTitle": "Demo Account",
+    "feature1": "Minimum Opening Balance: $100",
+    "feature2": "Leverage: Up to 1:400",
+    "feature3": "Spreads from 1.4",
+    "feature4": "No Commissions",
+    "feature5": "300+ Trading Instruments",
+    "feature6": "Automated Trading",
+    "feature7": "Stop Out Level: 20%",
+    "feature8": "Account Currency: USD",
+    "tradeNow": "Trade now"
+  },
+  "benefits3": {
+    "title": "Benefits of Trading With Our Demo Account",
+    "subtitle": "Unleash your trading potential with a Demo Account designed to refine your skills and strategies.",
+    "riskFreeLearning": {
+      "title": "Risk-Free Learning",
+      "description": "Practice trading in a safe environment without risking your funds."
+    },
+    "strategyTesting": {
+      "title": "Strategy Testing",
+      "description": "Experiment and perfect your trading strategies under real market conditions."
+    },
+    "platformFamiliarity": {
+      "title": "Platform Familiarity",
+      "description": "Explore the Accuindex MT5 platform and master its advanced tools and features."
+    }
+  },
+  "facts": {
+    "title": "How to Get Started",
+    "subtitle": "Create Your Demo Account in 3 Simple Steps",
+    "register": {
+      "title": "Register",
+      "description": "Sign up with your email."
+    },
+    "download": {
+      "title": "Download Accuindex MT5",
+      "description": "Get the MT5 for desktop or mobile."
+    },
+    "startTrading": {
+      "title": "Start Trading",
+      "description": "Log in and begin trading risk-free."
+    },
+    "button": "Create a Free Demo Account"
+  },
+  "faq": {
+    "title": "Questions & Answers",
+    "subtitle": "Your Questions About Demo Accounts Answered",
+    "imageAlt": "FAQ Illustration",
+    "ctaText": "Ready to Trade Live?",
+    "ctaLinkText": "Upgrade Your Account Today.",
+    "registerButton": "Register Now",
+    "q1": {
+      "question": "How long can I use the demo account?",
+      "answer": "You can use your demo account for up to 30 days to practice and perfect your trading strategies."
+    },
+    "q2": {
+      "question": "Can I transition my demo account to a live account?",
+      "answer": "Yes, you can easily upgrade to a live account by registering and making a deposit."
+    },
+    "q3": {
+      "question": "What assets can I trade in the demo account?",
+      "answer": "You’ll have access to all the assets available on Accuindex, including Forex, commodities, and indices."
+    },
+    "q4": {
+      "question": "Is there a limit to the virtual funds in my demo account?",
+      "answer": "Your demo account is preloaded with a virtual balance for trading practice."
+    },
+    "q5": {
+      "question": "Can I use a demo account on MT5?",
+      "answer": "Absolutely! The demo account is fully compatible with the MetaTrader 5 platform."
+    },
+    "q6": {
+      "question": "Will the market data in the demo account reflect real-time prices?",
+      "answer": "Yes, your demo account is connected to real-time market data, ensuring a realistic trading experience."
+    },
+    "q7": {
+      "question": "How do I switch from a demo account to a live account?",
+      "answer": "Simply log in to your Accuindex portal, complete the verification process, and make your first deposit."
+    },
+    "q8": {
+      "question": "Is the demo account completely free?",
+      "answer": "Yes, the Accuindex demo account is 100% free with no hidden charges."
+    }
+  },
+  "statistics": {
+    "title": "Transparency and Trust at the Core of Our Business",
+    "description": "At Accuindex, regulatory compliance isn’t just a requirement—it’s our commitment to transparency and client trust. By adhering to strict regulations in multiple jurisdictions, we provide a secure and trustworthy trading environment for clients worldwide.",
+    "liveAccount": "Live Account",
+    "demoAccount": "Try a Demo Account Now",
+    "chartAlt": "Statistics Chart"
+  },
+  "features7": {
+    "title": "Regulatory Excellence: Built on Trust and Transparency",
+    "description": "At Accuindex, compliance isn’t just a box to tick—it’s the foundation of our commitment to your security, trust, and success.",
+    "clientSecurity": {
+      "title": "Client Security You Can Rely On",
+      "description": "We adhere to global regulations to safeguard your funds and provide a trading environment that prioritizes security at every step."
+    },
+    "transparency": {
+      "title": "Transparency That Builds Confidence",
+      "description": "With oversight from the FSC and CySEC, we ensure full accountability and openness, offering you the peace of mind to trade with confidence."
+    },
+    "exploreAccuPay": "EXPLORE ACCUPAY",
+    "accuindexMT5": "ACCUINDEX METATRADER 5",
+    "metaTrader5Alt": "MetaTrader 5"
+  },
+  "service3": {
+    "globalRegulatoryTitle": "Our Global Regulatory Credentials",
+    "globalRegulatoryDescription": "Discover how Accuindex operates under stringent global regulations, fostering trust and providing a secure trading environment for our clients in Mauritius, the European Union, and beyond.",
+    "regulation": "Regulation",
+    "mauritius": {
+      "title": "Mauritius",
+      "entityName": "Entity Name: Accuindex Limited.",
+      "licenseNumber": "License Number: GB19024778.",
+      "regulatoryBody": "Regulatory Body: Financial Service Commission (FSC) in Mauritius.",
+      "address": "Registered Address: The Cyberati Lounge, Ground Floor, The Catalyst, Silicon Avenue, 40 Cybercity, 72201 Ebène, Republic of Mauritius"
+    },
+    "cyprus": {
+      "titleB": "Cyprus",
+      "title": "European Union (Cyprus)",
+      "entityName": "Entity Name: Accuindex EU Limited.",
+      "licenseNumber": "License Number: 340/17.",
+      "regulatoryBody": "Regulatory Body: Cyprus Securities and Exchange Commission (CySEC).",
+      "complianceDirective": "Compliance Directive: Markets of Financial Instruments Directive (MiFID) of the European Union.",
+      "address": "Registered Address: 1 Ayias Zonis Street Nicolaou Pentadromos Centre Block B, Limassol 3026, Cyprus"
+    },
+    "startNow": "Start Now"
+  },
+  "howWeSafeguardYourInvestments": "How We Safeguard Your Investments",
+  "safeguardDescription": "At Accuindex, protecting our clients' funds and interests is a top priority. Here’s how we ensure your trading experience is both secure and seamless:",
+  "segregatedFundsTitle": "Segregated Funds",
+  "segregatedFundsDescription": "All client funds are held in separate accounts to ensure they are not mixed with company operating funds.",
+  "regulatoryOversightTitle": "Regulatory Oversight",
+  "regulatoryOversightDescription": "Constant monitoring by global regulatory authorities ensures full compliance with financial standards.",
+  "riskManagementTitle": "Risk Management",
+  "riskManagementDescription": "Transparent trading conditions and advanced risk management measures to protect your capital.",
+  "negativeBalanceProtectionTitle": "Negative Balance Protection",
+  "negativeBalanceProtectionDescription": "Trade with confidence knowing your account will never fall into a negative balance.",
+  "awardWinningBroker": "Award Winning Broker",
+  "discoverWhyMillions": "Discover why millions of users from over countries choose to trade with Accuindex",
+  "islamic": {
+    "intro": {
+      "imageAlt": "Market Demo",
+      "title": "Trade with Peace of Mind – Islamic Accounts",
+      "description": "Designed for traders seeking a swap-free solution, fully compliant with Islamic finance principles.",
+      "buttonText": "Open Your Account",
+      "buttonLink": "#"
+    },
+    "features2": {
+      "title": "What is an Islamic Account and How Does It Work",
+      "description": "An Islamic account is tailored for traders who wish to align their investment activities with Islamic finance principles. Trade without interest charges to ensure full compliance with Sharia law, offering a transparent and ethical trading experience. At Accuindex, we are committed to providing an account that grants you access to the same exceptional trading conditions as our other premium accounts.",
+      "buttonText": "Explore Our Account Options",
+      "buttonLink": "#",
+      "imageSrc": "assets/islamicAccount/slide-img-2.png",
+      "imageAlt": "MetaTrader 5"
+    },
+    "service": {
+      "title": "Trade with Confidence, Aligned with Your Values",
+      "description": "Our Islamic Account offers a transparent, interest-free trading experience fully compliant with Islamic finance principles. Enjoy competitive spreads, high leverage up to 1:400, and a diverse range of assets with no hidden fees. Seamlessly switch to an Islamic Account with instant approval and no additional verification required. Experience ethical trading with Accuindex.",
+      "demoAccountTitle": "Islamic Account",
+      "feature1": "Minimum Opening Balance: $100",
+      "feature2": "Leverage: Up to 1:400",
+      "feature3": "Spreads from 1.4",
+      "feature4": "No Commissions",
+      "feature5": "300+ Trading Instruments",
+      "feature6": "Automated Trading",
+      "feature7": "Stop Out Level: 20%",
+      "feature8": "Account Currency: USD",
+      "tradeNow": "Trade now"
+    },
+    "benefits3": {
+      "title": "Islamic Accounts Built for Ethical Trading",
+      "subtitle": "Combine Sharia-compliant principles with advanced trading features for a seamless experience.",
+      "riskFreeLearning": {
+        "title": "Sharia Compliance",
+        "description": "Trade confidently, knowing your account aligns with Islamic finance principles."
+      },
+      "strategyTesting": {
+        "title": "Competitive Trading Conditions",
+        "description": "Enjoy low spreads, flexible leverage, and access to a wide range of tradable assets."
+      },
+      "platformFamiliarity": {
+        "title": "Dedicated Support",
+        "description": "Our support team is available around the clock to assist you in your trading journey."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About Islamic Accounts",
+      "subtitle": "We’ve answered some of the most common questions to help you get started:",
+      "imageAlt": "FAQ Illustration",
+      "ctaText": "Didn’t get, Click below button to more anwers or",
+      "ctaLinkText": "contact us.",
+      "registerButton": "Register Now",
+      "q1": {
+        "question": "How do I apply for an Islamic account?",
+        "answer": "Simply sign up for an Accuindex account, and request to convert it to Islamic in your account settings."
+      },
+      "q2": {
+        "question": "Are there any additional charges for Islamic accounts?",
+        "answer": "No, Accuindex ensures complete transparency with no hidden costs or fees tied to the swap-free structure."
+      },
+      "q3": {
+        "question": "Can I trade the same assets as standard accounts?",
+        "answer": "Yes, Islamic accounts provide access to the same assets, including forex, commodities, indices, and more."
+      },
+      "q4": {
+        "question": "Do I need extra documents to open an Islamic account?",
+        "answer": "No additional verification is required; the process is instant and hassle-free."
+      },
+      "q5": {
+        "question": "What makes an Islamic account different from a standard trading account?",
+        "answer": "Islamic accounts are swap-free, meaning there are no overnight interest charges on open trades, ensuring they comply with Sharia law principles. Other features, such as spreads, leverage, and tradable assets, remain the same as standard accounts."
+      }
+    }
+  },
+  "tradingJourney": "Your Trading Journey, Now in Your Pocket",
+  "tradingJourneyDescription": "With AccuGo, the markets are always within your reach. Trade on-the-go with confidence and ease.",
+  "downloadForIOS": "Download for IOS",
+  "downloadForAndroid": "Download for Android",
+  "benefitsOfAccuGo": "Benefits of AccuGo",
+  "advancedTradingTools": "Advanced Trading Tools, Right at Your Fingertips",
+  "pushNotifications": "Push Notifications",
+  "latestRealTimeAlerts": "Latest real-time alerts.",
+  "securedManagement": "Secured Management",
+  "topTierSecurity": "Top-tier security measures.",
+  "chartingAndIndicators": "Charting and Indicators",
+  "toolsTailoredForMobile": "Tools tailored for mobile screens.",
+  "easyOrders": "Easy Orders",
+  "closeOrdersMobile": "Close orders directly from your mobile device.",
+  "openYourAccount": "Open Your Account",
+  "whyChooseMobileTrading": "Why Choose Mobile Trading with AccuGo?",
+  "tradeAnytimeAnywhere": "Trade anytime, anywhere with Accuindex's platforms, ensuring swift actions and 24/7 market access.",
+  "gettingStartedWithAccuGo": "Getting Started with AccuGo",
+  "discoverSimplicityOfTrading": "Discover the simplicity of trading on the go with Accuindex's mobile app, AccuGo.",
+  "registerOrLogIn": "Register or Log In",
+  "signUpOrLogInDescription": "Sign up for a new account or log in using your existing credentials to begin your trading journey.",
+  "fundYourAccount": "Fund Your Account",
+  "depositFundsDescription": "Deposit funds securely and instantly to unlock access to live markets and trading opportunities.",
+  "startTrading": "Start Trading",
+  "exploreAccuGoDescription": "Explore AccuGo’s intuitive interface to analyze markets, place trades, and manage your portfolio – all from your mobile device.",
+  "tradeSmarterNotHarder": "Trade Smarter, Not Harder with AccuConnect",
+  "discoverCopyTrading": "Discover the power of Copy Trading and replicate the strategies of top-performing traders.",
+  "tradeOnAccuConnect": "Trade on AccuConnect",
+  "whatIsCopyTrading": "What is Copy Trading",
+  "copyTradingDescription": "Copy Trading allows you to mirror the strategies of expert traders, enabling you to benefit from their knowledge and experience. AccuConnect simplifies this process, giving you access to a network of top-performing traders whose trades you can replicate seamlessly.",
+  "gettingStartedWithCopyTrading": "Getting Started with Copy Trading",
+  "accuConnectDescription": "With AccuConnect, you can seamlessly follow top-performing traders, automatically mirroring their moves in real time.",
+  "step1": "Step 1",
+  "findTheRightTraders": "Find the Right Traders",
+  "step2": "Step 2",
+  "analyzePerformanceMetrics": "Analyze Performance Metrics",
+  "step3": "Step 3",
+  "followAndReplicate": "Follow and Replicate",
+  "useAccuConnect": "Use AccuConnect",
+  "whyChooseAccuConnect": "Why Choose",
+  "copyTrading": "AccuConnect",
+  "forCopyTrading":"for Copy Trading?",
+  "copyTradingDescriptionTwo": "Whether you're a beginner or a seasoned investor, Copy Trading can help you achieve your financial goals.",
+  "noExpertiseNeededTitle": "No Expertise Needed",
+  "noExpertiseNeededDescription": "Ideal for beginners, Copy Trading eliminates the steep learning curve by allowing you to learn and trade at the same time. Simply follow top traders and replicate their strategies effortlessly.",
+  "saveTimeTitle": "Save Time",
+  "saveTimeDescription": "Skip hours of exhaustive market research by leveraging the proven expertise of professional traders. With Copy Trading, you can focus on results while leaving the strategy to the experts.",
+  "accessibleForAllLevelsTitle": "Accessible for All Levels",
+  "accessibleForAllLevelsDescription": "Whether you're a novice exploring trading for the first time or an experienced trader looking to diversify your portfolio, Copy Trading offers a solution tailored to meet your needs.",
+  "startCopyTrading": "Start Copy Trading",
+  "masterMarketsWithAccuindex": "Master the Markets with Accuindex MT5",
+  "cuttingEdgeToolsDescription": "Discover cutting-edge tools, seamless execution, and a multi-asset platform tailored for every trader.",
+  "downloadForWindows": "Download for Windows",
+  "exploreAdvancedFeatures": "Explore the Advanced Features of Accuindex MT5",
+  "unlockYourTradingEdge": "Unlock Your Trading Edge with Accuindex MT5 – Advanced Tools for Precision and Versatility",
+  "advancedChartingTools": "Advanced Charting Tools",
+  "technicalIndicators": "Technical Indicators",
+  "algorithmicTrading": "Algorithmic Trading",
+  "multiAssetSupport": "Multi-Asset Support",
+  "whyChooseAccuindex": "Why Choose",
+  "mt5Platform": "MT5 Platform?",
+  "switchEffortlessly": "Switch effortlessly between desktop, web, and mobile versions without missing a beat.",
+  "highSpeedExecution": "High-Speed Execution",
+  "highSpeedExecutionDescription": "Capitalize on every market movement with Accuindex MT5’s lightning-fast trade execution. Whether it’s a quick reaction to market news or precise timing for your strategy, our platform ensures you never miss an opportunity.",
+  "advancedAnalyticalTools": "Advanced Analytical Tools",
+  "advancedAnalyticalToolsDescription": "Enhance your trading strategies with Accuindex MT5’s state-of-the-art analytical tools. From detailed charts to over 80 technical indicators, our platform empowers you to make informed decisions with precision.",
+  "seamlessCrossPlatformAccess": "Seamless Cross-Platform Access",
+  "seamlessCrossPlatformAccessDescription": "Stay connected to the markets wherever you are with Accuindex MT5. Effortlessly switch between desktop, web, and mobile platforms, ensuring you maintain control of your trades anytime, anywhere.",
+  "howToDownload": "How to Download Accuindex",
+  "downloadDescription": "Experience the ultimate trading platform with Accuindex MT5, designed to empower both novice and experienced traders. Download today and unlock powerful tools to enhance your trading journey.",
+  "downloadMT5": "Download MT5",
+  "downloadMT5Description": "Choose the version compatible with your device and download Accuindex MT5 to access advanced trading features tailored for every trader's needs.",
+  "logInWithCredentials": "Log In with Your Credentials",
+  "logInDescription": "Use your Accuindex credentials to unlock real-time market updates, comprehensive analysis tools, and expert insights, ensuring informed trading decisions at every step.",
+  "startTradingDescription": "Seamlessly execute trades across devices with an intuitive platform equipped for precision, efficiency, and strategic optimization. Get ready to trade smarter with Accuindex MT5!",
+  "tradeSmarter": "Trade Smarter with Accuindex's Premier Platform",
+  "unlockPotential": "Unlock the full potential of your trading journey with Accuindex's cutting-edge Accuindex MetaTrader 5 platform. Seamlessly trade on any device, anytime, with intuitive features designed for traders of all levels.",
+  "openLiveAccount": "Open Live Account",
+  "tryDemoAccount": "Try Demo Account",
+  "tradeForexWithConfidence": "Trade Forex with Confidence on Accuindex",
+  "accessMostLiquidMarket": "Access the most liquid market in the world with low spreads, high leverage, and cutting-edge trading tools.",
+  "tradeForex": "Trade Forex",
+  "whyTradeForex": "Why Trade Forex?",
+  "forexTradingDescription": "Forex trading, also known as foreign exchange trading, is the global market for exchanging national currencies. With a daily trading volume exceeding $6 trillion, Forex is the most liquid and accessible market for traders worldwide. Whether you're a beginner or a seasoned trader, Forex offers unmatched opportunities.",
+  "openAccountRaw": "Open Account",
+  "metaTrader5": "MetaTrader 5",
+  "discoverCurrencyPairs": "Discover a Wide Range of Currency Pairs",
+  "currencyPairsSubtitle": "Unlock Opportunities Across the Most Dynamic Forex Markets, From Highly Liquid Majors to Volatile Exotic Pairs Tailored for Every Trader’s Strategy.",
+  "majorPairs": "Major Pairs",
+  "majorPairsDescription": "Highly liquid and widely traded, offering tight spreads and steady opportunities.",
+  "minorPairs": "Minor Pairs",
+  "minorPairsDescription": "Slightly less liquid but still highly active, ideal for diversifying your trading strategies.",
+  "exoticPairs": "Exotic Pairs",
+  "exoticPairsDescription": "Higher volatility with the potential for significant returns, suitable for experienced traders.",
+  "stayUpdatedWithForexPrices": "Stay Updated with Real-Time Forex Prices",
+  "trackMarketMovements": "Track Market Movements Instantly with Live Forex Pricing – Your Gateway to Informed Trading Decisions.",
+  "tradingView": "TradingView",
+  "eurToUsd": "EUR to USD",
+  "gbpToUsd": "GBP to USD",
+  "usdToJpy": "USD to JPY",
+  "usdToChf": "USD to CHF",
+  "audToUsd": "AUD to USD",
+  "usdToCad": "USD to CAD",
+  "startTradingNow": "Start Trading Now!",
+  "whyChooseAccuindexFor": "Why Choose Accuindex for",
+  "tradingQ": "Trading?",
+  "experienceTheEdge": "Experience the Edge in Forex Trading with Accuindex – Precision, Power, and Peace of Mind",
+  "lowSpreadsAlt": "Low Spreads Icon",
+  "lowSpreadsTitle": "Low Spreads for Maximum Efficiency",
+  "lowSpreadsDescription": "Enjoy some of the industry's most competitive spreads, starting as low as 0.6 pips on major currency pairs. This ensures you can minimize trading costs and maximize your profit potential with every trade.",
+  "highLeverageAlt": "High Leverage Icon",
+  "highLeverageTitle": "High Leverage to Amplify Opportunities",
+  "highLeverageDescription": "Boost your trading power with leverage up to 1:400. This allows you to control larger positions with smaller investments, opening doors to potentially higher returns while maintaining flexibility in your strategy.",
+  "marketAccessAlt": "Market Access Icon",
+  "marketAccessTitle": "24/5 Market Access for Uninterrupted Trading",
+  "marketAccessDescription": "Access the global forex market whenever it's open, five days a week. Accuindex ensures you're always ready to act on opportunities in real-time, whether in the European, Asian, or U.S. trading sessions.",
+  "startTradingButton": "Start Trading Forex Today with Accuindex!",
+  "betterForexTrading": "Better Forex Trading with Our Tools",
+  "elevateTrading": "Elevate Your Forex Trading with Accuindex’s Tools",
+  "startNow": "Start Now with Accuindex!",
+  "imageAlt": "Forex trading tools illustration",
+  "realTimeChartsTitle": "Real-Time Charts",
+  "realTimeChartsDescription": "Access live market data and technical indicators to track trends and make precise trades.",
+  "economicCalendarTitle": "Economic Calendar",
+  "economicCalendarDescription": "Plan your trades around key market events and announcements to stay ahead of market shifts.",
+  "advancedToolsTitle": "Advanced Analysis Tools",
+  "advancedToolsDescription": "Use cutting-edge tools to analyze market trends, evaluate data, and refine your strategies.",
+  "Trade Global Stocks with Confidence": "Trade Global Stocks with Confidence",
+  "Unlock access to the world’s leading companies with Accuindex’s advanced stock trading platform.": "Unlock access to the world’s leading companies with Accuindex’s advanced stock trading platform.",
+  "Trade Stocks": "Trade Stocks",
+  "Unlock Global Opportunities with Stock Trading": "Unlock Global Opportunities with Stock Trading",
+  "Stock trading allows you to invest in global market leaders like Apple, Tesla, and Amazon. Whether you're targeting short-term opportunities or long-term growth, Accuindex provides the tools and support to help you succeed.": "Stock trading allows you to invest in global market leaders like Apple, Tesla, and Amazon. Whether you're targeting short-term opportunities or long-term growth, Accuindex provides the tools and support to help you succeed.",
+  "Open Account": "Open Account",
 
+  "Trade Stocks from Industry Giants": "Trade Stocks from Industry Giants",
+  "Unlock Global Opportunities by Trading Stocks from Leading Industry Titans Across Key Markets": "Unlock Global Opportunities by Trading Stocks from Leading Industry Titans Across Key Markets",
+  "Discover Stocks": "Discover Stocks",
+  "More Stocks": "More Stocks",
+  "Exotic Stocks": "Exotic Stocks",
+  "Apple (AAPL): Leading the tech industry with innovative products and services.": "Apple (AAPL): Leading the tech industry with innovative products and services.",
+  "Tesla (TSLA): The pioneer in sustainable energy and electric vehicles.": "Tesla (TSLA): The pioneer in sustainable energy and electric vehicles.",
+  "Google (GOOGL): Powering the internet with unmatched advertising and cloud solutions.": "Google (GOOGL): Powering the internet with unmatched advertising and cloud solutions.",
+  "Amazon (AMZN): Revolutionizing e-commerce and logistics worldwide.": "Amazon (AMZN): Revolutionizing e-commerce and logistics worldwide.",
+  "Register": "Register",
+  "Trade Now": "Trade Now",
+  "WatchStockPrices":"Watch stock prices live at all times",
+  "StayAheadOfTheMarket":"Stay Ahead of the Market with Real-Time Stock Price Updates and Live Performance Tracking",
+  "Why Trade Stocks with Us": "Why Trade Stocks with Us",
+  "Unlock Your Trading Potential with Accuindex Stock Trading": "Unlock Your Trading Potential with Accuindex Stock Trading",
+  "Competitive Spreads": "Competitive Spreads",
+  "Boost your profitability with ultra-low spreads on leading global stocks, ensuring you keep more of your returns.": "Boost your profitability with ultra-low spreads on leading global stocks, ensuring you keep more of your returns.",
+  "High Leverage": "High Leverage",
+  "Amplify your trading power with leverage up to 1:400, allowing you to take larger positions and maximize your market exposure.": "Amplify your trading power with leverage up to 1:400, allowing you to take larger positions and maximize your market exposure.",
+  "Risk Management Tools": "Risk Management Tools",
+  "Trade with confidence using advanced tools like stop-loss orders and price alerts, designed to protect your investments and support informed decision-making.": "Trade with confidence using advanced tools like stop-loss orders and price alerts, designed to protect your investments and support informed decision-making.",
+  "Powerful Tools for Smarter Trading": "Powerful Tools for Smarter Trading",
+  "Enhance Your Trading with Advanced Tools": "Enhance Your Trading with Advanced Tools",
+  "Trade Stock": "Trade Stock",
+  "Live Stock Prices": "Live Stock Prices",
+  "Keep up with real-time market movements to make timely and well-informed trading decisions.": "Keep up with real-time market movements to make timely and well-informed trading decisions.",
+  "Technical Indicators": "Technical Indicators",
+  "Use sophisticated charting tools to analyze trends, refine strategies, and identify profitable opportunities.": "Use sophisticated charting tools to analyze trends, refine strategies, and identify profitable opportunities.",
+  "Market Analysis": "Market Analysis",
+  "Leverage expert insights and the latest market updates to stay informed and ahead of industry trends.": "Leverage expert insights and the latest market updates to stay informed and ahead of industry trends.",
+  "Trade Major Indices with Accuindex":"Trade Major Indices with Accuindex",
+  "Get exposure to global markets with top-performing indices.":"Get exposure to global markets with top-performing indices.",
+  "Trade Indices":"Trade Indices",
+  "whyTrade":"Why Trade",
+  "Indices":" Indices",
+  "indeciesTradingDescription":"Indices represent a group of stocks, offering traders the ability to speculate on the overall performance of a market or sector. They provide diversified exposure and are less volatile than individual stocks, making them a balanced option for traders.",
+  "ExploreOurIndex":"Explore Our Index Offering",
+  "accessGlobalMarket":"Access Global Market Indices, Diversify Your Portfolio, and Take Advantage of Competitive Trading Conditions to Maximize Your Investment Potential.",
+  "MajorIndices":"Major Indices",
+  "majorIndicesDescription":"S&P 500: Tracks the top 500 U.S. companies, reflecting the overall U.S. economy.",
+  "majorIndicesPairs":"NASDAQ: Known for its focus on technology and innovation-driven companies.",
+  "moreIndices":"More Indices",
+  "moreIndicesDescription":"FTSE 100: A benchmark for the UK’s largest publicly traded companies.",
+  "moreIndicesPairs":"Dow Jones: Represents 30 large-cap U.S. corporations, highlighting market leaders.",
+  "exoticIndices":"Exotic Indices",
+  "exoticIndicesDescription":"Nikkei 225: Captures the performance of Japan’s top 225 blue-chip stocks.",
+  "Track Live Indices Performance":"Track Live Indices Performance",
+  "Monitor Market Movements and Make Timely Trading Decisions.":"Monitor Market Movements and Make Timely Trading Decisions.",
+  "Why Trade Indices with":"Why Trade Indices with",
+  "Accuindex":"Accuindex",
+  "whyTradeIndeciesDescription":"Discover the Advantages of Trading Indices with Accuindex – Diversify, Access Global Markets, and Maximize Profitability.",
+  "PortfolioDiversificationTitle":"Portfolio Diversification",
+  "PortfolioDiversificationDescription":"Spread your risk by trading a collection of stocks within an index, reducing dependency on individual equities and providing balanced exposure to broader market trends.",
+  "GlobalMarketAccessTitle":"Global Market Access",
+  "GlobalMarketAccessDescription":"Take advantage of opportunities in leading economies by trading indices like S&P 500, NASDAQ, FTSE 100, and more, directly connecting you to global financial markets.",
+  "LowerRiskTitle":"Lower Risk",
+  "LowerRiskDescription":"Mitigate risks associated with individual stock volatility by focusing on the overall performance of an index, making it a more stable trading option.",
+  "tradeIndeciesBtn":"Trade Indices",
+  "Empower Your Trading with Our Tools": "Empower Your Trading with Our Tools",
+  "Start Your Indices Trading with Cutting-Edge Tools": "Start Your Indices Trading with Cutting-Edge Tools",
+  "Open Your Account": "Open Your Account",
+  "Real-Time Data": "Real-Time Data",
+  "Stay connected with live index prices, helping you make timely and precise trading decisions during critical market movements.": "Stay connected with live index prices, helping you make timely and precise trading decisions during critical market movements.",
+  "Leverage advanced tools like RSI, Fibonacci retracements, and moving averages to analyze trends and refine your strategies.": "Leverage advanced tools like RSI, Fibonacci retracements, and moving averages to analyze trends and refine your strategies.",
+  "Comprehensive Market Insights": "Comprehensive Market Insights",
+  "Gain valuable insights from expert analysis and real-time updates, ensuring you stay ahead in a constantly evolving market.": "Gain valuable insights from expert analysis and real-time updates, ensuring you stay ahead in a constantly evolving market.",
+  "Trade Commodities With AccuIndex": "Trade Commodities With AccuIndex",
+  "Explore market diversity with metals, energy, and agriculture at your fingertips.": "Explore market diversity with metals, energy, and agriculture at your fingertips.",
+  "Trade Commodities": "Trade Commodities",
+  "Why Trade": "Why Trade",
+  "Commodities": "Commodities",
+  "Commodities are an essential asset class, offering opportunities for portfolio diversification and acting as a hedge against market uncertainties. From precious metals like gold to energy sources like oil, commodities provide safe-haven options during volatility and unique trading opportunities across global markets.": "Commodities are an essential asset class, offering opportunities for portfolio diversification and acting as a hedge against market uncertainties. From precious metals like gold to energy sources like oil, commodities provide safe-haven options during volatility and unique trading opportunities across global markets.",
+  "Metals":"Metals",
+  "MetalsDescription":"Known for their stability, metals are ideal for hedging against inflation and economic uncertainties.",
+  "MetalsPairs":"Gold, Silver, Platinum",
+  "Energy":"Energy",
+  "EnergyDescription":"Energy commodities are highly volatile, providing dynamic trading opportunities.",
+  "EnergyPairs":"Crude Oil, Natural Gas",
+  "Agriculture":"Agriculture",
+  "AgricultureDescription":"Essential for portfolio diversification, agricultural commodities are influenced by global supply and demand.",
+  "AgriculturePairs":"Corn, Wheat, Soybeans",
+  "Track Live Commodity Prices":"Track Live Commodity Prices",
+  "Real-Time Commodity Pricing and In-Depth Market Insights":"Real-Time Commodity Pricing and In-Depth Market Insights",
+  
+  "commoditiesTrading": "Commodities",
+  "TradingQ":"Trading?",
+  "competitiveSpreads": "Competitive Spreads",
+  "competitiveSpreadsDescription": "Enjoy tighter spreads that maximize your profit potential on every trade, ensuring you keep more of your earnings with every market movement.",
+  "highLeverage": "High Leverage",  
+  "highLeverageDescriptionTwo":"Amplify your trading opportunities with leverage of up to 1:400, allowing you to trade larger positions with smaller capital.",
+  "marketAccess": "24/5 Market Access",
+  "marketAccessDescriptionTwo":"Stay active in the markets whenever global commodity exchanges are open, ensuring you never miss an opportunity to trade.",
+  "tradeCommoditiesToday": "Trade Commodities Today",
+  "enhanceYourCommodityTrading": "Enhance Your Commodity Trading Experience",
+  "unlockSmarterCommodityTrading": "Unlock Smarter Commodity Trading with Advanced Tools and Insights",
+  "startNowWithAccuindex": "Start Now with Accuindex!",
+  "livePricingCharts": "Live Pricing Charts",
+  "livePricingChartsDescription": "Stay ahead in the markets with real-time data and detailed pricing charts that help you analyze commodity trends effectively.",
+  "riskManagementFeatures": "Risk Management Features",
+  "riskManagementFeaturesDescription": "Safeguard your investments with advanced tools like stop-loss and take-profit orders, giving you control over your trading outcomes.",
+  "marketAnalysisUpdates": "Market Analysis Updates",
+  "marketAnalysisUpdatesDescription": "Receive expert insights and real-time updates to make informed decisions and capitalize on market opportunities.",
+  "Explore a Wide Range of Commodities":"Explore a Wide Range of Commodities",
+  "Explore a Wide Range of Commodities Description":"Discover Diverse Commodity Trading Opportunities Across Precious Metals, Energy Resources, and Agricultural Products",
+  "tradeCryptocurrenciesAnywhere": "Trade Cryptocurrencies Anytime, Anywhere with Accuindex",
+  "seizeOpportunities": "Seize the opportunities of the digital economy with advanced tools and global access.",
+  "tradeCryptocurrencies": "Trade Cryptocurrencies",
+  "enterWorldCrypto": "Enter into the World of Cryptocurrency Trading",
+  "Trade the Most Popular Cryptocurrencies.":"Trade the Most Popular Cryptocurrencies",
+  "Trade the Most Popular Cryptocurrencies Description":"Trade popular digital currencies like Bitcoin, Ethereum, and Ripple with competitive spreads and advanced tools.",
+  "Major Cryptocurrencies":"Major Cryptocurrencies",
+  "Major Cryptocurrencies Description":"Ethereum (ETH): A leading blockchain for decentralized applications and smart contracts.",
+  "Major Cryptocurrencies Pairs":"Bitcoin (BTC): The original cryptocurrency and the largest by market capitalization.",
+  "More Cryptocurrencies":"More Cryptocurrencies",
+  "More Cryptocurrencies Description":"Litecoin (LTC): A faster, more scalable alternative to Bitcoin.",
+  "Exotic Cryptocurrencies":"Exotic Cryptocurrencies",
+  "Exotic Cryptocurrencies Description":"Ripple (XRP): Designed for seamless cross-border transactions.",
+    "whyTradeCryptoWith": "Why Trade Cryptocurrencies with",
+  "unlockOpportunities": "Unlock Limitless Opportunities with Crypto Trading at Accuindex",
+  "marketAccessDesc": "Trade cryptocurrencies round the clock, ensuring you never miss an opportunity in the dynamic digital market.",
+  "highLeverageDesc": "Maximize your trading potential with leverage of up to 1:400, enabling greater market exposure with smaller investments.",
+  "tightSpreads": "Tight Spreads",
+  "tightSpreadsDesc": "Enjoy ultra-competitive spreads designed to enhance your profit margins and minimize trading costs.",
+  "advancedTools": "Advanced Tools for Smarter Crypto Trading",
+  "revolutionizeExperience": "Revolutionize Your Crypto Trading Experience",
+  "tradeCrypto": "Trade Crypto",
+  "liveCryptoCharts": "Live Crypto Charts",
+  "liveCryptoChartsDesc": "Track real-time price movements for top cryptocurrencies like Bitcoin and Ethereum, ensuring you stay ahead in the market.",
+  "technicalIndicatorsDesc": "Use advanced analytical tools to identify trends and make informed trading decisions with precision.",
+  "tradingAlerts": "Trading Alerts",
+  "tradingAlertsDesc": "Set personalized notifications to stay updated on price changes and market opportunities as they happen.",
+  "Stay Updated with Real-Time Crypto Prices":"Stay Updated with Real-Time Crypto Prices",
+  "Track Live Crypto Prices and Make Informed Trading Decisions Instantly":"Track Live Crypto Prices and Make Informed Trading Decisions Instantly"
 }

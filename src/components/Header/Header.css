@@ -1293,7 +1293,7 @@
 .main-menu-style1-left {
     display: flex;
     align-items: center;
-    padding-inline-end: 250px;
+    /* padding-inline-end: 250px; */
 }
 
 .logo-box-style1 {

@@ -15,16 +15,19 @@ const Header = () => {
 
   // State for language
   const [savedLanguage, setSavedLanguage] = useState(localStorage.getItem('language') || 'en');
-  console.log("savedLanguage :", savedLanguage)
 
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  // Toggle dropdown visibility
+  // const toggleDropdown = () => {
+  //   setIsDropdownOpen(prevState => !prevState);
+  // };
+  const [isDropdownOpen, setIsDropdownOpen] = React.useState(false);
+
   const toggleDropdown = () => {
-    setIsDropdownOpen(prevState => !prevState);
+    console.log("Dropdown toggled!");
+    setIsDropdownOpen((prev) => !prev);
   };
 
-  // Close dropdown if clicked outside
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (!event.target.closest('.custom-dropdown')) {
@@ -33,7 +36,6 @@ const Header = () => {
     };
 
     document.addEventListener('click', handleClickOutside);
-
     return () => {
       document.removeEventListener('click', handleClickOutside);
     };
@@ -109,13 +111,24 @@ const Header = () => {
                       )}
                     </div> */}
 
-                    <div className="custom-dropdown">
+                    {/* <div className="custom-dropdown">
                       <button onClick={toggleDropdown}>{t('individualView')}</button>
                       <div className="custom-dropdown-content">
                         <a href="#">{t('individualView')}</a>
                         <a href="#">{t('partnerView')}</a>
                       </div>
+                    </div> */}
+
+                    <div className="custom-dropdown">
+                      <button onClick={toggleDropdown}>{t('individualView')}</button>
+                      <div className={`custom-dropdown-content ${isDropdownOpen ? 'show' : ''}`}>
+                        <a href="#">{t('individualView')}</a>
+                        <a href="#">{t('partnerView')}</a>
+                      </div>
                     </div>
+
+
+
                   </div>
                 </div>
               </div>
@@ -175,7 +188,13 @@ const Header = () => {
                               {t('aboutUs')}
                             </Link>
                           </li>
-                          <li><a href="https://accuindex.com/careers/" className="nav-li">{t('careers')}</a></li>
+                          <li>
+
+                            {/* <a href="https://accuindex.com/careers/" className="nav-li">{t('careers')}</a> */}
+                            <Link to="/awards" className="nav-li">
+                              {t('careers')}
+                            </Link>
+                          </li>
                           <li><a href="https://accuindex.com/legal-documents/" className="nav-li">{t('legalDocuments')}</a></li>
                           <li><a href="https://accuindex.com/promotion/" className="nav-li">{t('promotions')}</a></li>
                         </ul>
@@ -195,7 +214,12 @@ const Header = () => {
                           </li>
                           <li><a href="https://accuindex.com/trading-platforms/" className="nav-li">{t('tradingPlatforms')}</a></li>
                           <li><a href="https://accuindex.com/trading-conditions/" className="nav-li">{t('tradingConditions')}</a></li>
-                          <li><a href="https://accuindex.com/account-types/" className="nav-li">{t('accountTypes')}</a></li>
+                          <li>
+                            <Link to="/account-types" className="nav-li">
+                              {t('accountTypes')}
+                            </Link>
+                            {/* <a href="https://accuindex.com/account-types/" className="nav-li">{t('accountTypes')}</a> */}
+                          </li>
                           <li><a href="https://accuindex.com/deposit-withdrawal/" className="nav-li">{t('depositWithdrawal')}</a></li>
                         </ul>
 
@@ -213,7 +237,7 @@ const Header = () => {
                 <div className="main-menu-style1-right">
                   <div className="header-btn-one">
                     <a href="#" className="a-main">{t('login')}</a>
-                    <a href="#" className="style2 a-main2">{t('openAccount')}</a>
+                    <a href="#" className="style2 a-main2">{t('openAccount2')}</a>
                   </div>
                 </div>
               </div>
@@ -286,7 +310,9 @@ const Header = () => {
                           </li>
                           <li><a href="https://accuindex.com/trading-platforms/" className="nav-li">{t('tradingPlatforms')}</a></li>
                           <li><a href="https://accuindex.com/trading-conditions/" className="nav-li">{t('tradingConditions')}</a></li>
-                          <li><a href="https://accuindex.com/account-types/" className="nav-li">{t('accountTypes')}</a></li>
+                          <Link to="/account-types" className="nav-li">
+                            {t('accountTypes')}
+                          </Link>
                           <li><a href="https://accuindex.com/deposit-withdrawal/" className="nav-li">{t('depositWithdrawal')}</a></li>
                         </ul>
 

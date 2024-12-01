@@ -3,16 +3,70 @@ import { useTranslation } from 'react-i18next';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Autoplay } from "swiper";
+import 'swiper/css';
+import "swiper/css/navigation";
+
 // import 'swiper/css';
 import '../styles/about-section.css';
+import '../styles/blog-section.css';
 import '../styles/Style.css';
 import '../styles/Responsive-sty.css';
+
 import slideImg1 from '../assets/img/aboutus/ourstory/SLIDE-IMG-1.png';
+import slideImg3 from "../assets/img/aboutus/ourstory/SLIDE-IMG-3.png";
 import slideImg4 from '../assets/img/aboutus/ourstory/SLIDE-IMG-4.png';
+import slideImg5 from '../assets/img/aboutus/ourstory/SLIDE-IMG-5.png';
+import imgTz from '../assets/img/aboutus/ourstory/tz.png';
+
+import icon1 from "../assets/img/aboutus/ourstory/icon-1.png";
+import icon2 from "../assets/img/aboutus/ourstory/icon-2.png";
+import img2016 from "../assets/img/aboutus/ourstory/2016-VS.png";
+import img2018 from "../assets/img/aboutus/ourstory/2018-VS.png";
+import img2020 from "../assets/img/aboutus/ourstory/2020-VS.png";
+import img2022 from "../assets/img/aboutus/ourstory/2022-VS.png";
+import img2023 from "../assets/img/aboutus/ourstory/2023-VS.png";
+import img2024 from "../assets/img/aboutus/ourstory/2024-VS.png";
+
 
 const AboutUs = () => {
   const [activeTab, setActiveTab] = useState(1);
   const { t } = useTranslation(); // Use the t function to translate
+  // const milestones = t("milestones.items", { returnObjects: true });
+
+
+  const milestones = [
+    {
+      year: 2016,
+      img: img2016,
+      description: t("milestones.description2016"),
+    },
+    {
+      year: 2018,
+      img: img2018,
+      description: t("milestones.description2018"),
+    },
+    {
+      year: 2020,
+      img: img2020,
+      description: t("milestones.description2020"),
+    },
+    {
+      year: 2022,
+      img: img2022,
+      description: t("milestones.description2022"),
+    },
+    {
+      year: 2023,
+      img: img2023,
+      description: t("milestones.description2023"),
+    },
+    {
+      year: 2024,
+      img: img2024,
+      description: t("milestones.description2024"),
+    },
+  ];
 
   return (
     <div>
@@ -129,7 +183,7 @@ const AboutUs = () => {
                     className="white bold-title"
                     style={{ fontSize: "45px" }}
                   >
-                    What Sets Us Apart
+                    {t('features.title')}
                     <span
                       className="span-main"
                       style={{ fontSize: "55px" }}
@@ -138,117 +192,385 @@ const AboutUs = () => {
                     </span>
                   </h1>
                   <div className="sub-title white">
-                    <p>
-                      At Accuindex, our culture is built on a foundation of
-                      trust, education, and collaboration. We believe in
-                      empowering traders with the tools and knowledge they
-                      need to navigate financial markets confidently.
-                    </p>
+                    <p>{t('features.subtitle')}</p>
                   </div>
                 </div>
                 <div className="text-box">
                   <div className="row">
                     <div className="col-md-6 account-key-features pc">
-                      <h3 className="white">Our Core Values</h3>
+                      <h3 className="white">{t('features.coreValues.title')}</h3>
                       <br />
                       <ul>
-                        <li>
-                          <div className="icon">
-                            <span className="icon-checkbox-mark"></span>
-                          </div>
-                          <p className="white">
-                            Clear pricing and open communication for
-                            complete transparency.
-                          </p>
-                        </li>
-                        <li>
-                          <div className="icon">
-                            <span className="icon-checkbox-mark"></span>
-                          </div>
-                          <p className="white">
-                            Regulatory compliance to ensure secure and
-                            trustworthy trading.
-                          </p>
-                        </li>
-                        <li>
-                          <div className="icon">
-                            <span className="icon-checkbox-mark"></span>
-                          </div>
-                          <p className="white">
-                            A client-first mindset, always prioritizing
-                            trader success.
-                          </p>
-                        </li>
+                        {t('features.coreValues.items', { returnObjects: true }).map((item, index) => (
+                          <li key={index}>
+                            <div className="icon">
+                              <span className="icon-checkbox-mark"></span>
+                            </div>
+                            <p className="white">{item}</p>
+                          </li>
+                        ))}
                       </ul>
                     </div>
                     <div className="col-md-6 account-key-features pc">
-                      <h3 className="white">Empowering Traders</h3>
+                      <h3 className="white">{t('features.empoweringTraders.title')}</h3>
                       <br />
                       <ul>
-                        <li>
-                          <div className="icon">
-                            <span className="icon-checkbox-mark"></span>
-                          </div>
-                          <p className="white">
-                            Expert-led workshops and interactive webinars.
-                          </p>
-                        </li>
-                        <li>
-                          <div className="icon">
-                            <span className="icon-checkbox-mark"></span>
-                          </div>
-                          <p className="white">
-                            Comprehensive resources to enhance trading
-                            expertise.
-                          </p>
-                        </li>
-                        <li>
-                          <div className="icon">
-                            <span className="icon-checkbox-mark"></span>
-                          </div>
-                          <p className="white">
-                            A commitment to building confidence in financial
-                            markets.
-                          </p>
-                        </li>
+                        {t('features.empoweringTraders.items', { returnObjects: true }).map((item, index) => (
+                          <li key={index}>
+                            <div className="icon">
+                              <span className="icon-checkbox-mark"></span>
+                            </div>
+                            <p className="white">{item}</p>
+                          </li>
+                        ))}
                       </ul>
                     </div>
                   </div>
                   <div className="btns-box mobile-align">
                     <br />
                     <br />
-                    <a className="btn-main2" href="#">
-                      <span className="txt">EXPLORE ACCUPAY</span>
+                    <a className="btn-main2 mx-1" href="#">
+                      <span className="txt">{t('features.buttons.explore')}</span>
                     </a>
                     <a className="btn-one background-main" href="#">
-                      <span className="txt">ACCUINDEX MetaTrader 5</span>
+                      <span className="txt">{t('features.buttons.metatrader')}</span>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div className="col-xl-6 mobile-seen">
+            <div className="col-xl-6">
               <br />
               <br />
               <img
                 className="mob"
                 src={slideImg4}
-                alt="MetaTrader 5"
+                alt={t('features.imageAlt')}
               />
             </div>
           </div>
         </div>
+      </section>
 
-        {/* Image section, positioned at bottom-left */}
-        <div className="image-section pc">
-          <img
-            src={slideImg4}
-            alt="MetaTrader 5"
-            className="bottom-left-image2"
-          />
+      <section
+        className="benefits-area"
+        style={{ backgroundColor: "white" }}
+      >
+        <div className="container">
+          <div className="sec-title text-center">
+            <h2 className="bold-title">
+              {t('benefits.title')}
+              <span className="span-main">.</span>
+            </h2>
+            <div className="sub-title">
+              <p>{t('benefits.subtitle')}</p>
+            </div>
+          </div>
+          <ul className="row benefits-content text-center">
+            {/* Mission */}
+            <li className="col-xl-4 single-benefits-box-colum">
+              <div className="single-benefits-box">
+                <img
+                  src={icon1}
+                  width="100px"
+                  alt={t('benefits.mission.alt')}
+                />
+                <div className="text">
+                  <h3 className="bold-p">{t('benefits.mission.title')}</h3>
+                  <p>{t('benefits.mission.description')}</p>
+                </div>
+              </div>
+            </li>
+            {/* Vision */}
+            <li className="col-xl-4 single-benefits-box-colum">
+              <div className="single-benefits-box">
+                <img
+                  src={slideImg3}
+                  width="100px"
+                  alt={t('benefits.vision.alt')}
+                />
+                <div className="text">
+                  <h3 className="bold-p">{t('benefits.vision.title')}</h3>
+                  <p>{t('benefits.vision.description')}</p>
+                </div>
+              </div>
+            </li>
+            {/* Values */}
+            <li className="col-xl-4 single-benefits-box-colum">
+              <div className="single-benefits-box">
+                <img
+                  src={icon2}
+                  width="100px"
+                  alt={t('benefits.values.alt')}
+                />
+                <div className="text">
+                  <h3 className="bold-p">{t('benefits.values.title')}</h3>
+                  <p>{t('benefits.values.description')}</p>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
+
+      <section className="blog-style1-area">
+        <div className="container mobile-align">
+          <div className="sec-title text-center">
+            <h2>
+              <span className="span-main">{t("milestones.titlePart1")}</span>{" "}
+              {t("milestones.titlePart2")}
+              <span className="span-main">.</span>
+            </h2>
+            <div className="sub-title"></div>
+            <br />
+          </div>
+          <div className="row">
+            <div className="col-xl-12">
+              <div
+                className="owl-carousel owl-theme thm-owl__carousel blog-style1-carousel owl-nav-style-one"
+                data-owl-options='{
+                "loop": true,
+                "autoplay": true,
+                "margin": 30,
+                "nav": true,
+                "dots": false,
+                "smartSpeed": 500,
+                "autoplayTimeout": 10000,
+                "navText": ["<span class=\"left icon-right-arrow\"></span>","<span class=\"right icon-right-arrow\"></span>"],
+                "responsive": {
+                  "0": { "items": 1 },
+                  "768": { "items": 1 },
+                  "992": { "items": 2 },
+                  "1200": { "items": 3 }
+                }
+              }'
+              >
+                {milestones.map((milestone, index) => (
+                  <div
+                    className="single-blog-style1 wow fadeInUp"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
+                    key={index}
+                  >
+                    <div className="img-holder">
+                      <div className="inner">
+                        <img src={milestone.img} alt={`Milestone ${milestone.year}`} />
+                        <div className="overlay-icon">
+                          <a href="#">
+                            <span className="icon-right-arrow"></span>
+                          </a>
+                        </div>
+                      </div>
+                      <div className="category-date-box">
+                        <div className="category">
+                          <span className="icon-play-button-1"></span>
+                          <h5>{t("year")}</h5>
+                        </div>
+                        <div className="date">
+                          <h5>{milestone.year}</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="text-holder">
+                      <h3 className="blog-title mobile-align">
+                        <a href="#">{milestone.description}</a>
+                      </h3>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="service-request-style2-area black background-black">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-6">
+              <div className="service-request-style2-content-box">
+                <div
+                  className="pattern-bottom"
+                  style={{
+                    backgroundImage: slideImg5,
+                  }}
+                ></div>
+                <div className="sec-title mobile-align">
+                  <h2 className="bold-title white">
+                    {t("aboutUsP.section1.title")}{" "}
+                    <span className="span-main span-main-font">.</span>
+                  </h2>
+                  <div className="sub-title white">
+                    <p>{t("aboutUsP.section1.subtitle")}</p>
+                  </div>
+                </div>
+
+                <div className="service-request-style2-content-box__inner pc">
+                  <ul>
+                    {t("aboutUsP.section1.features", { returnObjects: true }).map(
+                      (feature, index) => (
+                        <li key={index}>
+                          <div className="single-service-request-style2-box">
+                            <div className="icon">
+                              <span className={feature.icon}></span>
+                            </div>
+                            <div className="title">
+                              <h3 className="white">
+                                {feature.title}
+                                <a href={feature.link}>
+                                  <span className="icon-right-arrow"></span>
+                                </a>
+                              </h3>
+                            </div>
+                          </div>
+                        </li>
+                      )
+                    )}
+                  </ul>
+                </div>
+
+                <div className="service-request-style2__btns-box mobile-align pc">
+                  <a className="btn-main2" href={t("aboutUsP.section1.button.link")}>
+                    <span className="txt">{t("aboutUsP.section1.button.text")}</span>
+                  </a>
+                </div>
+
+                <div className="mobile-seen mobile-align">
+                  <div className="col-xl-6 mobile-seen">
+                    <img
+                      src={slideImg5}
+                      alt=""
+                      width="100%"
+                    />
+                  </div>
+                  <br />
+                  <br />
+                  <a className="btn-main2" href={t("aboutUsP.section1.button.link")}>
+                    <span className="txt">{t("aboutUsP.section1.button.text")}</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-xl-6 pc">
+              <img src={slideImg5} alt="" width="100%" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="features-style4-area">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-4 mobile-align">
+              <div className="features-style4-title-box">
+                <div className="sec-title">
+                  <h2>
+                    {t("aboutUsP.section2.title")}{" "}
+                    <span className="span-main">{t("aboutUsP.section2.brand")}</span>
+                  </h2>
+                  <div className="sub-title">
+                    <p>{t("aboutUsP.section2.description")}</p>
+                  </div>
+                </div>
+                <div className="btns-box">
+                  <a
+                    className="btn-main2"
+                    href={t("aboutUsP.section2.button.link")}
+                  >
+                    <span className="txt">{t("aboutUsP.section2.button.text")}</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-xl-4 mobile-align">
+              <img src={imgTz} alt="" width="100%" />
+            </div>
+
+            <div className="col-xl-4">
+              <div className="account-creation-step">
+                <ul>
+                  {t("aboutUsP.section2.steps", { returnObjects: true }).map(
+                    (step, index) => (
+                      <li key={index}>
+                        <div className="single-step">
+                          <div className="counting span-main">
+                            <span className="span-main bold-title">
+                              {step.number}
+                            </span>
+                          </div>
+                          <div className="text-box">
+                            <h3>{step.title}</h3>
+                            <p>{step.description}</p>
+                          </div>
+                        </div>
+                      </li>
+                    )
+                  )}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="facts-area">
+        <div className="facts-area-bg background-main"></div>
+        <div className="container">
+          <div className="sec-title text-center">
+            <h2>Award Winning Broker</h2>
+            <div className="sub-title">
+              <p>Discover why millions of users from over countries choose to trade with Accuindex</p>
+            </div>
+          </div>
+          <div className="row">
+
+            <div className="swiper-container-facts mobile-seen">
+              <Swiper
+                spaceBetween={30}
+                pagination={{ clickable: true }}
+                className="swiper-wrapper"
+              >
+                {/* Slide 1 */}
+                <SwiperSlide className="swiper-slide text-center">
+                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82316-2.svg" alt="Slide 1" />
+                </SwiperSlide>
+
+                {/* Slide 2 */}
+                <SwiperSlide className="swiper-slide text-center">
+                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82315-2.svg" alt="Slide 2" />
+                </SwiperSlide>
+
+                {/* Slide 3 */}
+                <SwiperSlide className="swiper-slide text-center">
+                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82321-2.svg" alt="Slide 3" />
+                </SwiperSlide>
+
+                {/* Slide 4 */}
+                <SwiperSlide className="swiper-slide text-center">
+                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82322-2.svg" alt="Slide 4" />
+                </SwiperSlide>
+              </Swiper>
+              {/* Pagination */}
+              <div className="swiper-pagination"></div>
+            </div>
+            {/* Regular Fact Boxes (For Larger Screens) */}
+            <div className="col-xl-3 col-lg-6 col-md-6 pc">
+              <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82316-2.svg" alt="Fact 1" />
+            </div>
+            <div className="col-xl-3 col-lg-6 col-md-6 pc">
+              <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82315-2.svg" alt="Fact 2" />
+            </div>
+            <div className="col-xl-3 col-lg-6 col-md-6 pc">
+              <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82321-2.svg" alt="Fact 3" />
+            </div>
+            <div className="col-xl-3 col-lg-6 col-md-6 pc">
+              <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82322-2.svg" width="100%" alt="Fact 4" />
+            </div>
+          </div>
+        </div>
+      </section >
     </div>
 
   );
