@@ -153,7 +153,7 @@ const AboutUs = () => {
                 <div className="facts-box-style2">
                   <div className="counting">
                     <h2 className="odometer" data-count="9.3">9.3</h2>
-                    <span className="k">k</span>
+                    <span className="k">{t('K')}</span>
                   </div>
                   <div className="inner-title">
                     <h3>{t('newAccountsOpened')}</h3>
@@ -519,9 +519,9 @@ const AboutUs = () => {
         <div className="facts-area-bg background-main"></div>
         <div className="container">
           <div className="sec-title text-center">
-            <h2>Award Winning Broker</h2>
+            <h2>{t('awardWinningBroker')}</h2>
             <div className="sub-title">
-              <p>Discover why millions of users from over countries choose to trade with Accuindex</p>
+              <p>{t('discoverWhyMillions')}</p>
             </div>
           </div>
           <div className="row">

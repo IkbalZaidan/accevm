@@ -42,7 +42,7 @@ const Forex = () => {
             id: "tabid11",
             title: t("majorPairs"),
             description: t("majorPairsDescription"),
-            pairs: "EUR/USD, GBP/USD, USD/JPY",
+            pairs: t("majorPairsCurr"),
             icon: ico1,
             image: img3,
         },
@@ -50,7 +50,7 @@ const Forex = () => {
             id: "tabid22",
             title: t("minorPairs"),
             description: t("minorPairsDescription"),
-            pairs: "EUR/GBP, AUD/JPY, NZD/CAD",
+            pairs: t("minorPairsCurr"),
             icon: ico2,
             image: img3,
         },
@@ -58,7 +58,7 @@ const Forex = () => {
             id: "tabid33",
             title: t("exoticPairs"),
             description: t("exoticPairsDescription"),
-            pairs: "USD/TRY, EUR/SGD, USD/SEK",
+            pairs: t("exoticPairsCurr"),
             icon: ico3,
             image: img3,
         },
@@ -311,13 +311,13 @@ const Forex = () => {
                 <div className="container">
                     <div className="sec-title text-center">
                         <h2 className="bold-title white">
-                            {t("Stay Updated with Real-Time Forex Prices")}
+                            {t("stayUpdatedWithForexPrices")}
                             <span className="span-main">.</span>
                         </h2>
                         <div className="sub-title">
                             <p className="white">
                                 {t(
-                                    "Track Market Movements Instantly with Live Forex Pricing – Your Gateway to Informed Trading Decisions."
+                                    "trackMarketMovements"
                                 )}
                             </p>
                         </div>
@@ -342,7 +342,7 @@ const Forex = () => {
                     </div>
                     <div className="text-center">
                         <a className="btn-main2 " href="#">
-                            <span className="txt">{t("Start Trading Now!")}</span>
+                            <span className="txt">{t("startTradingNow")}</span>
                         </a>
                     </div>
                 </div>

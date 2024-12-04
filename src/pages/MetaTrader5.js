@@ -190,7 +190,7 @@ const MetaTrader5 = () => {
                 <div className="container">
                     <div className="sec-title text-center">
                         <h2 className="bold-title">
-                            {t('whyChooseAccuindex')} <span className="span-main">Accuindex</span> {t('mt5Platform')}
+                            {t('whyChooseAccuindex')} <span className="span-main">{t('Accuindex')}</span> {t('mt5Platform')}
                         </h2>
                         <div className="sub-title">
                             <p>{t('switchEffortlessly')}</p>

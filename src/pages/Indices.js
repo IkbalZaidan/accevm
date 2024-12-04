@@ -342,7 +342,7 @@ const Forex = () => {
                     </div>
                     <div className="text-center">
                         <a className="btn-main2 " href="#">
-                            <span className="txt">{t("Start Trading Now!")}</span>
+                            <span className="txt">{t("startTradingNow")}</span>
                         </a>
                     </div>
                 </div>
@@ -431,7 +431,7 @@ const Forex = () => {
                                 </div>
                                 <div className="btns-box">
                                     <a className="btn-main2" href="#">
-                                        <span className="txt">{t('Open Your Account')}</span>
+                                        <span className="txt">{t('Open Account')}</span>
                                     </a>
                                 </div>
                             </div>
@@ -466,7 +466,7 @@ const Forex = () => {
                                                 <span className="span-main bold-title">02</span>
                                             </div>
                                             <div className="text-box">
-                                                <h3>{t('Technical Indicators')}</h3>
+                                                <h3>{t('technicalIndicators')}</h3>
                                                 <p>{t('Leverage advanced tools like RSI, Fibonacci retracements, and moving averages to analyze trends and refine your strategies.')}</p>
                                             </div>
                                         </div>

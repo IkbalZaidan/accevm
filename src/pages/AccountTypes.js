@@ -194,7 +194,7 @@ const AccountTypes = () => {
                   autoplay={{ delay: 3000 }}
                   pagination={{ clickable: true }}
                 >
-                  {t("accountDetails.accounts", { returnObjects: true }).map(
+                  {t("serviceStyle.accounts", { returnObjects: true }).map(
                     (account, index) => (
                       <SwiperSlide key={index}>
                         <div
@@ -261,7 +261,7 @@ const AccountTypes = () => {
             {t('benefits2.items', { returnObjects: true }).map((item, index) => (
               <li key={index} className="col-xl-4 single-benefits-box-colum">
                 <div className="single-benefits-box">
-                  <img src={imagePaths[item.title]} width="100px" alt={item.title} />
+                  <img src={imagePaths[item.imgSrc]} width="100px" alt={item.title} />
                   <div className="text">
                     <h3 className="bold-p">{item.title}</h3>
                     <p>{item.description}</p>
@@ -277,9 +277,9 @@ const AccountTypes = () => {
         <div className="facts-area-bg background-main"></div>
         <div className="container">
           <div className="sec-title text-center">
-            <h2>Award Winning Broker</h2>
+            <h2>{t('awardWinningBroker')}</h2>
             <div className="sub-title">
-              <p>Discover why millions of users from over countries choose to trade with Accuindex</p>
+              <p>{t('discoverWhyMillions')}</p>
             </div>
           </div>
           <div className="row">

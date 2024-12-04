@@ -339,7 +339,7 @@ const Forex = () => {
                     </div>
                     <div className="text-center">
                         <a className="btn-main2 " href="#">
-                            <span className="txt">{t("Start Trading Now!")}</span>
+                            <span className="txt">{t("startTradingNow")}</span>
                         </a>
                     </div>
                 </div>
@@ -421,7 +421,7 @@ const Forex = () => {
                                 </div>
                                 <div className="btns-box">
                                     <a className="btn-main2" href="#">
-                                        <span className="txt">{t('Trade Stock')}</span>
+                                        <span className="txt">{t('Trade Stocks')}</span>
                                     </a>
                                 </div>
                             </div>

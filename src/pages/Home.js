@@ -92,9 +92,9 @@ const Home = () => {
       <section className="features-style2-area" style={{ backgroundColor: 'white' }}>
         <div className="container">
           <div className="sec-title text-center">
-            <h2 className="bold-title">Unlock Your Trading Potential <br />with <span className="span-main">Accuindex</span> Solutions</h2>
+            <h2 className="bold-title">{t('Unlock Your Trading Potential')} <br />{t('with')} <span className="span-main">{t('Accuindex')}</span> {t('Solutions')}</h2>
             <div className="sub-title">
-              <p>Empower your investments with our smart tools: mirror successful traders with AccuConnect, trade on the go with AccuGo, <br />and access your profits instantly with AccuPay.</p>
+              <p>{t('Empower your investments with our smart tools: mirror successful traders with AccuConnect, trade on the go with AccuGo,')}<br />{t('and access your profits instantly with AccuPay.')}</p>
             </div>
           </div>
 
@@ -172,7 +172,7 @@ const Home = () => {
                               <br></br>
                               <br></br>
                               <h1 className="span-main bold-title mt-5">AccuConnect.</h1>
-                              <p>Copy the strategies of top traders and watch your investment portfolio flourish.</p>
+                              <p>{t('Copy the strategies of top traders and watch your investment portfolio flourish.')}</p>
                               <a className="btn-main" href="#" style={{ backgroundColor: '#C02881' }}>
                                 Register
                               </a>

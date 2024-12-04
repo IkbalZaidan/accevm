@@ -361,9 +361,9 @@ const LAndR = () => {
                 <div className="facts-area-bg background-main"></div>
                 <div className="container">
                     <div className="sec-title text-center">
-                        <h2>Award Winning Broker</h2>
+                        <h2>{t('awardWinningBroker')}</h2>
                         <div className="sub-title">
-                            <p>Discover why millions of users from over countries choose to trade with Accuindex</p>
+                            <p>{t('discoverWhyMillions')}</p>
                         </div>
                     </div>
                     <div className="row">

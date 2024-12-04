@@ -37,6 +37,60 @@
   "depositWithdrawal": "Deposit & Withdrawal",
   "english": "English",
   "arabic": "Arabic",
+
+
+
+  "Unlock Your Trading Potential":"Unlock Your Trading Potential",
+  "with":"with",
+  "Solutions":"Solutions",
+  "Empower your investments with our smart tools: mirror successful traders with AccuConnect, trade on the go with AccuGo,":"Empower your investments with our smart tools: mirror successful traders with AccuConnect, trade on the go with AccuGo,",
+  "and access your profits instantly with AccuPay.":"and access your profits instantly with AccuPay.",
+  "Copy the strategies of top traders and watch your investment portfolio flourish.":"Copy the strategies of top traders and watch your investment portfolio flourish.",
+  "An intuitive interface that puts financial markets at your fingertips, allowing trading anytime, anywhere.":"An intuitive interface that puts financial markets at your fingertips, allowing trading anytime, anywhere.",
+  "Withdraw your profits directly from anywhere in the world using the AccuPay debit card.":"Withdraw your profits directly from anywhere in the world using the AccuPay debit card.",
+
+
+
+
+  "multipleAccountTypes": "Multiple Account Types",
+  "accountDescription": "We offer three distinct account types, each tailored to provide exceptional trading conditions. Our accounts are thoughtfully designed to suit a range of trader profiles and accommodate various trading strategies, ensuring that every trader can find the ideal fit for their unique needs.",
+  
+  "socialAccountTitle": "Social Account",
+  "socialAccountDetail1": "* Minimum Opening Balance: $100",
+  "socialAccountDetail2": "* Leverage: Up to 1:400",
+  "socialAccountDetail3": "* Spreads from 1.4",
+  "socialAccountDetail4": "* No Commissions",
+  "socialAccountDetail5": "* 300+ Trading Instruments",
+  "socialAccountDetail6": "* Automated Trading",
+  "socialAccountDetail7": "* Stop Out Level: 20%",
+  "socialAccountDetail8": "* Account Currency: USD",
+  
+  "standardAccountTitle": "Standard Account",
+  "standardAccountDetail1": "* Minimum Opening Balance: $100",
+  "standardAccountDetail2": "* Leverage: Up to 1:400",
+  "standardAccountDetail3": "* Spreads from 1.4",
+  "standardAccountDetail4": "* No Commissions",
+  "standardAccountDetail5": "* 300+ Trading Instruments",
+  "standardAccountDetail6": "* Automated Trading",
+  "standardAccountDetail7": "* Stop Out Level: 20%",
+  "standardAccountDetail8": "* Account Currency: USD",
+  
+  "proAccountTitle": "Pro Account",
+  "proAccountDetail1": "* Minimum Opening Balance: $5,000",
+  "proAccountDetail2": "* Leverage: Up to 1:400",
+  "proAccountDetail3": "* Spreads from 0.8",
+  "proAccountDetail4": "* No Commissions",
+  "proAccountDetail5": "* 300+ Trading Instruments",
+  "proAccountDetail6": "* Automated Trading",
+  "proAccountDetail7": "* Stop Out Level: 30%",
+  "proAccountDetail8": "* Account Currency: USD",
+  
+  "exploreMore": "Explore More Account Types",
+
+
+
+
+
   "realTrades": "Real Trades",
   "greatSuccess": "Great Success",
   "trustedPartner": "Your Trusted Partner in Financial Markets",
@@ -51,6 +105,7 @@
   "commitmentToEmpowerment": "Commitment to Empowerment",
   "commitmentToEmpowermentDesc": "Empowering traders with expert support, cutting-edge tools, and actionable market insights.",
   "newAccountsOpened": "New accounts opened in the past year",
+  "K":"K",
   "features": {
     "title": "What Sets Us Apart",
     "subtitle": "At Accuindex, our culture is built on a foundation of trust, education, and collaboration. We believe in empowering traders with the tools and knowledge they need to navigate financial markets confidently.",
@@ -163,6 +218,9 @@
       ]
     }
   },
+
+
+
   "introStyle1": {
     "title": "Choose the Right Account for Your Trading Journey",
     "subtitle": "Accuindex offers a range of accounts designed to match every trading style and level.",
@@ -318,15 +376,18 @@
     "items": [
       {
         "title": "Secure Investments",
-        "description": "Protect your capital with negative balance protection and flexible payment solutions."
+        "description": "Protect your capital with negative balance protection and flexible payment solutions.",
+        "imgSrc":"Secure Investments"
       },
       {
         "title": "Advanced Platforms",
-        "description": "Trade with Accuindex MetaTrader 5 and seamless access across mobile and desktop devices."
+        "description": "Trade with Accuindex MetaTrader 5 and seamless access across mobile and desktop devices.",
+        "imgSrc":"Advanced Platforms"
       },
       {
         "title": "24/5 Support",
-        "description": "Enjoy personalized assistance and fast deposits or withdrawals anytime during the trading week."
+        "description": "Enjoy personalized assistance and fast deposits or withdrawals anytime during the trading week.",
+        "imgSrc":"24/5 Support"
       }
     ]
   },
@@ -448,6 +509,11 @@
       "answer": "Yes, the Accuindex demo account is 100% free with no hidden charges."
     }
   },
+
+
+
+
+
   "statistics": {
     "title": "Transparency and Trust at the Core of Our Business",
     "description": "At Accuindex, regulatory compliance isn’t just a requirement—it’s our commitment to transparency and client trust. By adhering to strict regulations in multiple jurisdictions, we provide a secure and trustworthy trading environment for clients worldwide.",
@@ -502,6 +568,7 @@
   "riskManagementDescription": "Transparent trading conditions and advanced risk management measures to protect your capital.",
   "negativeBalanceProtectionTitle": "Negative Balance Protection",
   "negativeBalanceProtectionDescription": "Trade with confidence knowing your account will never fall into a negative balance.",
+  
   "awardWinningBroker": "Award Winning Broker",
   "discoverWhyMillions": "Discover why millions of users from over countries choose to trade with Accuindex",
   "islamic": {
@@ -669,10 +736,13 @@
   "currencyPairsSubtitle": "Unlock Opportunities Across the Most Dynamic Forex Markets, From Highly Liquid Majors to Volatile Exotic Pairs Tailored for Every Trader’s Strategy.",
   "majorPairs": "Major Pairs",
   "majorPairsDescription": "Highly liquid and widely traded, offering tight spreads and steady opportunities.",
+  "majorPairsCurr":"EUR/USD, GBP/USD, USD/JPY",
   "minorPairs": "Minor Pairs",
   "minorPairsDescription": "Slightly less liquid but still highly active, ideal for diversifying your trading strategies.",
+  "minorPairsCurr":"EUR/GBP, AUD/JPY, NZD/CAD",
   "exoticPairs": "Exotic Pairs",
   "exoticPairsDescription": "Higher volatility with the potential for significant returns, suitable for experienced traders.",
+  "exoticPairsCurr":"USD/TRY, EUR/SGD, USD/SEK",
   "stayUpdatedWithForexPrices": "Stay Updated with Real-Time Forex Prices",
   "trackMarketMovements": "Track Market Movements Instantly with Live Forex Pricing – Your Gateway to Informed Trading Decisions.",
   "tradingView": "TradingView",
@@ -706,6 +776,10 @@
   "economicCalendarDescription": "Plan your trades around key market events and announcements to stay ahead of market shifts.",
   "advancedToolsTitle": "Advanced Analysis Tools",
   "advancedToolsDescription": "Use cutting-edge tools to analyze market trends, evaluate data, and refine your strategies.",
+
+
+
+
   "Trade Global Stocks with Confidence": "Trade Global Stocks with Confidence",
   "Unlock access to the world’s leading companies with Accuindex’s advanced stock trading platform.": "Unlock access to the world’s leading companies with Accuindex’s advanced stock trading platform.",
   "Trade Stocks": "Trade Stocks",
@@ -743,6 +817,10 @@
   "Use sophisticated charting tools to analyze trends, refine strategies, and identify profitable opportunities.": "Use sophisticated charting tools to analyze trends, refine strategies, and identify profitable opportunities.",
   "Market Analysis": "Market Analysis",
   "Leverage expert insights and the latest market updates to stay informed and ahead of industry trends.": "Leverage expert insights and the latest market updates to stay informed and ahead of industry trends.",
+
+
+
+
   "Trade Major Indices with Accuindex":"Trade Major Indices with Accuindex",
   "Get exposure to global markets with top-performing indices.":"Get exposure to global markets with top-performing indices.",
   "Trade Indices":"Trade Indices",
@@ -779,6 +857,9 @@
   "Leverage advanced tools like RSI, Fibonacci retracements, and moving averages to analyze trends and refine your strategies.": "Leverage advanced tools like RSI, Fibonacci retracements, and moving averages to analyze trends and refine your strategies.",
   "Comprehensive Market Insights": "Comprehensive Market Insights",
   "Gain valuable insights from expert analysis and real-time updates, ensuring you stay ahead in a constantly evolving market.": "Gain valuable insights from expert analysis and real-time updates, ensuring you stay ahead in a constantly evolving market.",
+
+
+
   "Trade Commodities With AccuIndex": "Trade Commodities With AccuIndex",
   "Explore market diversity with metals, energy, and agriculture at your fingertips.": "Explore market diversity with metals, energy, and agriculture at your fingertips.",
   "Trade Commodities": "Trade Commodities",
@@ -796,7 +877,6 @@
   "AgriculturePairs":"Corn, Wheat, Soybeans",
   "Track Live Commodity Prices":"Track Live Commodity Prices",
   "Real-Time Commodity Pricing and In-Depth Market Insights":"Real-Time Commodity Pricing and In-Depth Market Insights",
-  
   "commoditiesTrading": "Commodities",
   "TradingQ":"Trading?",
   "competitiveSpreads": "Competitive Spreads",
@@ -817,6 +897,9 @@
   "marketAnalysisUpdatesDescription": "Receive expert insights and real-time updates to make informed decisions and capitalize on market opportunities.",
   "Explore a Wide Range of Commodities":"Explore a Wide Range of Commodities",
   "Explore a Wide Range of Commodities Description":"Discover Diverse Commodity Trading Opportunities Across Precious Metals, Energy Resources, and Agricultural Products",
+
+
+
   "tradeCryptocurrenciesAnywhere": "Trade Cryptocurrencies Anytime, Anywhere with Accuindex",
   "seizeOpportunities": "Seize the opportunities of the digital economy with advanced tools and global access.",
   "tradeCryptocurrencies": "Trade Cryptocurrencies",
@@ -830,7 +913,7 @@
   "More Cryptocurrencies Description":"Litecoin (LTC): A faster, more scalable alternative to Bitcoin.",
   "Exotic Cryptocurrencies":"Exotic Cryptocurrencies",
   "Exotic Cryptocurrencies Description":"Ripple (XRP): Designed for seamless cross-border transactions.",
-    "whyTradeCryptoWith": "Why Trade Cryptocurrencies with",
+  "whyTradeCryptoWith": "Why Trade Cryptocurrencies with",
   "unlockOpportunities": "Unlock Limitless Opportunities with Crypto Trading at Accuindex",
   "marketAccessDesc": "Trade cryptocurrencies round the clock, ensuring you never miss an opportunity in the dynamic digital market.",
   "highLeverageDesc": "Maximize your trading potential with leverage of up to 1:400, enabling greater market exposure with smaller investments.",
@@ -845,5 +928,32 @@
   "tradingAlerts": "Trading Alerts",
   "tradingAlertsDesc": "Set personalized notifications to stay updated on price changes and market opportunities as they happen.",
   "Stay Updated with Real-Time Crypto Prices":"Stay Updated with Real-Time Crypto Prices",
-  "Track Live Crypto Prices and Make Informed Trading Decisions Instantly":"Track Live Crypto Prices and Make Informed Trading Decisions Instantly"
+  "Track Live Crypto Prices and Make Informed Trading Decisions Instantly":"Track Live Crypto Prices and Make Informed Trading Decisions Instantly",
+
+  "contact": {
+    "title": "Open Live Account",
+    "description": "Committed to helping you meet all your banking needs.",
+    "corporateOffice": "Corporate Office",
+    "officeAddress": "141, First Floor, 12 St RootsTerrace, Los Angeles USA 90010.",
+    "officeHours": "Office Hours",
+    "hoursDetails": "Mon - Fri: 9.00am to 5.00pm",
+    "holiday": "[2nd Sat Holiday]",
+    "frontDesk": "Front Desk",
+    "contactNumber": "+61 3 8376 6284",
+    "contactEmail": "supportyou@finbank.com",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "country":"Country of Residence",
+    "selectCountry":"Select Country",
+
+    "emailLabel": "Email Address",
+    "phoneLabel": "Phone Number",
+    "subjectLabel": "Subject",
+    "messageLabel": "Message",
+    "signup": "Sign Up",
+    "password":"Password",
+    "confirmPassword":"Confirm Password",
+    "customerCare": "Customer Care",
+    "agree":"By Registering You Agree To Our Privacy Policy"
+  }
 }

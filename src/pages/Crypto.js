@@ -342,7 +342,7 @@ const Crypto = () => {
                     </div>
                     <div className="text-center">
                         <a className="btn-main2 " href="#">
-                            <span className="txt">{t("Start Trading Now!")}</span>
+                            <span className="txt">{t("startTradingNow")}</span>
                         </a>
                     </div>
                 </div>
