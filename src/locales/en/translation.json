@@ -912,12 +912,13 @@
     "password": "Password",
     "confirmPassword": "Confirm Password",
     "customerCare": "Customer Care",
-    "agree": "By Registering You Agree To Our Privacy Policy",
-    "thanks": {
+    "agree": "By Registering You Agree To Our Privacy Policy"
+    
+  },
+  "thanks": {
       "bigTitle": "Thank You",
       "mainTitle": "You have signed up successfully",
       "description": "our team will contact you shortly!",
       "backToHome": "Login"
     }
-  }
 }
