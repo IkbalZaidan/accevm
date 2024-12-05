@@ -37,24 +37,16 @@
   "depositWithdrawal": "Deposit & Withdrawal",
   "english": "English",
   "arabic": "Arabic",
-
-
-
-  "Unlock Your Trading Potential":"Unlock Your Trading Potential",
-  "with":"with",
-  "Solutions":"Solutions",
-  "Empower your investments with our smart tools: mirror successful traders with AccuConnect, trade on the go with AccuGo,":"Empower your investments with our smart tools: mirror successful traders with AccuConnect, trade on the go with AccuGo,",
-  "and access your profits instantly with AccuPay.":"and access your profits instantly with AccuPay.",
-  "Copy the strategies of top traders and watch your investment portfolio flourish.":"Copy the strategies of top traders and watch your investment portfolio flourish.",
-  "An intuitive interface that puts financial markets at your fingertips, allowing trading anytime, anywhere.":"An intuitive interface that puts financial markets at your fingertips, allowing trading anytime, anywhere.",
-  "Withdraw your profits directly from anywhere in the world using the AccuPay debit card.":"Withdraw your profits directly from anywhere in the world using the AccuPay debit card.",
-
-
-
-
+  "Unlock Your Trading Potential": "Unlock Your Trading Potential",
+  "with": "with",
+  "Solutions": "Solutions",
+  "Empower your investments with our smart tools: mirror successful traders with AccuConnect, trade on the go with AccuGo,": "Empower your investments with our smart tools: mirror successful traders with AccuConnect, trade on the go with AccuGo,",
+  "and access your profits instantly with AccuPay.": "and access your profits instantly with AccuPay.",
+  "Copy the strategies of top traders and watch your investment portfolio flourish.": "Copy the strategies of top traders and watch your investment portfolio flourish.",
+  "An intuitive interface that puts financial markets at your fingertips, allowing trading anytime, anywhere.": "An intuitive interface that puts financial markets at your fingertips, allowing trading anytime, anywhere.",
+  "Withdraw your profits directly from anywhere in the world using the AccuPay debit card.": "Withdraw your profits directly from anywhere in the world using the AccuPay debit card.",
   "multipleAccountTypes": "Multiple Account Types",
   "accountDescription": "We offer three distinct account types, each tailored to provide exceptional trading conditions. Our accounts are thoughtfully designed to suit a range of trader profiles and accommodate various trading strategies, ensuring that every trader can find the ideal fit for their unique needs.",
-  
   "socialAccountTitle": "Social Account",
   "socialAccountDetail1": "* Minimum Opening Balance: $100",
   "socialAccountDetail2": "* Leverage: Up to 1:400",
@@ -64,7 +56,6 @@
   "socialAccountDetail6": "* Automated Trading",
   "socialAccountDetail7": "* Stop Out Level: 20%",
   "socialAccountDetail8": "* Account Currency: USD",
-  
   "standardAccountTitle": "Standard Account",
   "standardAccountDetail1": "* Minimum Opening Balance: $100",
   "standardAccountDetail2": "* Leverage: Up to 1:400",
@@ -74,7 +65,6 @@
   "standardAccountDetail6": "* Automated Trading",
   "standardAccountDetail7": "* Stop Out Level: 20%",
   "standardAccountDetail8": "* Account Currency: USD",
-  
   "proAccountTitle": "Pro Account",
   "proAccountDetail1": "* Minimum Opening Balance: $5,000",
   "proAccountDetail2": "* Leverage: Up to 1:400",
@@ -84,13 +74,7 @@
   "proAccountDetail6": "* Automated Trading",
   "proAccountDetail7": "* Stop Out Level: 30%",
   "proAccountDetail8": "* Account Currency: USD",
-  
   "exploreMore": "Explore More Account Types",
-
-
-
-
-
   "realTrades": "Real Trades",
   "greatSuccess": "Great Success",
   "trustedPartner": "Your Trusted Partner in Financial Markets",
@@ -105,7 +89,7 @@
   "commitmentToEmpowerment": "Commitment to Empowerment",
   "commitmentToEmpowermentDesc": "Empowering traders with expert support, cutting-edge tools, and actionable market insights.",
   "newAccountsOpened": "New accounts opened in the past year",
-  "K":"K",
+  "K": "K",
   "features": {
     "title": "What Sets Us Apart",
     "subtitle": "At Accuindex, our culture is built on a foundation of trust, education, and collaboration. We believe in empowering traders with the tools and knowledge they need to navigate financial markets confidently.",
@@ -218,9 +202,6 @@
       ]
     }
   },
-
-
-
   "introStyle1": {
     "title": "Choose the Right Account for Your Trading Journey",
     "subtitle": "Accuindex offers a range of accounts designed to match every trading style and level.",
@@ -377,17 +358,17 @@
       {
         "title": "Secure Investments",
         "description": "Protect your capital with negative balance protection and flexible payment solutions.",
-        "imgSrc":"Secure Investments"
+        "imgSrc": "Secure Investments"
       },
       {
         "title": "Advanced Platforms",
         "description": "Trade with Accuindex MetaTrader 5 and seamless access across mobile and desktop devices.",
-        "imgSrc":"Advanced Platforms"
+        "imgSrc": "Advanced Platforms"
       },
       {
         "title": "24/5 Support",
         "description": "Enjoy personalized assistance and fast deposits or withdrawals anytime during the trading week.",
-        "imgSrc":"24/5 Support"
+        "imgSrc": "24/5 Support"
       }
     ]
   },
@@ -509,11 +490,6 @@
       "answer": "Yes, the Accuindex demo account is 100% free with no hidden charges."
     }
   },
-
-
-
-
-
   "statistics": {
     "title": "Transparency and Trust at the Core of Our Business",
     "description": "At Accuindex, regulatory compliance isn’t just a requirement—it’s our commitment to transparency and client trust. By adhering to strict regulations in multiple jurisdictions, we provide a secure and trustworthy trading environment for clients worldwide.",
@@ -568,7 +544,6 @@
   "riskManagementDescription": "Transparent trading conditions and advanced risk management measures to protect your capital.",
   "negativeBalanceProtectionTitle": "Negative Balance Protection",
   "negativeBalanceProtectionDescription": "Trade with confidence knowing your account will never fall into a negative balance.",
-  
   "awardWinningBroker": "Award Winning Broker",
   "discoverWhyMillions": "Discover why millions of users from over countries choose to trade with Accuindex",
   "islamic": {
@@ -687,7 +662,7 @@
   "useAccuConnect": "Use AccuConnect",
   "whyChooseAccuConnect": "Why Choose",
   "copyTrading": "AccuConnect",
-  "forCopyTrading":"for Copy Trading?",
+  "forCopyTrading": "for Copy Trading?",
   "copyTradingDescriptionTwo": "Whether you're a beginner or a seasoned investor, Copy Trading can help you achieve your financial goals.",
   "noExpertiseNeededTitle": "No Expertise Needed",
   "noExpertiseNeededDescription": "Ideal for beginners, Copy Trading eliminates the steep learning curve by allowing you to learn and trade at the same time. Simply follow top traders and replicate their strategies effortlessly.",
@@ -736,13 +711,13 @@
   "currencyPairsSubtitle": "Unlock Opportunities Across the Most Dynamic Forex Markets, From Highly Liquid Majors to Volatile Exotic Pairs Tailored for Every Trader’s Strategy.",
   "majorPairs": "Major Pairs",
   "majorPairsDescription": "Highly liquid and widely traded, offering tight spreads and steady opportunities.",
-  "majorPairsCurr":"EUR/USD, GBP/USD, USD/JPY",
+  "majorPairsCurr": "EUR/USD, GBP/USD, USD/JPY",
   "minorPairs": "Minor Pairs",
   "minorPairsDescription": "Slightly less liquid but still highly active, ideal for diversifying your trading strategies.",
-  "minorPairsCurr":"EUR/GBP, AUD/JPY, NZD/CAD",
+  "minorPairsCurr": "EUR/GBP, AUD/JPY, NZD/CAD",
   "exoticPairs": "Exotic Pairs",
   "exoticPairsDescription": "Higher volatility with the potential for significant returns, suitable for experienced traders.",
-  "exoticPairsCurr":"USD/TRY, EUR/SGD, USD/SEK",
+  "exoticPairsCurr": "USD/TRY, EUR/SGD, USD/SEK",
   "stayUpdatedWithForexPrices": "Stay Updated with Real-Time Forex Prices",
   "trackMarketMovements": "Track Market Movements Instantly with Live Forex Pricing – Your Gateway to Informed Trading Decisions.",
   "tradingView": "TradingView",
@@ -776,17 +751,12 @@
   "economicCalendarDescription": "Plan your trades around key market events and announcements to stay ahead of market shifts.",
   "advancedToolsTitle": "Advanced Analysis Tools",
   "advancedToolsDescription": "Use cutting-edge tools to analyze market trends, evaluate data, and refine your strategies.",
-
-
-
-
   "Trade Global Stocks with Confidence": "Trade Global Stocks with Confidence",
   "Unlock access to the world’s leading companies with Accuindex’s advanced stock trading platform.": "Unlock access to the world’s leading companies with Accuindex’s advanced stock trading platform.",
   "Trade Stocks": "Trade Stocks",
   "Unlock Global Opportunities with Stock Trading": "Unlock Global Opportunities with Stock Trading",
   "Stock trading allows you to invest in global market leaders like Apple, Tesla, and Amazon. Whether you're targeting short-term opportunities or long-term growth, Accuindex provides the tools and support to help you succeed.": "Stock trading allows you to invest in global market leaders like Apple, Tesla, and Amazon. Whether you're targeting short-term opportunities or long-term growth, Accuindex provides the tools and support to help you succeed.",
   "Open Account": "Open Account",
-
   "Trade Stocks from Industry Giants": "Trade Stocks from Industry Giants",
   "Unlock Global Opportunities by Trading Stocks from Leading Industry Titans Across Key Markets": "Unlock Global Opportunities by Trading Stocks from Leading Industry Titans Across Key Markets",
   "Discover Stocks": "Discover Stocks",
@@ -798,8 +768,8 @@
   "Amazon (AMZN): Revolutionizing e-commerce and logistics worldwide.": "Amazon (AMZN): Revolutionizing e-commerce and logistics worldwide.",
   "Register": "Register",
   "Trade Now": "Trade Now",
-  "WatchStockPrices":"Watch stock prices live at all times",
-  "StayAheadOfTheMarket":"Stay Ahead of the Market with Real-Time Stock Price Updates and Live Performance Tracking",
+  "WatchStockPrices": "Watch stock prices live at all times",
+  "StayAheadOfTheMarket": "Stay Ahead of the Market with Real-Time Stock Price Updates and Live Performance Tracking",
   "Why Trade Stocks with Us": "Why Trade Stocks with Us",
   "Unlock Your Trading Potential with Accuindex Stock Trading": "Unlock Your Trading Potential with Accuindex Stock Trading",
   "Competitive Spreads": "Competitive Spreads",
@@ -817,38 +787,34 @@
   "Use sophisticated charting tools to analyze trends, refine strategies, and identify profitable opportunities.": "Use sophisticated charting tools to analyze trends, refine strategies, and identify profitable opportunities.",
   "Market Analysis": "Market Analysis",
   "Leverage expert insights and the latest market updates to stay informed and ahead of industry trends.": "Leverage expert insights and the latest market updates to stay informed and ahead of industry trends.",
-
-
-
-
-  "Trade Major Indices with Accuindex":"Trade Major Indices with Accuindex",
-  "Get exposure to global markets with top-performing indices.":"Get exposure to global markets with top-performing indices.",
-  "Trade Indices":"Trade Indices",
-  "whyTrade":"Why Trade",
-  "Indices":" Indices",
-  "indeciesTradingDescription":"Indices represent a group of stocks, offering traders the ability to speculate on the overall performance of a market or sector. They provide diversified exposure and are less volatile than individual stocks, making them a balanced option for traders.",
-  "ExploreOurIndex":"Explore Our Index Offering",
-  "accessGlobalMarket":"Access Global Market Indices, Diversify Your Portfolio, and Take Advantage of Competitive Trading Conditions to Maximize Your Investment Potential.",
-  "MajorIndices":"Major Indices",
-  "majorIndicesDescription":"S&P 500: Tracks the top 500 U.S. companies, reflecting the overall U.S. economy.",
-  "majorIndicesPairs":"NASDAQ: Known for its focus on technology and innovation-driven companies.",
-  "moreIndices":"More Indices",
-  "moreIndicesDescription":"FTSE 100: A benchmark for the UK’s largest publicly traded companies.",
-  "moreIndicesPairs":"Dow Jones: Represents 30 large-cap U.S. corporations, highlighting market leaders.",
-  "exoticIndices":"Exotic Indices",
-  "exoticIndicesDescription":"Nikkei 225: Captures the performance of Japan’s top 225 blue-chip stocks.",
-  "Track Live Indices Performance":"Track Live Indices Performance",
-  "Monitor Market Movements and Make Timely Trading Decisions.":"Monitor Market Movements and Make Timely Trading Decisions.",
-  "Why Trade Indices with":"Why Trade Indices with",
-  "Accuindex":"Accuindex",
-  "whyTradeIndeciesDescription":"Discover the Advantages of Trading Indices with Accuindex – Diversify, Access Global Markets, and Maximize Profitability.",
-  "PortfolioDiversificationTitle":"Portfolio Diversification",
-  "PortfolioDiversificationDescription":"Spread your risk by trading a collection of stocks within an index, reducing dependency on individual equities and providing balanced exposure to broader market trends.",
-  "GlobalMarketAccessTitle":"Global Market Access",
-  "GlobalMarketAccessDescription":"Take advantage of opportunities in leading economies by trading indices like S&P 500, NASDAQ, FTSE 100, and more, directly connecting you to global financial markets.",
-  "LowerRiskTitle":"Lower Risk",
-  "LowerRiskDescription":"Mitigate risks associated with individual stock volatility by focusing on the overall performance of an index, making it a more stable trading option.",
-  "tradeIndeciesBtn":"Trade Indices",
+  "Trade Major Indices with Accuindex": "Trade Major Indices with Accuindex",
+  "Get exposure to global markets with top-performing indices.": "Get exposure to global markets with top-performing indices.",
+  "Trade Indices": "Trade Indices",
+  "whyTrade": "Why Trade",
+  "Indices": " Indices",
+  "indeciesTradingDescription": "Indices represent a group of stocks, offering traders the ability to speculate on the overall performance of a market or sector. They provide diversified exposure and are less volatile than individual stocks, making them a balanced option for traders.",
+  "ExploreOurIndex": "Explore Our Index Offering",
+  "accessGlobalMarket": "Access Global Market Indices, Diversify Your Portfolio, and Take Advantage of Competitive Trading Conditions to Maximize Your Investment Potential.",
+  "MajorIndices": "Major Indices",
+  "majorIndicesDescription": "S&P 500: Tracks the top 500 U.S. companies, reflecting the overall U.S. economy.",
+  "majorIndicesPairs": "NASDAQ: Known for its focus on technology and innovation-driven companies.",
+  "moreIndices": "More Indices",
+  "moreIndicesDescription": "FTSE 100: A benchmark for the UK’s largest publicly traded companies.",
+  "moreIndicesPairs": "Dow Jones: Represents 30 large-cap U.S. corporations, highlighting market leaders.",
+  "exoticIndices": "Exotic Indices",
+  "exoticIndicesDescription": "Nikkei 225: Captures the performance of Japan’s top 225 blue-chip stocks.",
+  "Track Live Indices Performance": "Track Live Indices Performance",
+  "Monitor Market Movements and Make Timely Trading Decisions.": "Monitor Market Movements and Make Timely Trading Decisions.",
+  "Why Trade Indices with": "Why Trade Indices with",
+  "Accuindex": "Accuindex",
+  "whyTradeIndeciesDescription": "Discover the Advantages of Trading Indices with Accuindex – Diversify, Access Global Markets, and Maximize Profitability.",
+  "PortfolioDiversificationTitle": "Portfolio Diversification",
+  "PortfolioDiversificationDescription": "Spread your risk by trading a collection of stocks within an index, reducing dependency on individual equities and providing balanced exposure to broader market trends.",
+  "GlobalMarketAccessTitle": "Global Market Access",
+  "GlobalMarketAccessDescription": "Take advantage of opportunities in leading economies by trading indices like S&P 500, NASDAQ, FTSE 100, and more, directly connecting you to global financial markets.",
+  "LowerRiskTitle": "Lower Risk",
+  "LowerRiskDescription": "Mitigate risks associated with individual stock volatility by focusing on the overall performance of an index, making it a more stable trading option.",
+  "tradeIndeciesBtn": "Trade Indices",
   "Empower Your Trading with Our Tools": "Empower Your Trading with Our Tools",
   "Start Your Indices Trading with Cutting-Edge Tools": "Start Your Indices Trading with Cutting-Edge Tools",
   "Open Your Account": "Open Your Account",
@@ -857,34 +823,31 @@
   "Leverage advanced tools like RSI, Fibonacci retracements, and moving averages to analyze trends and refine your strategies.": "Leverage advanced tools like RSI, Fibonacci retracements, and moving averages to analyze trends and refine your strategies.",
   "Comprehensive Market Insights": "Comprehensive Market Insights",
   "Gain valuable insights from expert analysis and real-time updates, ensuring you stay ahead in a constantly evolving market.": "Gain valuable insights from expert analysis and real-time updates, ensuring you stay ahead in a constantly evolving market.",
-
-
-
   "Trade Commodities With AccuIndex": "Trade Commodities With AccuIndex",
   "Explore market diversity with metals, energy, and agriculture at your fingertips.": "Explore market diversity with metals, energy, and agriculture at your fingertips.",
   "Trade Commodities": "Trade Commodities",
   "Why Trade": "Why Trade",
   "Commodities": "Commodities",
   "Commodities are an essential asset class, offering opportunities for portfolio diversification and acting as a hedge against market uncertainties. From precious metals like gold to energy sources like oil, commodities provide safe-haven options during volatility and unique trading opportunities across global markets.": "Commodities are an essential asset class, offering opportunities for portfolio diversification and acting as a hedge against market uncertainties. From precious metals like gold to energy sources like oil, commodities provide safe-haven options during volatility and unique trading opportunities across global markets.",
-  "Metals":"Metals",
-  "MetalsDescription":"Known for their stability, metals are ideal for hedging against inflation and economic uncertainties.",
-  "MetalsPairs":"Gold, Silver, Platinum",
-  "Energy":"Energy",
-  "EnergyDescription":"Energy commodities are highly volatile, providing dynamic trading opportunities.",
-  "EnergyPairs":"Crude Oil, Natural Gas",
-  "Agriculture":"Agriculture",
-  "AgricultureDescription":"Essential for portfolio diversification, agricultural commodities are influenced by global supply and demand.",
-  "AgriculturePairs":"Corn, Wheat, Soybeans",
-  "Track Live Commodity Prices":"Track Live Commodity Prices",
-  "Real-Time Commodity Pricing and In-Depth Market Insights":"Real-Time Commodity Pricing and In-Depth Market Insights",
+  "Metals": "Metals",
+  "MetalsDescription": "Known for their stability, metals are ideal for hedging against inflation and economic uncertainties.",
+  "MetalsPairs": "Gold, Silver, Platinum",
+  "Energy": "Energy",
+  "EnergyDescription": "Energy commodities are highly volatile, providing dynamic trading opportunities.",
+  "EnergyPairs": "Crude Oil, Natural Gas",
+  "Agriculture": "Agriculture",
+  "AgricultureDescription": "Essential for portfolio diversification, agricultural commodities are influenced by global supply and demand.",
+  "AgriculturePairs": "Corn, Wheat, Soybeans",
+  "Track Live Commodity Prices": "Track Live Commodity Prices",
+  "Real-Time Commodity Pricing and In-Depth Market Insights": "Real-Time Commodity Pricing and In-Depth Market Insights",
   "commoditiesTrading": "Commodities",
-  "TradingQ":"Trading?",
+  "TradingQ": "Trading?",
   "competitiveSpreads": "Competitive Spreads",
   "competitiveSpreadsDescription": "Enjoy tighter spreads that maximize your profit potential on every trade, ensuring you keep more of your earnings with every market movement.",
-  "highLeverage": "High Leverage",  
-  "highLeverageDescriptionTwo":"Amplify your trading opportunities with leverage of up to 1:400, allowing you to trade larger positions with smaller capital.",
+  "highLeverage": "High Leverage",
+  "highLeverageDescriptionTwo": "Amplify your trading opportunities with leverage of up to 1:400, allowing you to trade larger positions with smaller capital.",
   "marketAccess": "24/5 Market Access",
-  "marketAccessDescriptionTwo":"Stay active in the markets whenever global commodity exchanges are open, ensuring you never miss an opportunity to trade.",
+  "marketAccessDescriptionTwo": "Stay active in the markets whenever global commodity exchanges are open, ensuring you never miss an opportunity to trade.",
   "tradeCommoditiesToday": "Trade Commodities Today",
   "enhanceYourCommodityTrading": "Enhance Your Commodity Trading Experience",
   "unlockSmarterCommodityTrading": "Unlock Smarter Commodity Trading with Advanced Tools and Insights",
@@ -895,24 +858,21 @@
   "riskManagementFeaturesDescription": "Safeguard your investments with advanced tools like stop-loss and take-profit orders, giving you control over your trading outcomes.",
   "marketAnalysisUpdates": "Market Analysis Updates",
   "marketAnalysisUpdatesDescription": "Receive expert insights and real-time updates to make informed decisions and capitalize on market opportunities.",
-  "Explore a Wide Range of Commodities":"Explore a Wide Range of Commodities",
-  "Explore a Wide Range of Commodities Description":"Discover Diverse Commodity Trading Opportunities Across Precious Metals, Energy Resources, and Agricultural Products",
-
-
-
+  "Explore a Wide Range of Commodities": "Explore a Wide Range of Commodities",
+  "Explore a Wide Range of Commodities Description": "Discover Diverse Commodity Trading Opportunities Across Precious Metals, Energy Resources, and Agricultural Products",
   "tradeCryptocurrenciesAnywhere": "Trade Cryptocurrencies Anytime, Anywhere with Accuindex",
   "seizeOpportunities": "Seize the opportunities of the digital economy with advanced tools and global access.",
   "tradeCryptocurrencies": "Trade Cryptocurrencies",
   "enterWorldCrypto": "Enter into the World of Cryptocurrency Trading",
-  "Trade the Most Popular Cryptocurrencies.":"Trade the Most Popular Cryptocurrencies",
-  "Trade the Most Popular Cryptocurrencies Description":"Trade popular digital currencies like Bitcoin, Ethereum, and Ripple with competitive spreads and advanced tools.",
-  "Major Cryptocurrencies":"Major Cryptocurrencies",
-  "Major Cryptocurrencies Description":"Ethereum (ETH): A leading blockchain for decentralized applications and smart contracts.",
-  "Major Cryptocurrencies Pairs":"Bitcoin (BTC): The original cryptocurrency and the largest by market capitalization.",
-  "More Cryptocurrencies":"More Cryptocurrencies",
-  "More Cryptocurrencies Description":"Litecoin (LTC): A faster, more scalable alternative to Bitcoin.",
-  "Exotic Cryptocurrencies":"Exotic Cryptocurrencies",
-  "Exotic Cryptocurrencies Description":"Ripple (XRP): Designed for seamless cross-border transactions.",
+  "Trade the Most Popular Cryptocurrencies.": "Trade the Most Popular Cryptocurrencies",
+  "Trade the Most Popular Cryptocurrencies Description": "Trade popular digital currencies like Bitcoin, Ethereum, and Ripple with competitive spreads and advanced tools.",
+  "Major Cryptocurrencies": "Major Cryptocurrencies",
+  "Major Cryptocurrencies Description": "Ethereum (ETH): A leading blockchain for decentralized applications and smart contracts.",
+  "Major Cryptocurrencies Pairs": "Bitcoin (BTC): The original cryptocurrency and the largest by market capitalization.",
+  "More Cryptocurrencies": "More Cryptocurrencies",
+  "More Cryptocurrencies Description": "Litecoin (LTC): A faster, more scalable alternative to Bitcoin.",
+  "Exotic Cryptocurrencies": "Exotic Cryptocurrencies",
+  "Exotic Cryptocurrencies Description": "Ripple (XRP): Designed for seamless cross-border transactions.",
   "whyTradeCryptoWith": "Why Trade Cryptocurrencies with",
   "unlockOpportunities": "Unlock Limitless Opportunities with Crypto Trading at Accuindex",
   "marketAccessDesc": "Trade cryptocurrencies round the clock, ensuring you never miss an opportunity in the dynamic digital market.",
@@ -927,9 +887,8 @@
   "technicalIndicatorsDesc": "Use advanced analytical tools to identify trends and make informed trading decisions with precision.",
   "tradingAlerts": "Trading Alerts",
   "tradingAlertsDesc": "Set personalized notifications to stay updated on price changes and market opportunities as they happen.",
-  "Stay Updated with Real-Time Crypto Prices":"Stay Updated with Real-Time Crypto Prices",
-  "Track Live Crypto Prices and Make Informed Trading Decisions Instantly":"Track Live Crypto Prices and Make Informed Trading Decisions Instantly",
-
+  "Stay Updated with Real-Time Crypto Prices": "Stay Updated with Real-Time Crypto Prices",
+  "Track Live Crypto Prices and Make Informed Trading Decisions Instantly": "Track Live Crypto Prices and Make Informed Trading Decisions Instantly",
   "contact": {
     "title": "Open Live Account",
     "description": "Committed to helping you meet all your banking needs.",
@@ -943,17 +902,22 @@
     "contactEmail": "supportyou@finbank.com",
     "firstName": "First Name",
     "lastName": "Last Name",
-    "country":"Country of Residence",
-    "selectCountry":"Select Country",
-
+    "country": "Country of Residence",
+    "selectCountry": "Select Country",
     "emailLabel": "Email Address",
     "phoneLabel": "Phone Number",
     "subjectLabel": "Subject",
     "messageLabel": "Message",
     "signup": "Sign Up",
-    "password":"Password",
-    "confirmPassword":"Confirm Password",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
     "customerCare": "Customer Care",
-    "agree":"By Registering You Agree To Our Privacy Policy"
+    "agree": "By Registering You Agree To Our Privacy Policy",
+    "thanks": {
+      "bigTitle": "Thank You",
+      "mainTitle": "You have signed up successfully",
+      "description": "our team will contact you shortly!",
+      "backToHome": "Login"
+    }
   }
 }

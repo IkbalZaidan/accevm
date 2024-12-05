@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from "swiper";
 import 'swiper/css';
 import "swiper/css/navigation";
-
+import axios from "axios";
 // import 'swiper/css';
 import '../styles/about-section.css';
 import '../styles/blog-section.css';
@@ -235,6 +235,49 @@ const Login = () => {
     setShowPassword((prevShowPassword) => !prevShowPassword);
   };
 
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    portalPassword: "",
+    confirmPassword: "",
+    countryResidency: "",
+    language: "en",
+  });
+
+  const [apiType, setApiType] = useState("demo"); // Either 'demo' or 'live'
+  const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    setMessage("");
+
+    const apiUrl =
+      apiType === "demo"
+        ? "http://192.168.0.126:9095/api/v1/cp/gate/register/demo"
+        : "http://192.168.0.126:9095/api/v1/cp/gate/register/live";
+
+    try {
+      const response = await axios.post(apiUrl, formData, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      setMessage(response.data.message || "Successfully submitted!");
+    } catch (error) {
+      const errorMsg =
+        error.response?.data?.message || "An error occurred. Please try again.";
+      setMessage(errorMsg);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <div>
@@ -390,7 +433,7 @@ const Login = () => {
                     </div>
                     <div className="button-box">
 
-                      <button className="btn-one" type="submit">
+                      <button className="btn-one" type="submit" onClick={handleSubmit}>
                         <span className="txt">{t('contact.signup')}</span>
                       </button>
                     </div>

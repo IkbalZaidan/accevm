@@ -18,6 +18,7 @@ import Indices from './pages/Indices'; // Import the About Us page
 import Crypto from './pages/Crypto'; // Import the About Us page
 import Commodities from './pages/Commodities'; // Import the About Us page
 import Login from './pages/Login'; // Import the About Us page
+import Thanks from './pages/Thanks'; // Import the About Us page
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         <Route path="/crypto" element={<Crypto />} />
         <Route path="/commodities" element={<Commodities />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/thanks" element={<Thanks />} />
 
       </Routes>
       <Footer />
