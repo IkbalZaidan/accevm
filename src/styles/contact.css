@@ -245,48 +245,56 @@
     font-family: var(--thm-font);
 }
 
-  
-  /* Custom style for checkbox when checked */
-  .contact-form form input[type="checkbox"]:checked {
-    background: #c02881; /* Green background when checked */
-    border-color: #c02881; /* Border color matches the background */
-    color: #fff; /* Text color inside the box when checked */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional: Shadow to give a raised effect */
-  }
-  
-  /* Optional: Create a check mark inside the box when checked */
-  .contact-form form input[type="checkbox"]:checked::before {
-    content: "✔"; /* Add checkmark symbol */
+
+/* Custom style for checkbox when checked */
+.contact-form form input[type="checkbox"]:checked {
+    background: #c02881;
+    /* Green background when checked */
+    border-color: #c02881;
+    /* Border color matches the background */
+    color: #fff;
+    /* Text color inside the box when checked */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* Optional: Shadow to give a raised effect */
+}
+
+/* Optional: Create a check mark inside the box when checked */
+.contact-form form input[type="checkbox"]:checked::before {
+    content: "✔";
+    /* Add checkmark symbol */
     position: absolute;
     top: 0;
     left: 5px;
     font-size: 18px;
-    color: white; /* Checkmark color */
-  }
-  
+    color: white;
+    /* Checkmark color */
+}
 
-.agreeText{
+
+.agreeText {
     vertical-align: top;
 }
 
 /* Hide the default checkbox */
 .agreesty {
-    display: none; /* Hide the default checkbox */
-  }
-  
-  /* Create custom checkbox */
-  .agreeText {
+    display: none;
+    /* Hide the default checkbox */
+}
+
+/* Create custom checkbox */
+.agreeText {
     position: relative;
-    padding-left: 35px; /* Space for custom checkbox */
+    padding-inline-start: 35px;
+    /* Space for custom checkbox */
     cursor: pointer;
     font-size: 16px;
     color: #333;
     display: inline-block;
     font-family: var(--thm-font);
-  }
-  
-  /* Custom checkbox */
-  .agreeText::before {
+}
+
+/* Custom checkbox */
+.agreeText::before {
     content: '';
     position: absolute;
     left: 0;
@@ -297,27 +305,48 @@
     border: 1px solid #e2deda;
     border-radius: 4px;
     transition: all 0.3s ease;
-  }
-  
-  /* Style when checkbox is checked */
-  .agreesty:checked + .agreeText::before {
-    background: #c02881; /* Green when checked */
-    border-color: #c02881; /* Border color matches background */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional shadow */
-  }
-  
-  /* Style the checkmark when the checkbox is checked */
-  .agreesty:checked + .agreeText::after {
-    content: "✔"; /* Checkmark symbol */
+}
+
+html[dir="rtl"] .agreeText::before {
+    left: unset;
+    right: 0;
+
+}
+
+/* Style when checkbox is checked */
+.agreesty:checked+.agreeText::before {
+    background: #c02881;
+    /* Green when checked */
+    border-color: #c02881;
+    /* Border color matches background */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* Optional shadow */
+}
+
+.error-text {
+    color: red;
+    font-weight: bold;
+}
+
+/* Style the checkmark when the checkbox is checked */
+.agreesty:checked+.agreeText::after {
+    content: "✔";
+    /* Checkmark symbol */
     position: absolute;
     left: 5px;
     top: 0;
     font-size: 18px;
-    color: white; /* Checkmark color */
-  }
-  
+    color: white;
+    /* Checkmark color */
+}
 
-.eye-sty{
+html[dir="rtl"] .agreesty:checked+.agreeText::after {
+    left: unset;
+    right: 5px;
+}
+
+
+.eye-sty {
     color: #c02881;
 }
 
@@ -328,7 +357,7 @@
     background: #ffffff;
     border-bottom: 1px solid #e2deda;
     border-top: 1px solid #e2deda;
-    border-left: 1px solid #e2deda;
+    border-inline-start: 1px solid #e2deda;
     width: auto;
     height: 52px;
     color: #7f7873;
@@ -342,14 +371,14 @@
     font-family: var(--thm-font);
 }
 
-.toggle-password-btn{
+.toggle-password-btn {
     align-content: center;
     position: relative;
     display: block;
     background: #ffffff;
     border-bottom: 1px solid #e2deda;
     border-top: 1px solid #e2deda;
-    border-right: 1px solid #e2deda;
+    border-inline-end: 1px solid #e2deda;
     height: 52px;
     color: #7f7873;
     font-size: 16px;
@@ -359,7 +388,7 @@
     padding-right: 20px;
     border-radius: 0px;
     transition: all 500ms ease;
-    font-family: var(--thm-font);  
+    font-family: var(--thm-font);
 }
 
 .contact-form form input[type="text"]:focus,

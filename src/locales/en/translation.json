@@ -913,12 +913,232 @@
     "confirmPassword": "Confirm Password",
     "customerCare": "Customer Care",
     "agree": "By Registering You Agree To Our Privacy Policy"
-    
   },
   "thanks": {
-      "bigTitle": "Thank You",
-      "mainTitle": "You have signed up successfully",
-      "description": "our team will contact you shortly!",
-      "backToHome": "Login"
+    "bigTitle": "Thank You",
+    "mainTitle": "You have signed up successfully",
+    "description": "our team will contact you shortly!",
+    "backToHome": "Login"
+  },
+  "Maximize Client Portfolios": "Maximize Client Portfolios with Accuindex’s Fund Manager Solutions",
+  "Manage assets efficiently": "Manage assets efficiently with our advanced tools and back-office support.",
+  "Become a Partner Today": "Become a Partner Today",
+  "streamlinedSolutions": "Streamlined Solutions for Professional Fund Managers",
+  "leverageTools": "Leverage advanced tools, flexible allocation methods, and real-time analytics to optimize portfolio management.",
+  "allocationMethodsTitle": "16 Allocation Methods",
+  "allocationMethodsDescription": "Distribute assets with precision using multiple allocation methods, including equity, lot, and percentage.",
+  "realTimeAnalyticsTitle": "Real-Time Analytics",
+  "realTimeAnalyticsDescription": "Access comprehensive reporting and analytics for both fund managers and clients to make informed decisions.",
+  "customizableConditionsTitle": "Customizable Conditions",
+  "customizableConditionsDescription": "Tailor performance fees, commissions, and trading conditions to meet the unique needs of your portfolio.",
+  "whyChooseUs": "Why Choose Us?",
+  "experienceTools": "Experience unparalleled tools, transparency, and guidance tailored to elevate your fund management success.",
+  "cuttingEdgeTechnology": "Cutting-edge technology: Leverage state-of-the-art platforms with tools designed for professional asset management.",
+  "transparencyAndTrust": "Transparency and Trust: Operate within a regulated environment that ensures accountability and client protection.",
+  "dedicatedSupport": "Dedicated Support: Benefit from a responsive support team ready to assist with every aspect of your fund management journey.",
+  "becomePartner": "Become a Partner Today",
+  "becomePartner2": "Become a Partner",
+
+  "Find answers to the most common": "Find answers to the most common questions about joining and utilizing Accuindex’s comprehensive Fund Manager solutions.",
+  "faqFunds": {
+    "ctaLinkText": "Fund Manager",
+    "ctaTextPOne": "Become a",
+    "ctaTextPTwo": "Today",
+    "registerButton": "Sign Up Now",
+    "q1": {
+      "question": "What is the Fund Manager Program?",
+      "answer": "It’s a comprehensive solution for managing client portfolios with advanced tools and flexible allocation methods."
+    },
+    "q2": {
+      "question": "How do I join the program?",
+      "answer": "Register on our website, complete the onboarding process, and gain access to our professional tools."
+    },
+    "q3": {
+      "question": "Can I customize trading conditions?",
+      "answer": "Yes, our program allows full customization of performance fees, commissions, and trading conditions."
+    },
+    "q4": {
+      "question": "Is there reporting available for clients?",
+      "answer": "Absolutely. Real-time analytics and detailed reporting are available for both fund managers and their clients."
+    },
+    "q5": {
+      "question": "What markets can I access?",
+      "answer": "Accuindex offers access to forex, indices, commodities, and more, all with competitive trading conditions."
     }
+  },
+  "Grow Your Business": "Grow Your Business with Accuindex",
+  "Partner with us to unlock growth": "Partner with us to unlock growth opportunities in global financial markets and achieve unparalleled success.",
+  "Explore Partnership Opportunities": "Explore Partnership Opportunities",
+  "whyPartnerWith": "Why Partner with",
+  "accuindex": "Accuindex",
+  "discoverBenefits": "Discover the benefits of collaborating with a global leader in trading solutions.",
+  "dedicatedSupportTwo": "Dedicated Support: Receive personalized assistance from a team of experts committed to helping you grow your business effectively.",
+  "diverseProducts": "Diverse Products: Access a vast range of over 500 trading instruments, including forex, commodities, indices, and more, to cater to your clients' needs.",
+  "earnCommissions": "Earn attractive commissions directly linked to your clients' trading activity and success, ensuring a mutually rewarding partnership.",
+  "metaTraderAlt": "MetaTrader 5",
+  "discoverPartnership": "Discover the Right Partnership for You",
+  "tailoredPrograms": "Choose from our tailored programs designed to meet diverse professional needs.",
+  "introducingBrokers": "Introducing Brokers",
+  "introducingBrokersDescription": "As an Introducing Broker with Accuindex, you’ll gain access to industry-leading tools, comprehensive support, and a lucrative commission structure that grows with your success.",
+  "corporateAccounts": "Corporate Accounts",
+  "corporateAccountsDescription": "Access specialized solutions for institutional trading, including flexible account types and advanced tools.",
+  "fundManagers": "Fund Managers",
+  "fundManagersDescription": "Manage client portfolios seamlessly with our sophisticated platforms and reporting tools.",
+  "Become an Introducing Broker": "Become an Introducing Broker",
+  "Expand your business": "Expand your business and income potential with Accuindex’s industry-leading IB program designed to empower financial professionals.",
+  "discoverAdvantages": "Discover the advantages of joining a global leader in trading solutions.",
+  "robustTradingInfrastructure": "Robust Trading Infrastructure: Experience cutting-edge platforms with low-latency execution, advanced risk management tools, and access to over 500 trading instruments, including forex, commodities, and indices.",
+  "competitiveCompensation": "Competitive Compensation: Unlock earning potential with flexible rebate plans offering attractive per-lot commissions that grow as your clients trade more.",
+  "advancedClientManagementTools": "Advanced Client Management Tools: Effortlessly monitor your clients’ trading activity with detailed analytics and insights to help you optimize your business strategies.",
+  "explorePartnership": "Explore Partnership Opportunities",
+  "howItWorks": "How It Works",
+  "howItWorksDescription": "Guide your clients to Accuindex and earn competitive rewards effortlessly.",
+  "referClients": "Refer clients",
+  "referClientsDescription": "Introduce traders to Accuindex through our seamless onboarding process.",
+  "clientsTrade": "Clients trade",
+  "clientsTradeDescription": "Your referred clients gain access to our world-class trading platform and start trading.",
+  "earnCommissionsTwo": "Earn commissions",
+  "earnCommissionsDescription": "Reap the rewards as you earn competitive rebates on every trade your clients make.",
+  "faqIbs": {
+    "title": "Questions & Answers",
+    "FaqSub": "Find clear and concise answers to the most common queries about the Accuindex IB Program.",
+    "ctaLinkText": "IB Program",
+    "ctaTextPOne": "Join Our",
+    "ctaTextPTwo": "Today",
+    "registerButton": "Register Now",
+    "q1": {
+      "question": "What is the Accuindex IB Program?",
+      "answer": "It’s a partnership opportunity where financial professionals can earn commissions by referring clients to trade on Accuindex’s platform."
+    },
+    "q2": {
+      "question": "How do I join the IB program?",
+      "answer": "Simply sign up through our website, complete the onboarding process, and start referring clients."
+    },
+    "q3": {
+      "question": "How are rebates calculated?",
+      "answer": "Rebates are calculated based on your clients' trading activity, with rates increasing as they trade more."
+    },
+    "q4": {
+      "question": "Can I monitor my clients’ activity?",
+      "answer": "Yes, our advanced client management tools provide real-time insights and analytics."
+    },
+    "q5": {
+      "question": "Are there marketing tools available for IBs?",
+      "answer": "Yes, Accuindex offers a wide range of customizable marketing resources to support your growth."
+    }
+  },
+  "Empower Your Business": "Empower Your Business with Accuindex Corporate Accounts",
+  "Tailored solutions": "Tailored solutions for investment managers and corporate traders.",
+  "keyFeatures": "Key Features",
+  "exploreAdvantages": "Explore the unparalleled advantages of Accuindex Corporate Accounts:",
+  "featuresTwo": {
+    "diverseFinancialInstruments": {
+      "title": "Diverse Financial Instruments",
+      "description": "Access over 500 trading instruments, including forex, indices, commodities, stocks, and ETFs, to build a robust and diversified portfolio."
+    },
+    "stateOfTheArtTechnology": {
+      "title": "State-of-the-Art Technology",
+      "description": "Utilize cutting-edge trading platforms compatible with MT4 and MT5, equipped with advanced analytics tools to streamline your trading activities."
+    },
+    "regulatoryComplianceSecurity": {
+      "title": "Regulatory Compliance & Security",
+      "description": "Trade with confidence, knowing your corporate account is backed by global regulatory standards and a secure trading environment."
+    }
+  },
+  "whoShouldOpenAccount": "Who Should Open a Corporate Account",
+  "idealFor": "Accuindex Corporate Accounts are ideal for:",
+  "fundManagersTwo": "Fund Managers: Efficiently manage investment vehicles such as mutual funds and hedge funds.",
+  "investmentFirms": "Investment Firms: Leverage advanced tools and a secure platform to execute large-scale trades.",
+  "corporateFinancialAdvisors": "Corporate Financial Advisors: Provide seamless trading solutions to meet the needs of your clients.",
+  "faqCA": {
+    "title": "Questions & Answers",
+    "FaqSub": "Answers to Your Corporate Trading Questions.",
+    "ctaLinkText": "corporate trading.",
+    "ctaTextPOne": "Unlock the potential of secure and sophisticated",
+    "ctaTextPTwo": "",
+    "registerButton": "Open Your Account",
+    "q1": {
+      "question": "What benefits do corporate accounts offer?",
+      "answer": "Corporate accounts provide access to a wide range of financial instruments, advanced trading tools, and personalized support tailored to corporate trading needs."
+    },
+    "q2": {
+      "question": "Who is eligible to open a corporate account?",
+      "answer": "Corporate accounts are designed for fund managers, investment firms, and corporate financial advisors looking for secure and flexible trading solutions."
+    },
+    "q3": {
+      "question": "What regulatory measures ensure account security?",
+      "answer": "Accuindex operates under the regulations of the FSC in Mauritius and CySEC in Cyprus, ensuring compliance and data security."
+    },
+    "q4": {
+      "question": "How can I open a corporate account?",
+      "answer": "Simply complete the registration process on our website, provide the necessary documentation, and start trading with Accuindex."
+    },
+    "q5": {
+      "question": "Are there any specific trading tools for corporate accounts?",
+      "answer": "Yes, corporate accounts come with access to advanced analytics tools, MT4/MT5 platforms, and comprehensive reporting capabilities."
+    }
+  },
+  "Partner with": "Partner with a Trusted Global Leader",
+  "Fully regulated": "Fully regulated, transparent, and committed to empowering your trading journey.",
+  "Transparency You Can Trust": "Transparency You Can Trust",
+  "At Accuindex": "At Accuindex, we operate under stringent regulatory frameworks to ensure security, compliance, and peace of mind for our partners and clients.",
+  "featuresThree": {
+    "diverseFinancialInstruments": {
+      "title": "FSC (Mauritius)",
+      "description": "Licensed and regulated by the Financial Services Commission, ensuring international compliance and operational integrity."
+    },
+    "stateOfTheArtTechnology": {
+      "title": "CySEC (Cyprus)",
+      "description": "Governed by the Cyprus Securities and Exchange Commission under European Union regulations."
+    },
+    "regulatoryComplianceSecurity": {
+      "title": "MiFID-II compliance",
+      "description": "Adhering to the Markets in Financial Instruments Directive for transparency and client protection."
+    }
+  },
+  "Empowering Institutions to Thrive": "Empowering Institutions to Thrive.",
+  "Accuindex offers": "Accuindex offers tailored solutions for institutional clients, designed to meet diverse business needs.",
+  "Fund Manager Program": "Fund Manager Program: Manage client portfolios with precision using our advanced tools, customizable conditions, and real-time analytics.",
+  "Corporate Accounts": "Corporate Accounts: Access over 500 financial instruments with state-of-the-art trading platforms, regulatory compliance, and dedicated support.",
+  "faqCO": {
+    "title": "Questions & Answers",
+    "FaqSub": "Find answers to common queries about our licensing, services, and onboarding process.",
+    "ctaLinkText": "Upgrade Your Account Today.",
+    "ctaTextPOne": "Ready to Trade Live?",
+    "ctaTextPTwo": "",
+    "registerButton": "Register Now",
+    "q1": {
+      "question": "Is Accuindex a regulated company?",
+      "answer": "Yes, we are regulated by the FSC in Mauritius and CySEC in Cyprus, adhering to MiFID-II standards."
+    },
+    "q2": {
+      "question": "What institutional services do you offer?",
+      "answer": "We provide tailored solutions for Fund Managers and Corporate Accounts, including cutting-edge platforms and secure trading environments."
+    },
+    "q3": {
+      "question": "How secure is trading with Accuindex?",
+      "answer": "Our compliance with global regulations ensures the security of funds and data protection for all our clients."
+    },
+    "q4": {
+      "question": "How can I onboard with Accuindex?",
+      "answer": "Simply register through our website, complete the verification process, and gain access to our professional tools and services."
+    },
+    "q5": {
+      "question": "What makes Accuindex a trusted partner?",
+      "answer": "Our regulatory compliance, institutional-grade services, and commitment to transparency make us a reliable choice for partners worldwide."
+    }
+  },
+      
+  "whatpartnersay":"What Our Partners Say",
+  "explorepartner":"Explore the inspiring stories of our partners who have leveraged Accuindex’s innovative solutions, dedicated support, and global reach to achieve remarkable growth and success in the financial markets.",
+  "partnerSP1":"Accuindex has completely transformed the way I manage my clients' trading portfolios. The seamless integration of advanced tools and their unmatched customer support have given me the confidence to deliver exceptional results for my clients. It's a partnership I truly value.",
+  "writerP1":"Ahmed S",
+  "positionP1":"Fund Manager",
+  "partnerSP2":"Becoming an Introducing Broker with Accuindex has been a pivotal step in growing my business. The competitive rebates, personalized assistance, and comprehensive resources have made it easier for me to onboard and retain clients while offering them world-class trading solutions.",
+  "writerP2":"Sara A",
+  "positionP2":"Financial Advisor",
+  "partnerSP3":"Partnering with Accuindex has taken my corporate trading strategies to new heights. Their diverse product offerings and transparent pricing have allowed my company to achieve greater efficiency and profitability in the global financial markets",
+  "writerP3":"Omar K",
+  "positionP3":"Corporate Account Manager",
+  "rebate":"Rebate Structure"
 }

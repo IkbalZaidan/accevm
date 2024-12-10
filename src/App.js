@@ -19,6 +19,12 @@ import Crypto from './pages/Crypto'; // Import the About Us page
 import Commodities from './pages/Commodities'; // Import the About Us page
 import Login from './pages/Login'; // Import the About Us page
 import Thanks from './pages/Thanks'; // Import the About Us page
+import FundMnagaers from './pages/FundMan'; // Import the About Us page
+import HomePartners from './pages/HomePartners'; // Import the About Us page
+import IB from './pages/IB'; // Import the About Us page
+import CorporateAccounts from './pages/CorporateAccounts'; // Import the About Us page
+import Company from './pages/Company'; // Import the About Us page
+
 
 function App() {
   return (
@@ -43,6 +49,11 @@ function App() {
         <Route path="/commodities" element={<Commodities />} />
         <Route path="/login" element={<Login />} />
         <Route path="/thanks" element={<Thanks />} />
+        <Route path="/FundMnagers" element={<FundMnagaers />} />
+        <Route path="/HomePartners" element={<HomePartners />} />
+        <Route path="/IB" element={<IB />} />
+        <Route path="/CorporateAccounts" element={<CorporateAccounts />} />
+        <Route path="/Company" element={<Company />} />
 
       </Routes>
       <Footer />

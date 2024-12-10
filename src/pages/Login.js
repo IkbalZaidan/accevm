@@ -2,23 +2,28 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Autoplay } from "swiper";
-import 'swiper/css';
-import "swiper/css/navigation";
 import axios from "axios";
-// import 'swiper/css';
 import '../styles/about-section.css';
 import '../styles/blog-section.css';
 import '../styles/Style.css';
 import '../styles/Responsive-sty.css';
 import '../styles/contact.css';
-import slideImg1 from '../assets/img/aboutus/ourstory/SLIDE-IMG-1.png';
-import slideImg3 from "../assets/img/aboutus/ourstory/SLIDE-IMG-3.png";
-import slideImg4 from '../assets/img/aboutus/ourstory/SLIDE-IMG-4.png';
-import slideImg5 from '../assets/img/aboutus/ourstory/SLIDE-IMG-5.png';
+
 const Login = () => {
   const { t } = useTranslation();
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    password: "",
+    confirmPassword: "",
+    country: "United Arab Emirates",
+    language: "en",
+  });
+  const [errors, setErrors] = useState({});
+
+
   const countriesWithCodes = [
     { name: "Afghanistan", code: "+93" },
     { name: "Albania", code: "+355" },
@@ -216,75 +221,117 @@ const Login = () => {
     { name: "Zimbabwe", code: "+263" }
   ];
 
-  const [selectedCountry, setSelectedCountry] = useState("United Arab Emirates");
+  // const [selectedCountry, setSelectedCountry] = useState("United Arab Emirates");
   const [selectedCode, setSelectedCode] = useState("+971");
+
   const handleCountryChange = (event) => {
-    const country = event.target.value;
+    const selectedCountry = event.target.value;
     const selectedCountryData = countriesWithCodes.find(
-      (item) => item.name === country
+      (item) => item.name === selectedCountry
     );
-    setSelectedCountry(country);
-    setSelectedCode(selectedCountryData ? selectedCountryData.code : "");
+
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      country: selectedCountry,
+      countryCode: selectedCountryData ? selectedCountryData.code : "",
+    }));
   };
 
-  const [password, setPassword] = useState("");
-  const [confirmPassword, setConfirmPassword] = useState("");
+  // const [password, setPassword] = useState("");
+  // const [confirmPassword, setConfirmPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
 
   const togglePasswordVisibility = () => {
     setShowPassword((prevShowPassword) => !prevShowPassword);
   };
 
-  const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    phone: "",
-    portalPassword: "",
-    confirmPassword: "",
-    countryResidency: "",
-    language: "en",
-  });
+
+
 
   const [apiType, setApiType] = useState("demo"); // Either 'demo' or 'live'
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+
+  const handleInputChange = (e) => {
+    const { name, value, type, checked } = e.target;
+    setFormData({
+      ...formData,
+      [name]: type === 'checkbox' ? checked : value,
+    });
   };
+
+  const validateForm = () => {
+    const newErrors = {};
+
+    if (!formData.firstName) newErrors.firstName = "First name is required.";
+    if (!formData.lastName) newErrors.lastName = "Last name is required.";
+    if (!formData.country) newErrors.country = "Country is required.";
+    if (!formData.phone) {
+      newErrors.phone = "Phone number is required.";
+    } else if (!/^\d{10}$/.test(formData.phone)) {
+      newErrors.phone = "Phone number must be 10 digits.";
+    }
+    if (!formData.email) {
+      newErrors.email = "Email is required.";
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      newErrors.email = "Email is invalid.";
+    }
+    if (!formData.password) {
+      newErrors.password = "Password is required.";
+    } else if (formData.password.length < 6) {
+      newErrors.password = "Password must be at least 6 characters.";
+    }
+    if (formData.password !== formData.confirmPassword) {
+      newErrors.confirmPassword = "Passwords do not match.";
+    }
+    if (!formData.agree) {
+      newErrors.agree = "You must agree to the terms.";
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setLoading(true);
-    setMessage("");
+    console.log('Form Data:', formData);
+    if (validateForm()) {
+      console.log("Form submitted successfully:", formData);
 
-    const apiUrl =
-      apiType === "demo"
-        ? "http://192.168.0.126:9095/api/v1/cp/gate/register/demo"
-        : "http://192.168.0.126:9095/api/v1/cp/gate/register/live";
+      setLoading(true);
+      setMessage("");
 
-    try {
-      const response = await axios.post(apiUrl, formData, {
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
-      setMessage(response.data.message || "Successfully submitted!");
-    } catch (error) {
-      const errorMsg =
-        error.response?.data?.message || "An error occurred. Please try again.";
-      setMessage(errorMsg);
-    } finally {
-      setLoading(false);
+      const apiUrl =
+        apiType === "demo"
+          ? "http://192.168.0.126:9095/call-api?isLive=false"
+          : "http://192.168.0.126:9095/api/v1/cp/gate/register/live";
+
+      try {
+        const response = await axios.post(apiUrl, formData, {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+        setMessage(response.data.message || "Successfully submitted!");
+      } catch (error) {
+        const errorMsg =
+          error.response?.data?.message || "An error occurred. Please try again.";
+        setMessage(errorMsg);
+      } finally {
+        setLoading(false);
+      }
+    } else {
+      console.log("Validation errors:", errors);
     }
   };
+
 
   return (
     <div>
       <section className="main-contact-form-area">
         <div className="container">
           <div className="row">
-            {/* Contact Info */}
             <div className="col-xl-12">
               <div className="contact-info-box-style1">
                 <div className="box1"></div>
@@ -299,7 +346,16 @@ const Login = () => {
                         <div className="form-group">
                           <label>{t('contact.firstName')}</label>
                           <div className="input-box">
-                            <input type="text" name="form_name" placeholder="" required />
+                            {/* <input type="text" name="form_name" placeholder="" required /> */}
+                            <input
+                              type="text"
+                              name="firstName"
+                              value={formData.firstName}
+                              onChange={handleInputChange}
+                              required
+                            />
+                            {errors.firstName && <span className="error-text">{errors.firstName}</span>}
+
                           </div>
                         </div>
                       </div>
@@ -307,32 +363,30 @@ const Login = () => {
                         <div className="form-group">
                           <label>{t('contact.lastName')}</label>
                           <div className="input-box">
-                            <input type="text" name="form_name" placeholder="" required />
+                            {/* <input type="text" name="form_name" placeholder="" required /> */}
+                            <input
+                              type="text"
+                              name="lastName"
+                              value={formData.lastName}
+                              onChange={handleInputChange}
+                              required
+                            />
+                            {errors.lastName && <span className="error-text">{errors.lastName}</span>}
+
                           </div>
                         </div>
                       </div>
                     </div>
-                    {/* <div className="form-group">
-                      <label>{t('contact.country')}</label>
-                      <div className="input-box">
-                        <select name="country" required>
-                          <option value="" disabled selected>
-                            {t('contact.selectCountry')}
-                          </option>
-                          {countries.map((country) => (
-                            <option key={country} value={country}>
-                              {country}
-                            </option>
-                          ))}
-                        </select>
-                      </div>
-                    </div> */}
 
                     <div className="form-group">
                       <label>Country</label>
                       <div className="input-box">
-                        <select value={selectedCountry} onChange={handleCountryChange} required>
-                          <option value="" disabled selected>
+                        <select
+                          value={formData.country}
+                          onChange={(e) => handleCountryChange(e)}
+                          required
+                        >
+                          <option value="" disabled>
                             Select your country
                           </option>
                           {countriesWithCodes.map((country) => (
@@ -342,16 +396,7 @@ const Login = () => {
                           ))}
                         </select>
                       </div>
-                      {/* <label>Phone Number</label>
-                      <div className="input-box d-flex">
-                        <span className="country-code">{selectedCode}</span>
-                        <input
-                          type="text"
-                          name="form_phone"
-                          placeholder="Enter your phone number"
-                          required
-                        />
-                      </div> */}
+
                     </div>
                     <div className="row">
                       <div className="col-md-6">
@@ -360,8 +405,18 @@ const Login = () => {
                           <div className="input-box">
                             <div className="d-flex">
                               <span className="country-code">{selectedCode}</span>
-                              <input type="text" name="form_phone" placeholder="" required />
+                              <input
+                                type="text"
+                                name="phone"
+                                value={formData.phone}
+                                onChange={handleInputChange}
+                                required
+                              />
+
+
                             </div>
+                            {errors.phone && <span className="error-text">{errors.phone}</span>}
+
                           </div>
                         </div>
                       </div>
@@ -369,23 +424,30 @@ const Login = () => {
                         <div className="form-group">
                           <label>{t('contact.emailLabel')}</label>
                           <div className="input-box">
-                            <input type="email" name="form_email" placeholder="" required />
+                            <input
+                              type="email"
+                              name="email"
+                              value={formData.email}
+                              onChange={handleInputChange}
+                              required
+                            />
+                            {errors.email && <span className="error-text">{errors.email}</span>}
+
                           </div>
                         </div>
                       </div>
                     </div>
-
                     <div className="row">
                       <div className="col-md-6">
                         <div className="form-group">
-                          <label>Password</label>
+                          <label>{t('contact.password')}</label>
                           <div className="input-box d-flex">
                             <input
                               type={showPassword ? "text" : "password"}
-                              name="form_password"
+                              name="password" // Match the key in formData
                               placeholder="Enter your password"
-                              value={password}
-                              onChange={(e) => setPassword(e.target.value)}
+                              value={formData.password}
+                              onChange={handleInputChange}
                               required
                             />
                             <button
@@ -397,19 +459,20 @@ const Login = () => {
                               <i className={`fas ${showPassword ? "fa-eye-slash" : "fa-eye"} eye-sty`}></i>
                             </button>
                           </div>
+                          {errors.password && <span className="error-text">{errors.password}</span>}
 
                         </div>
                       </div>
                       <div className="col-md-6">
-                        <div className="form-group ">
-                          <label>Confirm Password</label>
-                          <div className="input-box d-flex ">
+                        <div className="form-group">
+                          <label>{t('contact.confirmPassword')}</label>
+                          <div className="input-box d-flex">
                             <input
                               type={showPassword ? "text" : "password"}
-                              name="form_confirm_password"
+                              name="confirmPassword" // Match the key in formData
                               placeholder="Confirm your password"
-                              value={confirmPassword}
-                              onChange={(e) => setConfirmPassword(e.target.value)}
+                              value={formData.confirmPassword}
+                              onChange={handleInputChange}
                               required
                             />
                             <button
@@ -421,16 +484,28 @@ const Login = () => {
                               <i className={`fas ${showPassword ? "fa-eye-slash" : "fa-eye"} eye-sty`}></i>
                             </button>
                           </div>
+                          {errors.confirmPassword && <span className="error-text">{errors.confirmPassword}</span>}
+
                         </div>
                       </div>
                     </div>
 
                     <div className='d-flex'>
-                      <input type="checkbox" id="agree" name="agree" className='agreesty' required />
+                      <input
+                        className='agreesty'
+                        type="checkbox"
+                        id="agree"
+                        name="agree"
+                        checked={formData.agree}
+                        onChange={handleInputChange}
+                        required
+                      />
                       <label htmlFor="agree" className='agreeText'>
                         {t("contact.agree")}
                       </label>
                     </div>
+                    {errors.agree && <span className="error-text">{errors.agree}</span>}
+
                     <div className="button-box">
 
                       <button className="btn-one" type="submit" onClick={handleSubmit}>

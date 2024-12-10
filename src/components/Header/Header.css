@@ -412,7 +412,7 @@
 
 .main-menu .main-menu__list>li.dropdown>a,
 .stricky-header .main-menu__list>li.dropdown>a {
-    padding-right: 35px;
+    padding-inline-end: 35px;
 }
 
 /* Default (LTR) */

@@ -20,6 +20,10 @@ Blog Style1 Area Css
     z-index: 1;
 }
 
+html[dir="rtl"] .single-blog-style1 {
+    direction: rtl !important;
+}
+
 .single-blog-style1 .img-holder {
     position: relative;
     display: block;
@@ -132,7 +136,11 @@ Blog Style1 Area Css
     color: var(--thm-base);
     font-size: 14px;
     line-height: 14px;
-    padding-right: 8px;
+    padding-inline-start: 8px;
+}
+
+html[dir="rtl"] .single-blog-style1 .img-holder .category-date-box .category span{
+    transform: rotate(180deg);
 }
 
 .single-blog-style1 .img-holder .category-date-box .category h5 {
@@ -144,7 +152,7 @@ Blog Style1 Area Css
 .single-blog-style1 .img-holder .category-date-box .date {
     position: relative;
     display: block;
-    padding-left: 35px;
+    padding-inline-start: 35px;
 }
 
 .single-blog-style1 .img-holder .category-date-box .date:before {
@@ -156,6 +164,12 @@ Blog Style1 Area Css
     height: 6px;
     background-color: #a5a6aa;
     border-radius: 50%;
+}
+
+html[dir="rtl"] .single-blog-style1 .img-holder .category-date-box .date:before {
+    left: unset;
+    right: 15px
+
 }
 
 .single-blog-style1 .img-holder .category-date-box .date h5 {
