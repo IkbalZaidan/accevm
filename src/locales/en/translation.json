@@ -938,7 +938,6 @@
   "dedicatedSupport": "Dedicated Support: Benefit from a responsive support team ready to assist with every aspect of your fund management journey.",
   "becomePartner": "Become a Partner Today",
   "becomePartner2": "Become a Partner",
-
   "Find answers to the most common": "Find answers to the most common questions about joining and utilizing Accuindex’s comprehensive Fund Manager solutions.",
   "faqFunds": {
     "ctaLinkText": "Fund Manager",
@@ -1128,17 +1127,201 @@
       "answer": "Our regulatory compliance, institutional-grade services, and commitment to transparency make us a reliable choice for partners worldwide."
     }
   },
-      
-  "whatpartnersay":"What Our Partners Say",
-  "explorepartner":"Explore the inspiring stories of our partners who have leveraged Accuindex’s innovative solutions, dedicated support, and global reach to achieve remarkable growth and success in the financial markets.",
-  "partnerSP1":"Accuindex has completely transformed the way I manage my clients' trading portfolios. The seamless integration of advanced tools and their unmatched customer support have given me the confidence to deliver exceptional results for my clients. It's a partnership I truly value.",
-  "writerP1":"Ahmed S",
-  "positionP1":"Fund Manager",
-  "partnerSP2":"Becoming an Introducing Broker with Accuindex has been a pivotal step in growing my business. The competitive rebates, personalized assistance, and comprehensive resources have made it easier for me to onboard and retain clients while offering them world-class trading solutions.",
-  "writerP2":"Sara A",
-  "positionP2":"Financial Advisor",
-  "partnerSP3":"Partnering with Accuindex has taken my corporate trading strategies to new heights. Their diverse product offerings and transparent pricing have allowed my company to achieve greater efficiency and profitability in the global financial markets",
-  "writerP3":"Omar K",
-  "positionP3":"Corporate Account Manager",
-  "rebate":"Rebate Structure"
+  "whatpartnersay": "What Our Partners Say",
+  "explorepartner": "Explore the inspiring stories of our partners who have leveraged Accuindex’s innovative solutions, dedicated support, and global reach to achieve remarkable growth and success in the financial markets.",
+  "partnerSP1": "Accuindex has completely transformed the way I manage my clients' trading portfolios. The seamless integration of advanced tools and their unmatched customer support have given me the confidence to deliver exceptional results for my clients. It's a partnership I truly value.",
+  "writerP1": "Ahmed S",
+  "positionP1": "Fund Manager",
+  "partnerSP2": "Becoming an Introducing Broker with Accuindex has been a pivotal step in growing my business. The competitive rebates, personalized assistance, and comprehensive resources have made it easier for me to onboard and retain clients while offering them world-class trading solutions.",
+  "writerP2": "Sara A",
+  "positionP2": "Financial Advisor",
+  "partnerSP3": "Partnering with Accuindex has taken my corporate trading strategies to new heights. Their diverse product offerings and transparent pricing have allowed my company to achieve greater efficiency and profitability in the global financial markets",
+  "writerP3": "Omar K",
+  "positionP3": "Corporate Account Manager",
+  "rebate": "Rebate Structure",
+  "promotionintro": {
+    "promotionsTitle": "AccuIndex Promotions",
+    "promotionsDescription": "At Accuindex, we reward our clients. That's why we're thrilled to introduce our latest brokerage Promotion: the 30% Deposit Bonus. This offer allows you to supercharge your trading account and maximize your gains like never before. Find out more and see if your account could qualify for this market-leading sign-on bonus today!",
+    "ctaButton": "Start Trading Now"
+  },
+  "promotionfeatures": {
+    "title": "Key Features Of The",
+    "bonusAmount": "30%",
+    "depositBonus": "Deposit Bonus",
+    "introduction": "To get started, you need to fund your Accuindex trading account. Whether you're an aspiring trader or a seasoned professional, the process is straightforward, and Accuindex is flexible in choosing your preferred payment method.",
+    "benefit1": "Account Deposit Bonus: You can receive a 30% bonus on your deposit, with the potential to earn up to $5,000 in bonus funds.",
+    "benefit2": "Available For Forex & Metals: Whether you're trading Forex or Metals, this bonus has you covered. It applies to both asset classes, allowing you to diversify your trading portfolio.",
+    "benefit3": "Covers Both New & Existing Accounts: This promotion is open to both new and existing Accuindex trading accounts, ensuring that all our clients can benefit from this incredible offer.",
+    "ctaButton": "Claim Your Bonus"
+  },
+  "promotionfacts": {
+    "title": "How To Claim Your",
+    "bonusPercentage": "30%",
+    "bonus": "Bonus",
+    "introduction": "Claiming your 30% Deposit Bonus is easy. Just follow these simple steps:",
+    "fact1": {
+      "title": "Fill Out the Contact Form",
+      "description": "Provide your first name, last name, phone number, and email address in the form provided below."
+    },
+    "fact2": {
+      "title": "Consent for Contact",
+      "description": "By clicking on the consent box, you allow Accuindex to contact you for marketing purposes. Don't worry; you can opt out at any time. For more details, please review our Marketing and Communication Policy Statement."
+    },
+    "fact3": {
+      "title": "Already an Accuindex client?",
+      "description": "If you're an existing Accuindex client, simply log in to My Accuindex to access this promotion, see if you are eligible, and unlock your bonus."
+    },
+    "additionalInfo": "This limited-time new business promotion is designed to kick-start your Accuindex trading experience. Whether you're a seasoned trader moving accounts or a total novice, the 30% Deposit Bonus can help you reach your financial goals faster.",
+    "ctaButton": "Start Trading"
+  },
+  "warning": {
+    "warningTitle": "Risk Warning: CFDs And FX Are High-Risk Leveraged Products",
+    "warningText": "Please note that trading CFDs and FX involves a high level of risk and may not be suitable for all investors. It's important to fully understand the risks involved before participating in trading activities. Always trade responsibly and consider your risk tolerance.",
+    "bonusOpportunity": "Don't miss out on this exciting opportunity to supercharge your trading account. Claim your 30% Deposit Bonus today and seize the potential to earn up to $5,000 in bonus funds. At Accuindex, we're committed to supporting your trading success, so keep an eye on our Promotions section for new updates.",
+    "ctaButton": "Start Your Trading Journey Today"
+  },
+  "ignite": {
+    "readyToTrade": "Ready To Ignite Your Trading Journey",
+    "description": "A top MENA broker, Accuindex traders can choose from a diverse range of account types, catering to traders of all levels and preferences. When you are ready to start trading, simply sign up for a live trading account. If you would like to trade risk-free in a simulated environment, you can opt for a demo trading account.",
+    "imageAlt": "MetaTrader 5",
+    "openLiveAccount": "Open Live Account",
+    "tryDemoAccount": "Try Demo Account"
+  },
+  "ecointro": {
+    "title": "Stay Ahead with Real-Time Market Insights",
+    "description": "Access the Economic Calendar for key global events, announcements, and market-moving data to make informed trading decisions.",
+    "buttonText": "Start Trading Today",
+    "imageAlt": "Economic Calendar Insights"
+  },
+  "ecofacts": {
+    "title": "Comprehensive Economic Calendar",
+    "subtitle": "Track key global events and economic data in real-time to stay informed and prepared for every trading opportunity.",
+    "buttonText": "Open Account",
+    "widgetLocale": "en"
+  },
+  "ecofaq": {
+    "title": "Your Questions, Answered",
+    "subtitle": "Explore commonly asked questions to enhance your trading journey with Accuindex.",
+    "question1": "What trading instruments does Accuindex offer?",
+    "answer1": "Accuindex provides access to over 500 instruments, including forex, commodities, indices, stocks, and cryptocurrencies, catering to both beginner and professional traders.",
+    "question2": "How can I open a live trading account with Accuindex?",
+    "answer2": "Opening an account is simple. Visit our website, click on 'Open Account,' fill out the registration form, complete verification, and fund your account to start trading.",
+    "question3": "Is Accuindex regulated?",
+    "answer3": "Yes, Accuindex is fully regulated by the Financial Services Commission (FSC) in Mauritius and the Cyprus Securities and Exchange Commission (CySEC), ensuring a secure and transparent trading environment.",
+    "question4": "Does Accuindex provide educational resources for traders?",
+    "answer4": "Absolutely! We offer webinars, tutorials, and in-depth market analysis to help traders of all levels enhance their skills and knowledge.",
+    "question5": "What platforms can I use to trade with Accuindex?",
+    "answer5": "Accuindex supports trading on the advanced MetaTrader 5 (MT5) platform, available on desktop, web, and mobile for seamless trading anytime, anywhere.",
+    "bottomText": "Unlock the potential of secure and sophisticated",
+    "bottomLinkText": "corporate trading.",
+    "buttonText": "Open Your Account"
+  },
+  "contactus": {
+    "titleLine1": "Get Support for",
+    "titleLine2": "any Queries or Complaints",
+    "subtitle": "Committed to helping you meet all your banking needs.",
+    "officeTitle": "Corporate Office",
+    "officeAddress": "141, First Floor, 12 St RootsTerrace, Los Angeles USA 90010.",
+    "hoursTitle": "Office Hours",
+    "hours": "Mon - Fri: 9.00am to 5.00pm",
+    "note": "[2nd Sat Holiday]",
+    "phoneTitle": "Front Desk",
+    "phoneNumber": "+61 3 55555 6284",
+    "email": "support@accuindex.com",
+    "customerCare": "Customer Care",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "subject": "Subject",
+      "subjectPlaceholder": "Enter the subject",
+      "message": "Message",
+      "messagePlaceholder": "Enter your message",
+      "loadingText": "Please wait...",
+      "submitButton": "Send a Message"
+    }
+  },
+  "seamlessPaymentsWithAccuPay": "Seamless Payments with AccuPay",
+  "experienceFastSecure": "Experience fast, secure, and hassle-free deposits and withdrawals with AccuPay. Simplify your trading journey today.",
+  "accuPayAlt": "AccuPay Slide",
+  "whatIsAccuPay": "What is AccuPay",
+  "accuPayDescription": "AccuPay is your gateway to effortless financial transactions, enabling secure and instant deposits and withdrawals for a seamless trading experience.",
+  "fastTransactionsTitle": "Fast Transactions",
+  "fastTransactionsDescription": "Enjoy instant deposits and quick withdrawals, ensuring you never miss a trading opportunity.",
+  "securePaymentsTitle": "Secure Payments",
+  "securePaymentsDescription": "Your funds and personal information are protected with advanced security measures and encryption.",
+  "flexibleOptionsTitle": "Flexible Options",
+  "flexibleOptionsDescription": "Choose from multiple payment methods tailored to suit your financial needs and preferences.",
+  "fastTransactionsAlt": "Fast Transactions Icon",
+  "securePaymentsAlt": "Secure Payments Icon",
+  "flexibleOptionsAlt": "Flexible Options Icon",
+  "whyChooseAccuPay": "Why Choose AccuPay",
+  "accuPaySimplifiesDescription": "AccuPay simplifies your financial transactions, offering speed, security, and flexibility for all traders.",
+  "instantTransactions": "Instant Deposits and Withdrawals: Never let financial delays disrupt your trading. AccuPay ensures quick transactions.",
+  "globalAccessibility": "Global Accessibility: No matter where you are, AccuPay supports payments across multiple regions and currencies.",
+  "secureReliable": "Secure and Reliable: Advanced encryption keeps your funds and personal information protected at all times.",
+  "userFriendly": "User-Friendly Experience: A simple and intuitive process makes managing your funds hassle-free.",
+  "integratedTradingAccounts": "Integrated with Trading Accounts: Seamlessly fund your Accuindex account and start trading without interruptions.",
+  "startTradingToday": "Start Your Trading Today",
+  "metaTrader5Alt": "MetaTrader 5",
+  "howToGetYour": "How to Get Your",
+  "accuPay": "AccuPay",
+  "card": "Card",
+  "followStepsDescription": "Follow these simple steps to unlock seamless financial transactions with AccuPay.",
+  "startSimplifying": "Start Simplifying Your Trading",
+  "slide8Alt": "AccuPay Card Slide Image",
+  "step1Title": "Open an Account",
+  "step1Description": "Create a trading account with Accuindex in just a few clicks to begin your journey.",
+  "step2Title": "Fund Your Account",
+  "step2Description": "Make your first deposit and activate your eligibility for the AccuPay card.",
+  "step3Title": "Request Your AccuPay Card",
+  "step3Description": "Order your AccuPay card easily from your account dashboard with no hassle.",
+  "step4Title": "Activate and Use",
+  "step4Description": "Start using your card for quick deposits, secure withdrawals, and everyday purchases.",
+  "securityAndReliability": "Security and Reliability",
+  "seamlessTransactionsDescription": "Experience seamless transactions with advanced security features and complete peace of mind. AccuPay is designed with cutting-edge encryption technology, robust fraud prevention mechanisms, and compliance with global financial regulations to ensure your transactions are secure and reliable.",
+  "experiencePeaceOfMind": "Experience Peace of Mind Today",
+  "securityImageAlt": "AccuPay Security Image",
+  "accuPayVsTraditional": "AccuPay vs. Traditional Payment Methods",
+  "accuPayVsTraditionalDescription": "Discover the unparalleled advantages of AccuPay compared to conventional payment options.",
+  "accuPayBenefits": "AccuPay Benefits",
+  "instantAccess": "Enjoy seamless deposits and withdrawals around the clock, with no delays.",
+  "globalAcceptance": "Use your AccuPay card at ATMs and for online purchases anywhere in the world.",
+  "costEffective": "Benefit from low transaction fees, making your financial activities more efficient.",
+  "traditionalPaymentMethods": "Traditional Payment Methods:",
+  "slowProcessing": "Deposits and withdrawals often take longer, causing unnecessary delays in your transactions.",
+  "higherFees": "Additional charges and hidden costs can make traditional methods less cost-effective.",
+  "limitedAccess": "May not offer the same global usability or convenience as AccuPay.",
+  "startUsingOurCard": "Start using our card",
+  "faqAccPay": {
+    "title": "AccuPay FAQs: All You Need to Know",
+    "FaqSub": "Get answers to your most common questions about AccuPay – your ultimate payment solution for secure and instant transactions.",
+    "ctaLinkText": "support team today!",
+    "ctaTextPOne": "Have more questions? Contact our ",
+    "ctaTextPTwo": "",
+    "registerButton": "",
+    "q1": {
+      "question": "What is AccuPay, and how does it work?",
+      "answer": "AccuPay is a secure payment solution by Accuindex that allows traders to deposit, withdraw, and manage funds with ease. It offers instant processing and global accessibility, ensuring seamless transactions."
+    },
+    "q2": {
+      "question": "How do I qualify for an AccuPay card?",
+      "answer": "To qualify, simply open a trading account with Accuindex, make your first deposit, and request your AccuPay card through your account dashboard."
+    },
+    "q3": {
+      "question": "Can I use AccuPay for non-trading transactions?",
+      "answer": "Yes, the AccuPay card can be used for online purchases, ATM withdrawals, and other everyday transactions worldwide."
+    },
+    "q4": {
+      "question": "Are there any fees associated with using AccuPay?",
+      "answer": "AccuPay offers competitive transaction fees, ensuring cost-effective payments compared to traditional methods. Detailed fee structures are available on your account dashboard."
+    },
+    "q5": {
+      "question": "Is AccuPay secure?",
+      "answer": "Absolutely. AccuPay uses advanced encryption, two-factor authentication, and real-time alerts to ensure your financial information is always protected."
+    }
+  }
 }

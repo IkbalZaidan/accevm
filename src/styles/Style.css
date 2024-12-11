@@ -12058,3 +12058,26 @@ html[dir="rtl"] .features-style-content .text-box ul li .icon {
   font-weight: bold;
   font-size: 24px;
 }
+
+.btn-main6 {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #C02881;
+  color: white !important;
+  font-size: 18px;
+  line-height: 60px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border-radius: 0px;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-family: var(--thm-font-2);
+  z-index: 2;
+  width: 200px !important;
+  text-align: center;
+  width: 330px !important;
+}

@@ -3,28 +3,31 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './pages/Home';
-import AboutUs from './pages/AboutUs'; // Import the About Us page
-import AccountTypes from './pages/AccountTypes'; // Import the About Us page
-import Awards from './pages/Awards'; // Import the About Us page
-import DemoAccount from './pages/DemoAccount'; // Import the About Us page
-import LAndR from './pages/LAndR'; // Import the About Us page
-import IslamicAccount from './pages/IslamicAccount'; // Import the About Us page
-import AccuGo from './pages/AccuGo'; // Import the About Us page
-import AccuConnect from './pages/AccuConnect'; // Import the About Us page
-import MetaTrader5 from './pages/MetaTrader5'; // Import the About Us page
-import Forex from './pages/Forex'; // Import the About Us page
-import Stocks from './pages/Stocks'; // Import the About Us page
-import Indices from './pages/Indices'; // Import the About Us page
-import Crypto from './pages/Crypto'; // Import the About Us page
-import Commodities from './pages/Commodities'; // Import the About Us page
-import Login from './pages/Login'; // Import the About Us page
-import Thanks from './pages/Thanks'; // Import the About Us page
-import FundMnagaers from './pages/FundMan'; // Import the About Us page
-import HomePartners from './pages/HomePartners'; // Import the About Us page
-import IB from './pages/IB'; // Import the About Us page
-import CorporateAccounts from './pages/CorporateAccounts'; // Import the About Us page
-import Company from './pages/Company'; // Import the About Us page
-
+import AboutUs from './pages/AboutUs';  
+import AccountTypes from './pages/AccountTypes';  
+import Awards from './pages/Awards';  
+import DemoAccount from './pages/DemoAccount';  
+import LAndR from './pages/LAndR';  
+import IslamicAccount from './pages/IslamicAccount';  
+import AccuGo from './pages/AccuGo';  
+import AccuConnect from './pages/AccuConnect';  
+import MetaTrader5 from './pages/MetaTrader5';  
+import Forex from './pages/Forex';  
+import Stocks from './pages/Stocks';  
+import Indices from './pages/Indices';  
+import Crypto from './pages/Crypto';  
+import Commodities from './pages/Commodities';  
+import Login from './pages/Login';  
+import Thanks from './pages/Thanks';  
+import FundMnagaers from './pages/FundMan';  
+import HomePartners from './pages/HomePartners';  
+import IB from './pages/IB';  
+import CorporateAccounts from './pages/CorporateAccounts';  
+import Company from './pages/Company';  
+import Promotion from './pages/Promotion';
+import EconomicCalendar from './pages/EconomicCalendar';
+import ContactUs from './pages/ContactUs';
+import AccPay from './pages/AccPay';
 
 function App() {
   return (
@@ -54,6 +57,10 @@ function App() {
         <Route path="/IB" element={<IB />} />
         <Route path="/CorporateAccounts" element={<CorporateAccounts />} />
         <Route path="/Company" element={<Company />} />
+        <Route path="/promotion" element={<Promotion />} />
+        <Route path="/EconomicCalendar" element={<EconomicCalendar />} />
+        <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/AccPay" element={<AccPay />} />
 
       </Routes>
       <Footer />
