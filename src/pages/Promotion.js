@@ -64,21 +64,21 @@ const Promotions = () => {
                                 {/* Title */}
                                 <div className="sec-title">
                                     <h2 className="bold-title">
-                                        {t("promotionignite.promotionsTitle")}
+                                        {t("promotionintro.promotionsTitle")}
                                         <span className="span-main" style={{ fontSize: "55px" }}>.</span>
                                     </h2>
                                 </div>
 
                                 {/* Description */}
                                 <div className="text">
-                                    <p>{t("promotionignite.promotionsDescription")}</p>
+                                    <p>{t("promotionintro.promotionsDescription")}</p>
                                 </div>
 
                                 <br className="mobile-seen" />
 
                                 {/* Call to Action */}
                                 <a className="btn-main6" href="#">
-                                    <span className="txt">{t("promotionignite.ctaButton")}</span>
+                                    <span className="txt">{t("promotionintro.ctaButton")}</span>
                                 </a>
                             </div>
                         </div>
@@ -96,7 +96,6 @@ const Promotions = () => {
                                     <br />
                                     <h1 className="white bold-title" style={{ fontSize: "45px" }}>
                                         {t("promotionfeatures.title")}
-                                        <br />
                                         <span className="span-main">{t("promotionfeatures.bonusAmount")}</span> {t("promotionfeatures.depositBonus")}
                                         <span className="span-main" style={{ fontSize: "55px" }}>.</span>
                                     </h1>

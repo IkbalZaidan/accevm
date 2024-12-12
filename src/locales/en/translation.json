@@ -1187,6 +1187,8 @@
     "openLiveAccount": "Open Live Account",
     "tryDemoAccount": "Try Demo Account"
   },
+
+
   "ecointro": {
     "title": "Stay Ahead with Real-Time Market Insights",
     "description": "Access the Economic Calendar for key global events, announcements, and market-moving data to make informed trading decisions.",
@@ -1214,8 +1216,11 @@
     "answer5": "Accuindex supports trading on the advanced MetaTrader 5 (MT5) platform, available on desktop, web, and mobile for seamless trading anytime, anywhere.",
     "bottomText": "Unlock the potential of secure and sophisticated",
     "bottomLinkText": "corporate trading.",
+    "bottomLinkTextTwo": "",
     "buttonText": "Open Your Account"
   },
+
+
   "contactus": {
     "titleLine1": "Get Support for",
     "titleLine2": "any Queries or Complaints",
@@ -1244,6 +1249,8 @@
       "submitButton": "Send a Message"
     }
   },
+
+
   "seamlessPaymentsWithAccuPay": "Seamless Payments with AccuPay",
   "experienceFastSecure": "Experience fast, secure, and hassle-free deposits and withdrawals with AccuPay. Simplify your trading journey today.",
   "accuPayAlt": "AccuPay Slide",
