@@ -13,10 +13,6 @@ import '../styles/Responsive-sty.css';
 import img1 from '../assets/img/economicCalendar/SLIDE-1.png';
 import img2 from '../assets/img/fundManagers/IMG-2.png';
 
-import icon1 from "../assets/img/promotions/ICON-1.png";
-import icon2 from "../assets/img/promotions/ICON-2.png";
-import icon3 from "../assets/img/promotions/ICON-3.png";
-
 const EconomicCalendar = () => {
     const { t } = useTranslation();
     const [activeIndex, setActiveIndex] = useState(0);
@@ -219,7 +215,7 @@ const EconomicCalendar = () => {
                             <div className="faq-style1-bottom-box text-center">
                                 <p>
                                     {t("ecofaq.bottomText")}{" "}
-                                    <a href="#">{t("ecofaq.bottomLinkText")}</a>
+                                    <a href="#">{t("ecofaq.bottomLinkText")} </a>{t("ecofaq.bottomLinkTextTwo")}
                                 </p>
                                 <div className="btns-box">
                                     <a className="btn-main2" href="#">
