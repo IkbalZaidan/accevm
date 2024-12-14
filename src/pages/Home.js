@@ -3,7 +3,10 @@ import { useTranslation } from 'react-i18next';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from "swiper/modules"; // Swiper modules
+
 import 'swiper/css';
+import "swiper/css/pagination";
 import '../styles/Banner-sty.css';
 import '../styles/Style.css';
 import '../styles/Responsive-sty.css';
@@ -27,7 +30,7 @@ const Home = () => {
   const { t } = useTranslation(); // Use the t function to translate
 
   const handleSlideChange = (swiper) => {
-    setActiveTab(swiper.activeIndex + 1); // Set active tab based on the slide index
+    setActiveTab(swiper.activeIndex);
   };
 
   return (
@@ -35,13 +38,20 @@ const Home = () => {
       <section className="main-slider main-slider-style2 not-clickable">
         <div className="thm-swiper__slider">
           <Swiper
-            spaceBetween={50}
-            slidesPerView={1}
+            modules={[Pagination]} // Include Pagination module
             loop={true}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
+            spaceBetween={10}
+            slidesPerView={1}
+            pagination={{
+              clickable: true, // Enable clickable pagination dots
             }}
+          // spaceBetween={50}
+          // slidesPerView={1}
+          // loop={true}
+          // autoplay={{
+          //   delay: 2500,
+          //   disableOnInteraction: false,
+          // }}
           >
             <SwiperSlide>
               <div className="content-layer">
@@ -107,7 +117,8 @@ const Home = () => {
                     spaceBetween={20}
                     slidesPerView={3}
                     onSlideChange={(swiper) => setActiveTab(swiper.activeIndex + 1)}
-                    className="features-style2-tab__button mb-5"
+                    className="features-style2-tab__button mb-5 "
+                    
                   >
                     <SwiperSlide>
                       <div
@@ -172,13 +183,17 @@ const Home = () => {
                               <br></br>
                               <br></br>
                               <h1 className="span-main bold-title mt-5">AccuConnect.</h1>
+                              <br></br>
+
                               <p>{t('Copy the strategies of top traders and watch your investment portfolio flourish.')}</p>
+                              <br></br>
+
                               <a className="btn-main" href="#" style={{ backgroundColor: '#C02881' }}>
                                 Register
                               </a>
                             </div>
                           </div>
-                          <div className="col-xl-6">
+                          <div className="col-xl-6 p-0">
                             <img src={accConnect} alt="AccuConnect" className="full-cover-image" />
                           </div>
                         </div>
@@ -193,14 +208,16 @@ const Home = () => {
                               <br></br>
                               <br></br>
                               <br></br>
-                              <h1 className="span-main bold-title mt-5">AccuGo.</h1>
-                              <p>An intuitive interface that puts financial markets at your fingertips, allowing trading anytime, anywhere.</p>
+                              <h1 className="span-main bold-title mt-5">AccuGo.</h1>                              <br></br>
+
+                              <p>An intuitive interface that puts financial markets at your fingertips, allowing trading anytime, anywhere.</p>                              <br></br>
+
                               <a className="btn-main" href="#" style={{ backgroundColor: '#C02881' }}>
                                 Register
                               </a>
                             </div>
                           </div>
-                          <div className="col-xl-6">
+                          <div className="col-xl-6 p-0">
                             <img src={accuGo} alt="AccuGo" className="full-cover-image" />
                           </div>
                         </div>
@@ -215,14 +232,16 @@ const Home = () => {
                               <br></br>
                               <br></br>
                               <br></br>
-                              <h1 className="span-main bold-title mt-5">AccuPay.</h1>
-                              <p>Withdraw your profits directly from anywhere in the world using the AccuPay debit card.</p>
+                              <h1 className="span-main bold-title mt-5">AccuPay.</h1>                              <br></br>
+
+                              <p>Withdraw your profits directly from anywhere in the world using the AccuPay debit card.</p>                              <br></br>
+
                               <a className="btn-main" href="#" style={{ backgroundColor: '#C02881' }}>
                                 Register
                               </a>
                             </div>
                           </div>
-                          <div className="col-xl-6">
+                          <div className="col-xl-6 p-0">
                             <img src={accPay} alt="AccuPay" className="full-cover-image" />
                           </div>
                         </div>
@@ -248,7 +267,7 @@ const Home = () => {
           </div>
           <ul className="row benefits-content text-center">
             {/* Start Single Benefits Box Column */}
-            <li className="col-xl-4" style={{ border: '2px solid #000' }}>
+            {/* <li className="col-xl-4" style={{ border: '2px solid #000' }}>
               <div>
                 <div className="row">
                   <div className="col-xl-6">
@@ -262,6 +281,18 @@ const Home = () => {
                   <div className="col-xl-6">
                     <img src={fundingImg} width="100px" alt="Funding" />
                   </div>
+                </div>
+              </div>
+            </li> */}
+
+            <li className="col-xl-4 single-benefits-box-colum">
+              <div className="single-benefits-box">
+              <img src={fundingImg} width="100px" alt="Funding" />
+              <div className="text">
+                <h3 className="bold-p">Flexible Funding Options</h3>
+                <p>
+                Conveniently deposit and withdraw from your account using a variety of payment methods to suit your needs.
+                </p>
                 </div>
               </div>
             </li>
@@ -391,67 +422,90 @@ const Home = () => {
             <div className="col-xl-12">
               <div className="service-style1-tab">
                 <div className="tabs-content-box">
-                  <Swiper
-                    loop={true}
-                    spaceBetween={10}
-                    slidesPerView={1}
-                    slidesPerGroup={1}
-                    pagination={{
-                      clickable: true,
-                      el: '.swiper-pagination',
-                    }}
-                  >
-                    <SwiperSlide>
-                      <div className="single-service-box-style1" style={{ backgroundColor: 'black', borderRadius: '20px', height: '400px' }}>
-                        <h2 className="white">Social Account</h2>
-                        <div className="border-box"></div>
-                        <ul>
-                          <li className="white">* Minimum Opening Balance: $100</li>
-                          <li className="white">* Leverage: Up to 1:400</li>
-                          <li className="white">* Spreads from 1.4</li>
-                          <li className="white">* No Commissions</li>
-                          <li className="white">* 300+ Trading Instruments</li>
-                          <li className="white">* Automated Trading</li>
-                          <li className="white">* Stop Out Level: 20%</li>
-                          <li className="white">* Account Currency: USD</li>
-                        </ul>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="single-service-box-style1" style={{ backgroundColor: 'black', borderRadius: '20px', height: '400px' }}>
-                        <h2 className="white">Standard Account</h2>
-                        <div className="border-box"></div>
-                        <ul>
-                          <li className="white">* Minimum Opening Balance: $100</li>
-                          <li className="white">* Leverage: Up to 1:400</li>
-                          <li className="white">* Spreads from 1.4</li>
-                          <li className="white">* No Commissions</li>
-                          <li className="white">* 300+ Trading Instruments</li>
-                          <li className="white">* Automated Trading</li>
-                          <li className="white">* Stop Out Level: 20%</li>
-                          <li className="white">* Account Currency: USD</li>
-                        </ul>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="single-service-box-style1" style={{ backgroundColor: 'black', borderRadius: '20px', height: '400px' }}>
-                        <h2 className="white">Pro Account</h2>
-                        <div className="border-box"></div>
-                        <ul>
-                          <li className="white">* Minimum Opening Balance: $5,000</li>
-                          <li className="white">* Leverage: Up to 1:400</li>
-                          <li className="white">* Spreads from 0.8</li>
-                          <li className="white">* No Commissions</li>
-                          <li className="white">* 300+ Trading Instruments</li>
-                          <li className="white">* Automated Trading</li>
-                          <li className="white">* Stop Out Level: 30%</li>
-                          <li className="white">* Account Currency: USD</li>
-                        </ul>
-                      </div>
-                    </SwiperSlide>
-                  </Swiper>
-                  {/* Swiper navigation dots */}
-                  <div className="swiper-pagination"></div>
+                  <div className="swiper-container">
+                    <Swiper
+                      modules={[Pagination]} // Include Pagination module
+                      loop={true} // Enable loop mode
+                      spaceBetween={1}
+                      slidesPerView={1}
+                      initialSlide={0}
+                      pagination={{
+                        clickable: true, // Enable clickable pagination dots
+                      }}
+                    >
+                      <SwiperSlide>
+                        <div
+                          className="single-service-box-style1"
+                          style={{
+                            backgroundColor: 'black',
+                            borderRadius: '20px',
+                            height: '400px',
+                          }}
+                        >
+                          <h2 className="white">Social Account</h2>
+                          <div className="border-box"></div>
+                          <ul>
+                            <li className="white">* Minimum Opening Balance: $100</li>
+                            <li className="white">* Leverage: Up to 1:400</li>
+                            <li className="white">* Spreads from 1.4</li>
+                            <li className="white">* No Commissions</li>
+                            <li className="white">* 300+ Trading Instruments</li>
+                            <li className="white">* Automated Trading</li>
+                            <li className="white">* Stop Out Level: 20%</li>
+                            <li className="white">* Account Currency: USD</li>
+                          </ul>
+                        </div>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <div
+                          className="single-service-box-style1"
+                          style={{
+                            backgroundColor: 'black',
+                            borderRadius: '20px',
+                            height: '400px',
+                          }}
+                        >
+                          <h2 className="white">Standard Account</h2>
+                          <div className="border-box"></div>
+                          <ul>
+                            <li className="white">* Minimum Opening Balance: $100</li>
+                            <li className="white">* Leverage: Up to 1:400</li>
+                            <li className="white">* Spreads from 1.4</li>
+                            <li className="white">* No Commissions</li>
+                            <li className="white">* 300+ Trading Instruments</li>
+                            <li className="white">* Automated Trading</li>
+                            <li className="white">* Stop Out Level: 20%</li>
+                            <li className="white">* Account Currency: USD</li>
+                          </ul>
+                        </div>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <div
+                          className="single-service-box-style1"
+                          style={{
+                            backgroundColor: 'black',
+                            borderRadius: '20px',
+                            height: '400px',
+                          }}
+                        >
+                          <h2 className="white">Pro Account</h2>
+                          <div className="border-box"></div>
+                          <ul>
+                            <li className="white">* Minimum Opening Balance: $5,000</li>
+                            <li className="white">* Leverage: Up to 1:400</li>
+                            <li className="white">* Spreads from 0.8</li>
+                            <li className="white">* No Commissions</li>
+                            <li className="white">* 300+ Trading Instruments</li>
+                            <li className="white">* Automated Trading</li>
+                            <li className="white">* Stop Out Level: 30%</li>
+                            <li className="white">* Account Currency: USD</li>
+                          </ul>
+                        </div>
+                      </SwiperSlide>
+                    </Swiper>
+
+
+                  </div>
                 </div>
               </div>
             </div>
@@ -618,6 +672,9 @@ const Home = () => {
               </div>
             </div>
             <div className="col-xl-6 mobile-seen">
+              <br></br>
+              <br></br>
+
               <img className="mob" src={mt5Img} alt="MetaTrader 5" />
             </div>
           </div>
@@ -653,6 +710,9 @@ const Home = () => {
                 </div>
                 <div className="mobile-seen mobile-align">
                   <img src={paymentsImg} alt="Payments" width="100%" />
+                  <br></br>
+                  <br></br>
+
                   <a className="btn-main2" href="#">Trade Now</a>
                 </div>
               </div>
@@ -677,32 +737,34 @@ const Home = () => {
 
             <div className="swiper-container-facts mobile-seen">
               <Swiper
-                spaceBetween={30}
-                pagination={{ clickable: true }}
-                className="swiper-wrapper"
+                modules={[Pagination]}
+                loop={true}
+                spaceBetween={1}
+                slidesPerView={1}
+                initialSlide={0}
+                pagination={{
+                  clickable: true,
+                }}
               >
-                {/* Slide 1 */}
-                <SwiperSlide className="swiper-slide text-center">
-                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82316-2.svg" alt="Slide 1" />
+                <SwiperSlide className='text-center' >
+                  <div className='footer-img-slide'>
+                    <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82316-2.svg" alt="Slide 1" width={'50%'} />
+
+                  </div>
                 </SwiperSlide>
 
-                {/* Slide 2 */}
-                <SwiperSlide className="swiper-slide text-center">
-                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82315-2.svg" alt="Slide 2" />
+                <SwiperSlide className='text-center' >
+                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82315-2.svg" alt="Slide 2" width={'50%'} />
                 </SwiperSlide>
 
-                {/* Slide 3 */}
-                <SwiperSlide className="swiper-slide text-center">
-                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82321-2.svg" alt="Slide 3" />
+                <SwiperSlide className='text-center' >
+                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82321-2.svg" alt="Slide 3" width={'50%'} />
                 </SwiperSlide>
 
-                {/* Slide 4 */}
-                <SwiperSlide className="swiper-slide text-center">
-                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82322-2.svg" alt="Slide 4" />
+                <SwiperSlide className='text-center' >
+                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82322-2.svg" alt="Slide 4" width={'50%'} />
                 </SwiperSlide>
               </Swiper>
-              {/* Pagination */}
-              <div className="swiper-pagination"></div>
             </div>
             {/* Regular Fact Boxes (For Larger Screens) */}
             <div className="col-xl-3 col-lg-6 col-md-6 pc">

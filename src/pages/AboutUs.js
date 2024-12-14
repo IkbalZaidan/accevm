@@ -3,11 +3,12 @@ import { useTranslation } from 'react-i18next';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Autoplay } from "swiper";
+import { Pagination, Navigation, Autoplay } from "swiper/modules"; // Swiper modules
 import 'swiper/css';
+import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "swiper/css/autoplay";
 
-// import 'swiper/css';
 import '../styles/about-section.css';
 import '../styles/blog-section.css';
 import '../styles/Style.css';
@@ -326,58 +327,70 @@ const AboutUs = () => {
           </div>
           <div className="row">
             <div className="col-xl-12">
-              <div
-                className="owl-carousel owl-theme thm-owl__carousel blog-style1-carousel owl-nav-style-one"
-                data-owl-options='{
-                "loop": true,
-                "autoplay": true,
-                "margin": 30,
-                "nav": true,
-                "dots": false,
-                "smartSpeed": 500,
-                "autoplayTimeout": 10000,
-                "navText": ["<span class=\"left icon-right-arrow\"></span>","<span class=\"right icon-right-arrow\"></span>"],
-                "responsive": {
-                  "0": { "items": 1 },
-                  "768": { "items": 1 },
-                  "992": { "items": 2 },
-                  "1200": { "items": 3 }
-                }
-              }'
+              <Swiper
+                modules={[Navigation, Autoplay]}
+                loop={true}
+                autoplay={{
+                  delay: 10000, 
+                  disableOnInteraction: false,
+                }}
+                spaceBetween={0}
+                navigation={{
+                  nextEl: '.custom-swiper-button-next',
+                  prevEl: '.custom-swiper-button-prev',
+                }}
+                slidesPerView={1}
+                breakpoints={{
+                  0: { slidesPerView: 1 },
+                  768: { slidesPerView: 1 },
+                  992: { slidesPerView: 2 },
+                  1200: { slidesPerView: 3 },
+                }}
               >
                 {milestones.map((milestone, index) => (
-                  <div
-                    className="single-blog-style1 wow fadeInUp"
-                    data-wow-delay="00ms"
-                    data-wow-duration="1500ms"
-                    key={index}
-                  >
-                    <div className="img-holder">
-                      <div className="inner">
-                        <img src={milestone.img} alt={`Milestone ${milestone.year}`} />
-                        <div className="overlay-icon">
-                          <a href="#">
-                            <span className="icon-right-arrow"></span>
-                          </a>
+                  <SwiperSlide key={index}>
+                    <div
+                      className="single-blog-style1 wow fadeInUp"
+                      data-wow-delay="00ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="img-holder">
+                        <div className="inner">
+                          <img src={milestone.img} alt={`Milestone ${milestone.year}`} />
+                          <div className="overlay-icon">
+                            <a href="#">
+                              <span className="icon-right-arrow"></span>
+                            </a>
+                          </div>
+                        </div>
+                        <div className="category-date-box">
+                          <div className="category">
+                            <span className="icon-play-button-1"></span>
+                            <h5>{t('year')}</h5>
+                          </div>
+                          <div className="date">
+                            <h5>{milestone.year}</h5>
+                          </div>
                         </div>
                       </div>
-                      <div className="category-date-box">
-                        <div className="category">
-                          <span className="icon-play-button-1"></span>
-                          <h5>{t("year")}</h5>
-                        </div>
-                        <div className="date">
-                          <h5>{milestone.year}</h5>
-                        </div>
+                      <div className="text-holder">
+                        <h3 className="blog-title mobile-align">
+                          <a href="#">{milestone.description}</a>
+                        </h3>
                       </div>
                     </div>
-                    <div className="text-holder">
-                      <h3 className="blog-title mobile-align">
-                        <a href="#">{milestone.description}</a>
-                      </h3>
-                    </div>
-                  </div>
+                  </SwiperSlide>
                 ))}
+              </Swiper>
+              {/* Swiper Navigation Buttons */}
+              {/* <div className="swiper-button-next"></div>
+              <div className="swiper-button-prev"></div> */}
+
+              <div className="custom-swiper-button-next">
+                <span className="icon-right-arrow"></span>
+              </div>
+              <div className="custom-swiper-button-prev">
+                <span className="icon-right-arrow rotate180"></span>
               </div>
             </div>
           </div>
@@ -519,41 +532,43 @@ const AboutUs = () => {
         <div className="facts-area-bg background-main"></div>
         <div className="container">
           <div className="sec-title text-center">
-            <h2>{t('awardWinningBroker')}</h2>
+            <h2>Award Winning Broker</h2>
             <div className="sub-title">
-              <p>{t('discoverWhyMillions')}</p>
+              <p>Discover why millions of users from over countries choose to trade with Accuindex</p>
             </div>
           </div>
           <div className="row">
 
             <div className="swiper-container-facts mobile-seen">
               <Swiper
-                spaceBetween={30}
-                pagination={{ clickable: true }}
-                className="swiper-wrapper"
+                modules={[Pagination]}
+                loop={true}
+                spaceBetween={1}
+                slidesPerView={1}
+                initialSlide={0}
+                pagination={{
+                  clickable: true,
+                }}
               >
-                {/* Slide 1 */}
-                <SwiperSlide className="swiper-slide text-center">
-                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82316-2.svg" alt="Slide 1" />
+                <SwiperSlide className='text-center' >
+                  <div className='footer-img-slide'>
+                    <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82316-2.svg" alt="Slide 1" width={'50%'} />
+
+                  </div>
                 </SwiperSlide>
 
-                {/* Slide 2 */}
-                <SwiperSlide className="swiper-slide text-center">
-                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82315-2.svg" alt="Slide 2" />
+                <SwiperSlide className='text-center' >
+                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82315-2.svg" alt="Slide 2" width={'50%'} />
                 </SwiperSlide>
 
-                {/* Slide 3 */}
-                <SwiperSlide className="swiper-slide text-center">
-                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82321-2.svg" alt="Slide 3" />
+                <SwiperSlide className='text-center' >
+                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82321-2.svg" alt="Slide 3" width={'50%'} />
                 </SwiperSlide>
 
-                {/* Slide 4 */}
-                <SwiperSlide className="swiper-slide text-center">
-                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82322-2.svg" alt="Slide 4" />
+                <SwiperSlide className='text-center' >
+                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82322-2.svg" alt="Slide 4" width={'50%'} />
                 </SwiperSlide>
               </Swiper>
-              {/* Pagination */}
-              <div className="swiper-pagination"></div>
             </div>
             {/* Regular Fact Boxes (For Larger Screens) */}
             <div className="col-xl-3 col-lg-6 col-md-6 pc">

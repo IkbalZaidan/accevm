@@ -391,6 +391,13 @@
   margin-left: 17px;
 }
 
+@media only screen and (max-width: 1199px) {
+
+  .main-slider-style2 .main-slider-content .btns-box a.style2 {
+  
+    margin-left: 0;
+  }
+}
 .main-slider-style2 .main-slider-content .btns-box a.style2:hover {
   color: #ffffff;
   border-color: var(--thm-base);

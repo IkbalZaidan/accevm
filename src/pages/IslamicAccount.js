@@ -3,12 +3,10 @@ import { useTranslation } from 'react-i18next';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from "swiper/modules"; // Swiper modules
 
-import { Autoplay } from "swiper";
 import 'swiper/css';
-import "swiper/css/navigation";
 import "swiper/css/pagination"; // Pagination styles
-import { Pagination, Navigation } from "swiper/modules"; // Swiper modules
 import '../styles/about-section.css';
 import '../styles/blog-section.css';
 import '../styles/Style.css';
@@ -16,14 +14,9 @@ import '../styles/Responsive-sty.css';
 
 import slide1 from '../assets/img/islamicAccount/SLIDE-1.png';
 import slide2 from '../assets/img/islamicAccount/slide-img-2.png';
-
-
-
 import icon1 from "../assets/img/islamicAccount/icon-1.png";
 import icon2 from "../assets/img/islamicAccount/icon-2.png";
 import icon3 from "../assets/img/islamicAccount/icon-3.png";
-
-
 
 import img2 from '../assets/img/demoAccount/IMG-2.png';
 import icon11 from "../assets/img/demoAccount/icon-1.png";
@@ -37,7 +30,7 @@ const IslamicAccounts = () => {
   const toggleAccordion = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
-  
+
   const demoAccounts = [
     {
       title: t("islamic.service.demoAccountTitle"),
@@ -198,9 +191,14 @@ const IslamicAccounts = () => {
               <div className="service-style1-tab">
                 <div className="tabs-content-box">
                   <Swiper
-                    spaceBetween={20}
+                    modules={[Pagination]}
+                    loop={true}
+                    spaceBetween={0}
                     slidesPerView={1}
-                    pagination={{ clickable: true }}
+                    initialSlide={0}
+                    pagination={{
+                      clickable: true,
+                    }}
                   >
                     {demoAccounts.map((account, index) => (
                       <SwiperSlide key={index}>
@@ -390,41 +388,43 @@ const IslamicAccounts = () => {
         <div className="facts-area-bg background-main"></div>
         <div className="container">
           <div className="sec-title text-center">
-            <h2>{t('awardWinningBroker')}</h2>
+            <h2>Award Winning Broker</h2>
             <div className="sub-title">
-              <p>{t('discoverWhyMillions')}</p>
+              <p>Discover why millions of users from over countries choose to trade with Accuindex</p>
             </div>
           </div>
           <div className="row">
 
             <div className="swiper-container-facts mobile-seen">
               <Swiper
-                spaceBetween={30}
-                pagination={{ clickable: true }}
-                className="swiper-wrapper"
+                modules={[Pagination]}
+                loop={true}
+                spaceBetween={1}
+                slidesPerView={1}
+                initialSlide={0}
+                pagination={{
+                  clickable: true,
+                }}
               >
-                {/* Slide 1 */}
-                <SwiperSlide className="swiper-slide text-center">
-                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82316-2.svg" alt="Slide 1" />
+                <SwiperSlide className='text-center' >
+                  <div className='footer-img-slide'>
+                    <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82316-2.svg" alt="Slide 1" width={'50%'} />
+
+                  </div>
                 </SwiperSlide>
 
-                {/* Slide 2 */}
-                <SwiperSlide className="swiper-slide text-center">
-                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82315-2.svg" alt="Slide 2" />
+                <SwiperSlide className='text-center' >
+                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82315-2.svg" alt="Slide 2" width={'50%'} />
                 </SwiperSlide>
 
-                {/* Slide 3 */}
-                <SwiperSlide className="swiper-slide text-center">
-                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82321-2.svg" alt="Slide 3" />
+                <SwiperSlide className='text-center' >
+                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82321-2.svg" alt="Slide 3" width={'50%'} />
                 </SwiperSlide>
 
-                {/* Slide 4 */}
-                <SwiperSlide className="swiper-slide text-center">
-                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82322-2.svg" alt="Slide 4" />
+                <SwiperSlide className='text-center' >
+                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82322-2.svg" alt="Slide 4" width={'50%'} />
                 </SwiperSlide>
               </Swiper>
-              {/* Pagination */}
-              <div className="swiper-pagination"></div>
             </div>
             {/* Regular Fact Boxes (For Larger Screens) */}
             <div className="col-xl-3 col-lg-6 col-md-6 pc">

@@ -77,7 +77,7 @@ const DemoAccount = () => {
                                     <p>{t("Expand your business")}</p>
                                 </div>
 
-                                <a className="btn-main2" href={t("intro.buttonLink")}>
+                                <a className="btn-main6" href={t("intro.buttonLink")}>
                                     <span className="txt">{t("Become a Partner Today")}</span>
                                 </a>
                             </div>
@@ -177,7 +177,7 @@ const DemoAccount = () => {
                     <div className="text-center">
                         <br />
                         <br />
-                        <a className="btn-main2" href="#">
+                        <a className="btn-main6" href="#">
                             <span className="txt">{t('becomePartner')}</span>
                         </a>
                     </div>

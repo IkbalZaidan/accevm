@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './Footer.css';
 import '../../styles/Style.css';
+import '../../styles/footer-section.css';
 
 import '../../styles/Responsive-sty.css';
 

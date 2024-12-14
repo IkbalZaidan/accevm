@@ -80,7 +80,7 @@ const AccuConnect = () => {
                                 </div>
                                 <div className="text-box">
                                     <div className="col-xl-6 mobile-seen">
-                                        <img src="assets/img/accuConnect/SLIDE-2.jpg" alt="Copy Trading" width="100%" />
+                                        <img src={img2} alt="Copy Trading" width="100%" />
                                     </div>
                                     <div className="btns-box mobile-align">
                                         <br />

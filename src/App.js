@@ -28,6 +28,7 @@ import Promotion from './pages/Promotion';
 import EconomicCalendar from './pages/EconomicCalendar';
 import ContactUs from './pages/ContactUs';
 import AccPay from './pages/AccPay';
+import Faq from './pages/Faq';
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
         <Route path="/EconomicCalendar" element={<EconomicCalendar />} />
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/AccPay" element={<AccPay />} />
+        <Route path="/faq" element={<Faq />} />
 
       </Routes>
       <Footer />

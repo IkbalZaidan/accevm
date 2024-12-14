@@ -186,7 +186,7 @@ const MetaTrader5 = () => {
 
 
 
-            <section className="benefits-area" style={{ backgroundColor: 'white !important' }}>
+            <section className="benefits-area white-back" >
                 <div className="container">
                     <div className="sec-title text-center">
                         <h2 className="bold-title">

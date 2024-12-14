@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css';
+
 import '../../styles/Style.css';
 import '../../styles/Responsive-sty.css';
 
@@ -15,6 +16,8 @@ const Header = () => {
 
   // State for language
   const [savedLanguage, setSavedLanguage] = useState(localStorage.getItem('language') || 'en');
+  const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
+  // const [isMobileNavExpanded, setIsMobileNavExpanded] = useState(false);
 
   // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -84,7 +87,44 @@ const Header = () => {
     localStorage.setItem('language', language);
     setSavedLanguage(language);
   };
+  // const toggleMobileNav = () => {
+  //   console.log("toggleMobileNav");
+  //   setIsMobileNavOpen((prev) => !prev);
+  // };
 
+  const toggleMobileNav = () => {
+    setIsMobileNavOpen((prev) => !prev);
+    document.body.classList.toggle('locked', !isMobileNavOpen); // Lock scrolling
+  };
+
+
+  useEffect(() => {
+    const mobileNavContainer = document.querySelector('.mobile-nav__container');
+    const mainMenuList = document.querySelector('.main-menu__list');
+
+    if (mainMenuList && mobileNavContainer) {
+      mobileNavContainer.innerHTML = mainMenuList.outerHTML; // Clone menu
+
+      const dropdownAnchors = mobileNavContainer.querySelectorAll('.dropdown > a');
+
+      dropdownAnchors.forEach((anchor) => {
+        const toggleBtn = document.createElement('button');
+        toggleBtn.setAttribute('aria-label', 'dropdown toggler');
+        toggleBtn.innerHTML = "<i class='fa fa-angle-down'></i>";
+        anchor.appendChild(toggleBtn);
+
+        toggleBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          toggleBtn.classList.toggle('expanded');
+          anchor.parentElement.classList.toggle('expanded');
+          const subMenu = anchor.nextElementSibling;
+          if (subMenu) {
+            subMenu.style.display = subMenu.style.display === 'block' ? 'none' : 'block';
+          }
+        });
+      });
+    }
+  }, [isMobileNavOpen]);
 
   return (
     <div>
@@ -138,7 +178,6 @@ const Header = () => {
                   <ul>
                     <li><a href="#" className="white">{t('supportCenter')}</a></li>
                     <li><a href="#" className="white">{t('authorisedRegulated')}</a></li>
-                    <li><a href="#" className="white">{t('fscm')}</a></li>
                   </ul>
                 </div>
 
@@ -173,63 +212,185 @@ const Header = () => {
                     </a>
                   </div>
                   <div className="main-menu-box">
-                    <a href="#" className="mobile-nav__toggler">
+                    <a href="#" className="mobile-nav__toggler" onClick={toggleMobileNav}>
                       <i className="icon-menu"></i>
                     </a>
                     <ul className="main-menu__list">
-                      <li className="nav-li">
-                        <a href="https://accuindex.com/" className="nav-button nav-li">{t('home')}</a>
-                      </li>
+                      {/* <li className="nav-li">
+                        <a href="#" className="nav-button nav-li">{t('home')}</a>
+                      </li> */}
+
                       <li className="dropdown nav-li">
-                        <a href="#">{t('company')}</a>
+                        <a href="#">{t('aboutUs')}</a>
                         <ul>
                           <li>
                             <Link to="/about-us" className="nav-li">
-                              {t('aboutUs')}
+                              {t('OurStory')}
                             </Link>
                           </li>
                           <li>
-
-                            {/* <a href="https://accuindex.com/careers/" className="nav-li">{t('careers')}</a> */}
-                            <Link to="/awards" className="nav-li">
-                              {t('careers')}
+                            <Link to="/landr" className="nav-li">
+                              {t('Licenses&Regulations')}
                             </Link>
                           </li>
-                          <li><a href="https://accuindex.com/legal-documents/" className="nav-li">{t('legalDocuments')}</a></li>
-                          <li><a href="https://accuindex.com/promotion/" className="nav-li">{t('promotions')}</a></li>
+                          <li>
+                            <Link to="/awards" className="nav-li">
+                              {t('Awards&Recognition')}
+                            </Link>
+                          </li>
                         </ul>
                       </li>
+
+
                       <li className="dropdown nav-li">
-                        <a href="#">{t('trading')}</a>
+                        <a href="#">{t('TradingAccountsNav')}</a>
                         <ul>
-                          <li className="dropdown">
-                            <a href="#">{t('tradingProducts')}</a>
-                            <ul>
-                              <li><a href="https://accuindex.com/forex/" className="nav-li">{t('forex')}</a></li>
-                              <li><a href="https://accuindex.com/indices/" className="nav-li">{t('indices')}</a></li>
-                              <li><a href="https://accuindex.com/commodities/" className="nav-li">{t('commodities')}</a></li>
-                              <li><a href="https://accuindex.com/stocks/" className="nav-li">{t('stocks')}</a></li>
-                              <li><a href="https://accuindex.com/cryptocurrencies/" className="nav-li">{t('cryptocurrencies')}</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="https://accuindex.com/trading-platforms/" className="nav-li">{t('tradingPlatforms')}</a></li>
-                          <li><a href="https://accuindex.com/trading-conditions/" className="nav-li">{t('tradingConditions')}</a></li>
                           <li>
                             <Link to="/account-types" className="nav-li">
-                              {t('accountTypes')}
+                              {t('AccountTypesNav')}
                             </Link>
-                            {/* <a href="https://accuindex.com/account-types/" className="nav-li">{t('accountTypes')}</a> */}
                           </li>
-                          <li><a href="https://accuindex.com/deposit-withdrawal/" className="nav-li">{t('depositWithdrawal')}</a></li>
+                          <li>
+                            <Link to="/islamicaccount" className="nav-li">
+                              {t('IslamicAccountsNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/demoAccount" className="nav-li">
+                              {t('DemoAccountNav')}
+                            </Link>
+                          </li>
                         </ul>
+                      </li>
 
+
+
+                      <li className="dropdown nav-li">
+                        <a href="#">{t('PlatformsNav')}</a>
+                        <ul>
+                          <li>
+                            <Link to="/metatrader" className="nav-li">
+                              {t('MetaTraderNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/awards" className="nav-li">
+                              {t('WebTraderNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/accugo" className="nav-li">
+                              {t('AccuGoNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/accuconnect" className="nav-li">
+                              {t('AccuConnectNav')}
+                            </Link>
+                          </li>
+                        </ul>
                       </li>
-                      <li className="nav-li">
-                        <a href="contact.html" className="nav-li">{t('helpCenter')}</a>
+
+
+
+
+                      <li className="dropdown nav-li">
+                        <a href="#">{t('MarketsNav')}</a>
+                        <ul>
+                          <li>
+                            <Link to="/forex" className="nav-li">
+                              {t('ForexNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/commodities" className="nav-li">
+                              {t('CommoditiesNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/indices" className="nav-li">
+                              {t('IndicesNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/stocks" className="nav-li">
+                              {t('StocksNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/crypto" className="nav-li">
+                              {t('Cryptocurrencies')}
+                            </Link>
+                          </li>
+                        </ul>
                       </li>
-                      <li className="nav-li">
-                        <a href="contact.html" className="nav-li">{t('getInTouch')}</a>
+
+
+
+                      {/* <li className="dropdown nav-li">
+                        <a href="#">{t('PartnershipNav')}</a>
+                        <ul>
+                          <li>
+                            <Link to="/IB" className="nav-li">
+                              {t('IntroducingBrokersNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/commodities" className="nav-li">
+                              {t('WhitelabelPartnershipsNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/CorporateAccounts" className="nav-li">
+                              {t('CorporateAccountsNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/stocks" className="nav-li">
+                              {t('FundMnagers')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/Company" className="nav-li">
+                              {t('CompanyNav')}
+                            </Link>
+                          </li>
+                        </ul>
+                      </li> */}
+
+
+                      <li className="dropdown nav-li">
+                        <a href="#">{t('TradingToolsNav')}</a>
+                        <ul>
+                          <li>
+                            <Link to="/AccPay" className="nav-li">
+                              {t('AccuPayNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/EconomicCalendar" className="nav-li">
+                              {t('EconomicCalendarNav')}
+                            </Link>
+                          </li>
+                        </ul>
                       </li>
+
+                      <li className="dropdown nav-li">
+                        <a href="#">{t('SupportNav')}</a>
+                        <ul>
+                          <li>
+                            <Link to="/Faq" className="nav-li">
+                              {t('HelpCenterNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/ContactUs" className="nav-li">
+                              {t('ContactUsNav')}
+                            </Link>
+                          </li>
+                        </ul>
+                      </li>
+
                     </ul>
                   </div>
                 </div>
@@ -244,6 +405,48 @@ const Header = () => {
             </div>
           </div>
         </nav>
+
+        {/* Mobile Navigation */}
+
+        <div
+          className={`mobile-nav__wrapper ${isMobileNavOpen ? 'expanded' : ''}`}
+        >
+
+          <div
+            className="mobile-nav__overlay mobile-nav__toggler"
+            onClick={toggleMobileNav}
+          ></div>
+          <div className="mobile-nav__content">
+            <span
+              className="mobile-nav__close mobile-nav__toggler"
+              onClick={toggleMobileNav}
+            >
+              <i className="fas fa-plus"></i>
+            </span>
+            <div className="logo-box">
+              <a href="index.html" aria-label="logo image">
+                <img src={logo} width="200" alt="" />
+              </a>
+            </div>
+            <div className="mobile-nav__container"></div>
+            <ul className="mobile-nav__contact list-unstyled">
+              <li>
+                <i className="fa fa-envelope"></i>
+                <a href="mailto:info@example.com">info@example.com</a>
+              </li>
+              <li>
+                <i className="fa fa-phone-alt"></i>
+                <a href="tel:123456789">444 000 777 66</a>
+              </li>
+            </ul>
+            <div className="mobile-nav__social">
+              <a href="#" className="fab fa-twitter"></a>
+              <a href="#" className="fab fa-facebook-square"></a>
+              <a href="#" className="fab fa-pinterest-p"></a>
+              <a href="#" className="fab fa-instagram"></a>
+            </div>
+          </div>
+        </div>
 
         <div className="main-header-style1-bottom mini-nav-background">
           <div className="auto-container">
@@ -268,7 +471,7 @@ const Header = () => {
       <div className="stricky-header stricked-menu main-menu">
         <div className="sticky-header__content">
           <div className="main-menu__wrapper clearfix">
-            <div className="container">
+            <div className="container-fluid">
               <div className="main-menu__wrapper-inner">
                 <div className="main-menu-style1-left">
                   <div className="logo-box-style1 nav-background">
@@ -283,45 +486,192 @@ const Header = () => {
                     </a>
 
                     <ul className="main-menu__list">
-                      <li className="nav-li">
-                        <a href="https://accuindex.com/" className="nav-button nav-li">{t('home')}</a>
-                      </li>
+                      {/* <li className="nav-li">
+                        <a href="/" className="nav-button nav-li">{t('home')}</a>
+                      </li> */}
                       <li className="dropdown nav-li">
-                        <a href="#">{t('company')}</a>
+                        <a href="#">{t('aboutUs')}</a>
                         <ul>
-                          <li><a href="https://accuindex.com/about-us/" className="nav-li">{t('aboutUs')}</a></li>
-                          <li><a href="https://accuindex.com/careers/" className="nav-li">{t('careers')}</a></li>
-                          <li><a href="https://accuindex.com/legal-documents/" className="nav-li">{t('legalDocuments')}</a></li>
-                          <li><a href="https://accuindex.com/promotion/" className="nav-li">{t('promotions')}</a></li>
-                        </ul>
-                      </li>
-                      <li className="dropdown nav-li">
-                        <a href="#">{t('trading')}</a>
-                        <ul>
-                          <li className="dropdown">
-                            <a href="#">{t('tradingProducts')}</a>
-                            <ul>
-                              <li><a href="https://accuindex.com/forex/" className="nav-li">{t('forex')}</a></li>
-                              <li><a href="https://accuindex.com/indices/" className="nav-li">{t('indices')}</a></li>
-                              <li><a href="https://accuindex.com/commodities/" className="nav-li">{t('commodities')}</a></li>
-                              <li><a href="https://accuindex.com/stocks/" className="nav-li">{t('stocks')}</a></li>
-                              <li><a href="https://accuindex.com/cryptocurrencies/" className="nav-li">{t('cryptocurrencies')}</a></li>
-                            </ul>
+                          <li>
+                            <Link to="/about-us" className="nav-li">
+                              {t('OurStory')}
+                            </Link>
                           </li>
-                          <li><a href="https://accuindex.com/trading-platforms/" className="nav-li">{t('tradingPlatforms')}</a></li>
-                          <li><a href="https://accuindex.com/trading-conditions/" className="nav-li">{t('tradingConditions')}</a></li>
-                          <Link to="/account-types" className="nav-li">
-                            {t('accountTypes')}
-                          </Link>
-                          <li><a href="https://accuindex.com/deposit-withdrawal/" className="nav-li">{t('depositWithdrawal')}</a></li>
-                        </ul>
+                          <li>
+                            <Link to="/landr" className="nav-li">
+                              {t('Licenses&Regulations')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/awards" className="nav-li">
+                              {t('Awards&Recognition')}
+                            </Link>
+                          </li>
 
+                        </ul>
                       </li>
-                      <li className="nav-li">
-                        <a href="contact.html" className="nav-li">{t('helpCenter')}</a>
+
+
+
+
+                      <li className="dropdown nav-li">
+                        <a href="#">{t('TradingAccountsNav')}</a>
+                        <ul>
+                          <li>
+                            <Link to="/account-types" className="nav-li">
+                              {t('AccountTypesNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/islamicaccount" className="nav-li">
+                              {t('IslamicAccountsNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/demoAccount" className="nav-li">
+                              {t('DemoAccountNav')}
+                            </Link>
+                          </li>
+                        </ul>
                       </li>
-                      <li className="nav-li">
-                        <a href="contact.html" className="nav-li">{t('getInTouch')}</a>
+
+
+                      <li className="dropdown nav-li">
+                        <a href="#">{t('PlatformsNav')}</a>
+                        <ul>
+                          <li>
+                            <Link to="/metatrader" className="nav-li">
+                              {t('MetaTraderNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/awards" className="nav-li">
+                              {t('WebTraderNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/accugo" className="nav-li">
+                              {t('AccuGoNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/accuconnect" className="nav-li">
+                              {t('AccuConnectNav')}
+                            </Link>
+                          </li>
+                        </ul>
+                      </li>
+
+
+
+
+                      <li className="dropdown nav-li">
+                        <a href="#">{t('MarketsNav')}</a>
+                        <ul>
+                          <li>
+                            <Link to="/forex" className="nav-li">
+                              {t('ForexNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/commodities" className="nav-li">
+                              {t('CommoditiesNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/indices" className="nav-li">
+                              {t('IndicesNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/stocks" className="nav-li">
+                              {t('StocksNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/crypto" className="nav-li">
+                              {t('Cryptocurrencies')}
+                            </Link>
+                          </li>
+                        </ul>
+                      </li>
+
+
+
+
+
+
+{/* 
+                      <li className="dropdown nav-li">
+                        <a href="#">{t('PartnershipNav')}</a>
+                        <ul>
+                          <li>
+                            <Link to="/IB" className="nav-li">
+                              {t('IntroducingBrokersNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/commodities" className="nav-li">
+                              {t('WhitelabelPartnershipsNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/CorporateAccounts" className="nav-li">
+                              {t('CorporateAccountsNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/stocks" className="nav-li">
+                              {t('FundMnagers')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/Company" className="nav-li">
+                              {t('CompanyNav')}
+                            </Link>
+                          </li>
+                        </ul>
+                      </li> */}
+
+
+
+
+
+
+                      <li className="dropdown nav-li">
+                        <a href="#">{t('TradingToolsNav')}</a>
+                        <ul>
+                          <li>
+                            <Link to="/AccPay" className="nav-li">
+                              {t('AccuPayNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/EconomicCalendar" className="nav-li">
+                              {t('EconomicCalendarNav')}
+                            </Link>
+                          </li>
+                        </ul>
+                      </li>
+
+
+
+
+
+                      <li className="dropdown nav-li">
+                        <a href="#">{t('SupportNav')}</a>
+                        <ul>
+                          <li>
+                            <Link to="/Faq" className="nav-li">
+                              {t('HelpCenterNav')}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/ContactUs" className="nav-li">
+                              {t('ContactUsNav')}
+                            </Link>
+                          </li>
+                        </ul>
                       </li>
                     </ul>
                   </div>
@@ -344,6 +694,7 @@ const Header = () => {
         </div>
       </div>
     </div>
+
 
   );
 };

@@ -222,36 +222,49 @@ const Forex = () => {
                             <div className="features-style2-content">
                                 <div className="features-style2-tab">
                                     {/* Tab Buttons */}
+                                    {/* Swiper Buttons */}
                                     <div className="features-style2-tab__button">
-                                        <ul
-                                            className="owl-carousel owl-theme thm-owl__carousel features-style2-carousel owl-nav-style-one tabs-button-box"
+                                        <Swiper
+                                            modules={[Navigation]}
+                                            spaceBetween={10}
+                                            slidesPerView={3}
+                                            navigation={{
+                                                nextEl: ".swiper-button-next",
+                                                prevEl: ".swiper-button-prev",
+                                            }}
+                                            breakpoints={{
+                                                0: { slidesPerView: 3 },
+                                                768: { slidesPerView: 3 },
+                                                1200: { slidesPerView: 3 },
+                                            }}
                                         >
                                             {tabs.map((tab) => (
-                                                <li
-                                                    key={tab.id}
-                                                    data-tab={`#${tab.id}`}
-                                                    className={`tab-btn-item ${activeTab === tab.id ? "active-btn-item" : ""
-                                                        }`}
-                                                    onClick={() => setActiveTab(tab.id)}
-                                                >
-                                                    <div className="single-features-box-style2">
+                                                <SwiperSlide key={tab.id}>
+                                                    <div
+                                                        className={`single-features-box-style2 ${activeTab === tab.id ? "active-btn-item" : ""
+                                                            }`}
+                                                        onClick={() => setActiveTab(tab.id)}
+                                                    >
                                                         <div className="icon">
                                                             <img src={tab.icon} alt={tab.title} />
                                                         </div>
                                                         <div className="title">
                                                             <h3>
-                                                                <a href="javascript:void(0);">{tab.title}</a>
+                                                                <a href="#">{tab.title}</a>
                                                             </h3>
                                                         </div>
                                                         <div className="arrow-button">
-                                                            <a href="javascript:void(0);">
+                                                            <a href="#">
                                                                 <span className="icon-chevron"></span>
                                                             </a>
                                                         </div>
                                                     </div>
-                                                </li>
+                                                </SwiperSlide>
                                             ))}
-                                        </ul>
+                                        </Swiper>
+                                        {/* Custom Navigation Buttons */}
+                                        <div className="swiper-button-prev"></div>
+                                        <div className="swiper-button-next"></div>
                                     </div>
 
                                     {/* Tab Content */}
@@ -266,20 +279,18 @@ const Forex = () => {
                                                 <div className="row mini-row">
                                                     <div className="col-xl-6 justify-content-center align-items-center mini-box">
                                                         <div>
-                                                        <br></br>
-                                                            <br></br>
-                                                            <br></br>
-                                                            <br></br>
+                                                            <br />
+                                                            <br />
+                                                            <br />
+                                                            <br />
                                                             <h1 className="span-main bold-title">{tab.title}.</h1>
-                                                            <br></br>
-
+                                                            <br />
                                                             <p>
                                                                 {tab.pairs}
                                                                 <br />
                                                                 {tab.description}
                                                             </p>
-                                                            <br></br>
-
+                                                            <br />
                                                             <a
                                                                 className="btn-main"
                                                                 href="#"
@@ -353,7 +364,7 @@ const Forex = () => {
 
 
 
-            <section className="benefits-area" style={{ backgroundColor: 'white !important' }}>
+            <section className="benefits-area  white-back" >
                 <div className="container">
                     <div className="sec-title text-center">
                         <h2 className="bold-title">

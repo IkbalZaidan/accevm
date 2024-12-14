@@ -147,11 +147,14 @@ const AccountTypes = () => {
             <div className="col-xl-12">
               <div className="service-style1-tab">
                 <Swiper
-                  spaceBetween={30}
-                  slidesPerView={1}
+                  modules={[Pagination]}
                   loop={true}
-                  autoplay={{ delay: 3000 }}
-                  pagination={{ clickable: true }}
+                  spaceBetween={0}
+                  slidesPerView={1}
+                  initialSlide={0}
+                  pagination={{
+                    clickable: true,
+                  }}
                 >
                   {t("serviceStyle.accounts", { returnObjects: true }).map(
                     (account, index) => (
@@ -173,7 +176,7 @@ const AccountTypes = () => {
                               </li>
                             ))}
                           </ul>
-                         
+
                         </div>
                       </SwiperSlide>
                     )
@@ -188,11 +191,14 @@ const AccountTypes = () => {
             <div className="col-xl-8">
               <div className="service-style1-tab">
                 <Swiper
-                  spaceBetween={30}
-                  slidesPerView={1}
+                  // modules={[Pagination]}
                   loop={true}
-                  autoplay={{ delay: 3000 }}
-                  pagination={{ clickable: true }}
+                  spaceBetween={0}
+                  slidesPerView={1}
+                  initialSlide={0}
+                // pagination={{
+                //   clickable: true,
+                // }}
                 >
                   {t("serviceStyle.accounts", { returnObjects: true }).map(
                     (account, index) => (
@@ -215,12 +221,12 @@ const AccountTypes = () => {
                             ))}
                           </ul>
                           <div className="text-center mb-3">
-                          <a className="btn-main2" href="#">
-                            <span className="txt">
-                              {t("tradeNow")}
-                            </span>
-                          </a>
-                        </div>
+                            <a className="btn-main2" href="#">
+                              <span className="txt">
+                                {t("tradeNow")}
+                              </span>
+                            </a>
+                          </div>
                         </div>
                       </SwiperSlide>
                     )
@@ -277,41 +283,43 @@ const AccountTypes = () => {
         <div className="facts-area-bg background-main"></div>
         <div className="container">
           <div className="sec-title text-center">
-            <h2>{t('awardWinningBroker')}</h2>
+            <h2>Award Winning Broker</h2>
             <div className="sub-title">
-              <p>{t('discoverWhyMillions')}</p>
+              <p>Discover why millions of users from over countries choose to trade with Accuindex</p>
             </div>
           </div>
           <div className="row">
 
             <div className="swiper-container-facts mobile-seen">
               <Swiper
-                spaceBetween={30}
-                pagination={{ clickable: true }}
-                className="swiper-wrapper"
+                modules={[Pagination]}
+                loop={true}
+                spaceBetween={1}
+                slidesPerView={1}
+                initialSlide={0}
+                pagination={{
+                  clickable: true,
+                }}
               >
-                {/* Slide 1 */}
-                <SwiperSlide className="swiper-slide text-center">
-                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82316-2.svg" alt="Slide 1" />
+                <SwiperSlide className='text-center' >
+                  <div className='footer-img-slide'>
+                    <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82316-2.svg" alt="Slide 1" width={'50%'} />
+
+                  </div>
                 </SwiperSlide>
 
-                {/* Slide 2 */}
-                <SwiperSlide className="swiper-slide text-center">
-                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82315-2.svg" alt="Slide 2" />
+                <SwiperSlide className='text-center' >
+                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82315-2.svg" alt="Slide 2" width={'50%'} />
                 </SwiperSlide>
 
-                {/* Slide 3 */}
-                <SwiperSlide className="swiper-slide text-center">
-                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82321-2.svg" alt="Slide 3" />
+                <SwiperSlide className='text-center' >
+                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82321-2.svg" alt="Slide 3" width={'50%'} />
                 </SwiperSlide>
 
-                {/* Slide 4 */}
-                <SwiperSlide className="swiper-slide text-center">
-                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82322-2.svg" alt="Slide 4" />
+                <SwiperSlide className='text-center' >
+                  <img src="https://accuindex.com/wp-content/uploads/2023/08/Group-82322-2.svg" alt="Slide 4" width={'50%'} />
                 </SwiperSlide>
               </Swiper>
-              {/* Pagination */}
-              <div className="swiper-pagination"></div>
             </div>
             {/* Regular Fact Boxes (For Larger Screens) */}
             <div className="col-xl-3 col-lg-6 col-md-6 pc">
