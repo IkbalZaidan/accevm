@@ -438,9 +438,7 @@ html[dir="rtl"] .mobile-nav__content .main-menu__list>li>a>button,
 /* RTL Mode */
 [dir="rtl"] .main-menu .main-menu__list>li.dropdown>a:before {
     right: auto;
-    /* Reset right positioning */
-    left: 1px;
-    /* Position to the left for RTL */
+    left: 10px;
 }
 
 .main-menu .main-menu__list>li>a:hover {
@@ -604,7 +602,7 @@ html[dir="rtl"] .mobile-nav__content .main-menu__list>li>a>button,
 .stricky-header .main-menu__list>li>ul>li:hover>a,
 .stricky-header .main-menu__list>li>ul>li>ul>li:hover>a {
     color: #ffffff;
-    padding-left: 15px;
+    padding-inline-start: 15px;
 }
 
 .main-menu .main-menu__list>li>ul>li>ul,

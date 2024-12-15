@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useEffect } from "react";
 import { useTranslation } from 'react-i18next';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,31 +19,61 @@ const EconomicCalendar = () => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     const faqs = [
-      {
-        question: t("ecofaq.question1"),
-        answer: t("ecofaq.answer1"),
-      },
-      {
-        question: t("ecofaq.question2"),
-        answer: t("ecofaq.answer2"),
-      },
-      {
-        question: t("ecofaq.question3"),
-        answer: t("ecofaq.answer3"),
-      },
-      {
-        question: t("ecofaq.question4"),
-        answer: t("ecofaq.answer4"),
-      },
-      {
-        question: t("ecofaq.question5"),
-        answer: t("ecofaq.answer5"),
-      },
+        {
+            question: t("ecofaq.question1"),
+            answer: t("ecofaq.answer1"),
+        },
+        {
+            question: t("ecofaq.question2"),
+            answer: t("ecofaq.answer2"),
+        },
+        {
+            question: t("ecofaq.question3"),
+            answer: t("ecofaq.answer3"),
+        },
+        {
+            question: t("ecofaq.question4"),
+            answer: t("ecofaq.answer4"),
+        },
+        {
+            question: t("ecofaq.question5"),
+            answer: t("ecofaq.answer5"),
+        },
     ];
-  
+
     const toggleAccordion = (index) => {
-      setActiveIndex(activeIndex === index ? null : index);
+        setActiveIndex(activeIndex === index ? null : index);
     };
+
+
+    useEffect(() => {
+        // Check if the script is already added
+        if (document.querySelector('script[src="https://s3.tradingview.com/external-embedding/embed-widget-events.js"]')) {
+            return; // Exit if script is already added
+        }
+
+        // Dynamically create and append the script tag for the TradingView widget
+        const script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.async = true;
+        script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-events.js';
+        script.innerHTML = JSON.stringify({
+            colorTheme: "light",
+            isTransparent: false,
+            width: "100%",
+            height: "750",
+            locale: "en",
+            importanceFilter: "-1,0,1",
+            countryFilter: "ar,au,br,ca,cn,fr,de,in,id,it,jp,kr,mx,ru,sa,za,tr,gb,us,eu",
+        });
+
+        const container = document.querySelector('.tradingview-widget-container__widget');
+        if (container) {
+            container.innerHTML = ''; // Clear any existing widgets
+            container.appendChild(script);
+        }
+    }, []);
+
 
     return (
         <div>
@@ -96,16 +127,13 @@ const EconomicCalendar = () => {
                         </div>
                     </div>
 
-                    {/* Content Row */}
                     <div className="row">
-                        {/* Empty Columns for Layout Balance */}
                         <div className="col-xl-3 col-lg-6 col-md-6">
                             <div className="single-fact-box"></div>
                         </div>
 
-                        {/* TradingView Widget */}
                         <div className="col-xl-6 col-lg-6 col-md-6">
-                            {/* TradingView Widget BEGIN */}
+                            {/* TradingView Widget */}
                             <div className="tradingview-widget-container">
                                 <div className="tradingview-widget-container__widget"></div>
                                 <div className="tradingview-widget-copyright">
@@ -113,38 +141,18 @@ const EconomicCalendar = () => {
                                         href="https://www.tradingview.com/"
                                         rel="noopener nofollow"
                                         target="_blank"
-                                    >
-                                        TradingView
-                                    </a>
+                                    ></a>
                                 </div>
-                                <script
-                                    type="text/javascript"
-                                    src="https://s3.tradingview.com/external-embedding/embed-widget-events.js"
-                                    async
-                                >
-                                    {JSON.stringify({
-                                        colorTheme: "light",
-                                        isTransparent: false,
-                                        width: "100%",
-                                        height: "750",
-                                        locale: t("ecofacts.widgetLocale"),
-                                        importanceFilter: "-1,0,1",
-                                        countryFilter:
-                                            "ar,au,br,ca,cn,fr,de,in,id,it,jp,kr,mx,ru,sa,za,tr,gb,us,eu",
-                                    })}
-                                </script>
                             </div>
-                            {/* TradingView Widget END */}
                         </div>
 
-                        {/* Empty Columns for Layout Balance */}
                         <div className="col-xl-3 col-lg-6 col-md-6">
                             <div className="single-fact-box"></div>
                         </div>
                     </div>
 
                     {/* Call to Action Button */}
-                    <div className="sec-title text-center">
+                    <div className="sec-title text-center mt-xl-5">
                         <a className="btn-main2" href="#">
                             <span className="txt">{t("ecofacts.buttonText")}</span>
                         </a>

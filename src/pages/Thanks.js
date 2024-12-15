@@ -12,7 +12,7 @@ import '../styles/about-section.css';
 import '../styles/blog-section.css';
 import '../styles/Style.css';
 import '../styles/Responsive-sty.css';
-import '../styles/contact.css';
+import '../styles/Contact-sty.css';
 import slideImg1 from '../assets/img/aboutus/ourstory/SLIDE-IMG-1.png';
 
 

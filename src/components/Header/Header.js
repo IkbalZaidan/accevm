@@ -140,35 +140,13 @@ const Header = () => {
                   </div>
                   <div className="select-box clearfix">
 
-                    {/* <div className="custom-dropdown">
-                      <button onClick={toggleDropdown}>Individual View</button>
-                      {isDropdownOpen && (
-
-                        <div className="custom-dropdown-content">
-                          <a href="#">Individual View</a>
-                          <a href="#">Partner View</a>
-                        </div>
-                      )}
-                    </div> */}
-
-                    {/* <div className="custom-dropdown">
-                      <button onClick={toggleDropdown}>{t('individualView')}</button>
-                      <div className="custom-dropdown-content">
-                        <a href="#">{t('individualView')}</a>
-                        <a href="#">{t('partnerView')}</a>
-                      </div>
-                    </div> */}
-
                     <div className="custom-dropdown">
                       <button onClick={toggleDropdown}>{t('individualView')}</button>
                       <div className={`custom-dropdown-content ${isDropdownOpen ? 'show' : ''}`}>
-                        <a href="#">{t('individualView')}</a>
-                        <a href="#">{t('partnerView')}</a>
+                        <a href="/">{t('individualView')}</a>
+                        <a href="/IB">{t('partnerView')}</a>
                       </div>
                     </div>
-
-
-
                   </div>
                 </div>
               </div>
@@ -176,7 +154,7 @@ const Header = () => {
               <div className="main-header-style1-top__right">
                 <div className="header-menu-style1">
                   <ul>
-                    <li><a href="#" className="white">{t('supportCenter')}</a></li>
+                    <li><a href="/faq" className="white">{t('supportCenter')}</a></li>
                     <li><a href="#" className="white">{t('authorisedRegulated')}</a></li>
                   </ul>
                 </div>
@@ -207,7 +185,7 @@ const Header = () => {
               <div className="main-menu__wrapper-inner">
                 <div className="main-menu-style1-left">
                   <div className="logo-box-style1 nav-background">
-                    <a href="index.html">
+                    <a href="/">
                       <img src={logo} width="200" alt="Awesome Logo" title="" />
                     </a>
                   </div>
@@ -273,11 +251,11 @@ const Header = () => {
                               {t('MetaTraderNav')}
                             </Link>
                           </li>
-                          <li>
-                            <Link to="/awards" className="nav-li">
+                          {/* <li>
+                            <Link to="#" className="nav-li">
                               {t('WebTraderNav')}
                             </Link>
-                          </li>
+                          </li> */}
                           <li>
                             <Link to="/accugo" className="nav-li">
                               {t('AccuGoNav')}
@@ -324,41 +302,6 @@ const Header = () => {
                           </li>
                         </ul>
                       </li>
-
-
-
-                      {/* <li className="dropdown nav-li">
-                        <a href="#">{t('PartnershipNav')}</a>
-                        <ul>
-                          <li>
-                            <Link to="/IB" className="nav-li">
-                              {t('IntroducingBrokersNav')}
-                            </Link>
-                          </li>
-                          <li>
-                            <Link to="/commodities" className="nav-li">
-                              {t('WhitelabelPartnershipsNav')}
-                            </Link>
-                          </li>
-                          <li>
-                            <Link to="/CorporateAccounts" className="nav-li">
-                              {t('CorporateAccountsNav')}
-                            </Link>
-                          </li>
-                          <li>
-                            <Link to="/stocks" className="nav-li">
-                              {t('FundMnagers')}
-                            </Link>
-                          </li>
-                          <li>
-                            <Link to="/Company" className="nav-li">
-                              {t('CompanyNav')}
-                            </Link>
-                          </li>
-                        </ul>
-                      </li> */}
-
-
                       <li className="dropdown nav-li">
                         <a href="#">{t('TradingToolsNav')}</a>
                         <ul>
@@ -424,7 +367,7 @@ const Header = () => {
               <i className="fas fa-plus"></i>
             </span>
             <div className="logo-box">
-              <a href="index.html" aria-label="logo image">
+              <a href="/" aria-label="logo image">
                 <img src={logo} width="200" alt="" />
               </a>
             </div>
@@ -475,7 +418,7 @@ const Header = () => {
               <div className="main-menu__wrapper-inner">
                 <div className="main-menu-style1-left">
                   <div className="logo-box-style1 nav-background">
-                    <a href="index.html">
+                    <a href="/">
                       <img src={logo} width="200" alt="Awesome Logo" title="" />
                     </a>
                   </div>
@@ -544,11 +487,11 @@ const Header = () => {
                               {t('MetaTraderNav')}
                             </Link>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link to="/awards" className="nav-li">
                               {t('WebTraderNav')}
                             </Link>
-                          </li>
+                          </li> */}
                           <li>
                             <Link to="/accugo" className="nav-li">
                               {t('AccuGoNav')}

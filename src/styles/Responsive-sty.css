@@ -2323,8 +2323,8 @@
 
 
   .contact-info-box-style1 {
-      margin-right: 0px;
-      padding: 41px 30px 1px;
+      margin-right: 0px !important;
+      padding: 41px 30px 1px !important;
   }
 
   .contact-info-box-style1 .title h2 br {
@@ -2332,23 +2332,23 @@
   }
 
   .contact-info-1 {
-      padding: 50px 20px 43px;
-      margin-right: 0;
+      padding: 50px 20px 43px !important;
+      margin-right: 0 !important;
   }
 
   .contact-form {
-      padding-top: 43px;
-      padding-left: 30px;
-      padding-bottom: 50px;
-      padding-right: 30px;
+      padding-top: 43px !important;
+      padding-left: 30px !important;
+      padding-bottom: 50px !important;
+      padding-right: 30px !important;
   }
 
   .contact-info-1 li {
-      padding-left: 0px;
+      padding-left: 0px !important;
   }
 
   .contact-info-1 li .icon {
-      position: relative;
+      position: relative !important;
       right: 0;
       margin: 0 auto;
   }
@@ -2363,9 +2363,9 @@
   }
 
   .contact-info-box-style1 .bottom-box {
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
+      flex-direction: column !important;
+      justify-content: flex-start !important;
+      align-items: flex-start !important;
   }
 
 

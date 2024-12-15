@@ -388,7 +388,7 @@
   color: var(--thm-black);
   border: 1px solid #e9eeec;
   line-height: 58px;
-  margin-left: 17px;
+  margin-inline-start: 17px;
 }
 
 @media only screen and (max-width: 1199px) {

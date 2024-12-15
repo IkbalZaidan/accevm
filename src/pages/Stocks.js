@@ -244,11 +244,11 @@ const Forex = () => {
                                                         </div>
                                                         <div className="title">
                                                             <h3>
-                                                                <a href="#">{tab.title}</a>
+                                                                <a>{tab.title}</a>
                                                             </h3>
                                                         </div>
                                                         <div className="arrow-button">
-                                                            <a href="#">
+                                                            <a>
                                                                 <span className="icon-chevron"></span>
                                                             </a>
                                                         </div>
@@ -359,7 +359,7 @@ const Forex = () => {
                 <div className="container">
                     <div className="sec-title text-center">
                         <h2 className="bold-title">
-                            {t('Why Trade Stocks with Us')} <span className="span-main">?</span>
+                            {t('Why Trade Stocks with Us')} <span className="span-main"> {t('qMark')} </span>
                         </h2>
                         <div className="sub-title">
                             <p>{t('Unlock Your Trading Potential with Accuindex Stock Trading')}</p>

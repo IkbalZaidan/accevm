@@ -250,11 +250,11 @@ const Forex = () => {
                                                         </div>
                                                         <div className="title">
                                                             <h3>
-                                                                <a href="#">{tab.title}</a>
+                                                                <a>{tab.title}</a>
                                                             </h3>
                                                         </div>
                                                         <div className="arrow-button">
-                                                            <a href="#">
+                                                            <a>
                                                                 <span className="icon-chevron"></span>
                                                             </a>
                                                         </div>

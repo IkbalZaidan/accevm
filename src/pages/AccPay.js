@@ -96,7 +96,7 @@ const DemoAccount = () => {
                     <div className="sec-title text-center">
                         <h2>
                             {t('whatIsAccuPay')}
-                            <span className="span-main">?</span>
+                            <span className="span-main">{t('qMark')}</span>
                         </h2>
                         <div className="sub-title">
                             <p>{t('accuPayDescription')}</p>
@@ -164,7 +164,7 @@ const DemoAccount = () => {
                                     <br />
                                     <h1 className="white bold-title" style={{ fontSize: '45px' }}>
                                         {t('whyChooseAccuPay')}
-                                        <span className="span-main" style={{ fontSize: '55px' }}></span>?
+                                        <span className="span-main" style={{ fontSize: '55px' }}></span> {t('qMark')}
                                     </h1>
                                     <div className="sub-title white">
                                         <p>{t('accuPaySimplifiesDescription')}</p>

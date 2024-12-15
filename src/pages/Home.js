@@ -18,12 +18,12 @@ import accConnect from '../assets/img/accConnect.png';
 import accuindexImage from '../assets/img/accuindex.png';
 import accPay from '../assets/img/accuPay.png';
 import accuGo from '../assets/img/accuGo.png';
-import fundingImg from '../assets/img/home/Funding.png';
 import zeroCommissionImg from '../assets/img/home/ZeroComssion.png';
 import techImg from '../assets/img/home/tech.png';
 import copyImg from '../assets/img/home/COPY.png';
 import mt5Img from '../assets/img/mt5.png';
 import paymentsImg from '../assets/img/payments.png';
+import support from '../assets/img/accountTypes/main/icon-2.png';
 
 const Home = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -102,9 +102,9 @@ const Home = () => {
       <section className="features-style2-area" style={{ backgroundColor: 'white' }}>
         <div className="container">
           <div className="sec-title text-center">
-            <h2 className="bold-title">{t('Unlock Your Trading Potential')} <br />{t('with')} <span className="span-main">{t('Accuindex')}</span> {t('Solutions')}</h2>
+            <h2 className="bold-title">{t('Unlock Your Trading Potential')}</h2>
             <div className="sub-title">
-              <p>{t('Empower your investments with our smart tools: mirror successful traders with AccuConnect, trade on the go with AccuGo,')}<br />{t('and access your profits instantly with AccuPay.')}</p>
+              <p>{t('Empower your investments with our smart tools: mirror successful traders with AccuConnect, trade on the go with AccuGo,')}</p>
             </div>
           </div>
 
@@ -118,7 +118,7 @@ const Home = () => {
                     slidesPerView={3}
                     onSlideChange={(swiper) => setActiveTab(swiper.activeIndex + 1)}
                     className="features-style2-tab__button mb-5 "
-                    
+
                   >
                     <SwiperSlide>
                       <div
@@ -185,11 +185,11 @@ const Home = () => {
                               <h1 className="span-main bold-title mt-5">AccuConnect.</h1>
                               <br></br>
 
-                              <p>{t('Copy the strategies of top traders and watch your investment portfolio flourish.')}</p>
+                              <p>{t('AccConnectCt')}</p>
                               <br></br>
 
                               <a className="btn-main" href="#" style={{ backgroundColor: '#C02881' }}>
-                                Register
+                                {t('register')}
                               </a>
                             </div>
                           </div>
@@ -210,10 +210,10 @@ const Home = () => {
                               <br></br>
                               <h1 className="span-main bold-title mt-5">AccuGo.</h1>                              <br></br>
 
-                              <p>An intuitive interface that puts financial markets at your fingertips, allowing trading anytime, anywhere.</p>                              <br></br>
+                              <p>{t('AccGoCT')}</p>                              <br></br>
 
                               <a className="btn-main" href="#" style={{ backgroundColor: '#C02881' }}>
-                                Register
+                                {t('register')}
                               </a>
                             </div>
                           </div>
@@ -234,10 +234,10 @@ const Home = () => {
                               <br></br>
                               <h1 className="span-main bold-title mt-5">AccuPay.</h1>                              <br></br>
 
-                              <p>Withdraw your profits directly from anywhere in the world using the AccuPay debit card.</p>                              <br></br>
+                              <p>{t('AccPayCt')}</p>                              <br></br>
 
                               <a className="btn-main" href="#" style={{ backgroundColor: '#C02881' }}>
-                                Register
+                                {t('register')}
                               </a>
                             </div>
                           </div>
@@ -255,7 +255,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="benefits-area" style={{ backgroundColor: 'white' }}>
+      {/* <section className="benefits-area" style={{ backgroundColor: 'white' }}>
         <div className="container">
           <div className="sec-title text-center">
             <h2 className="bold-title">
@@ -266,25 +266,6 @@ const Home = () => {
             </div>
           </div>
           <ul className="row benefits-content text-center">
-            {/* Start Single Benefits Box Column */}
-            {/* <li className="col-xl-4" style={{ border: '2px solid #000' }}>
-              <div>
-                <div className="row">
-                  <div className="col-xl-6">
-                    <div className="text">
-                      <h3 className="bold-p">Flexible Funding Options</h3>
-                      <p>
-                        Conveniently deposit and withdraw from your account using a variety of payment methods to suit your needs.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col-xl-6">
-                    <img src={fundingImg} width="100px" alt="Funding" />
-                  </div>
-                </div>
-              </div>
-            </li> */}
-
             <li className="col-xl-4 single-benefits-box-colum">
               <div className="single-benefits-box">
               <img src={fundingImg} width="100px" alt="Funding" />
@@ -296,9 +277,6 @@ const Home = () => {
                 </div>
               </div>
             </li>
-            {/* End Single Benefits Box Column */}
-
-            {/* Start Single Benefits Box Column */}
             <li className="col-xl-4 single-benefits-box-colum">
               <div className="single-benefits-box">
                 <img src={zeroCommissionImg} width="100px" alt="Zero Commission" />
@@ -310,9 +288,6 @@ const Home = () => {
                 </div>
               </div>
             </li>
-            {/* End Single Benefits Box Column */}
-
-            {/* Start Single Benefits Box Column */}
             <li className="col-xl-4 single-benefits-box-colum">
               <div className="single-benefits-box">
                 <img src={techImg} width="100px" alt="Advanced Trading Technology" />
@@ -324,10 +299,9 @@ const Home = () => {
                 </div>
               </div>
             </li>
-            {/* End Single Benefits Box Column */}
           </ul>
         </div>
-      </section>
+      </section> */}
 
       <section className="service-style1-area">
         <div className="container">
@@ -336,14 +310,11 @@ const Home = () => {
               <div className="service-style1-title">
                 <div className="sec-title">
                   <h2 style={{ color: 'black' }} className="bold-title">
-                    Multiple Account Types<span className="span-main">.</span>
+                    {t('Multiple Account Types')}<span className="span-main">.</span>
                   </h2>
                   <div className="sub-title">
                     <p style={{ color: 'black' }}>
-                      We offer three distinct account types, each tailored to provide exceptional trading
-                      conditions. Our accounts are thoughtfully designed to suit a range of trader profiles
-                      and accommodate various trading strategies, ensuring that every trader can find the ideal
-                      fit for their unique needs.
+                      {t('subContent')}
                     </p>
                   </div>
                 </div>
@@ -359,56 +330,81 @@ const Home = () => {
                   <div className="tab-content-box-item tab-content-box-item-active" id="companies">
                     <div className="service-style1-tab-content-box-item">
                       <div className="row">
-                        {/* Start Single Service Box Style1 */}
+                        {/* Standard Account */}
                         <div className="col-xl-4 col-lg-4">
                           <div className="single-service-box-style1" style={{ backgroundColor: 'black', borderRadius: '20px', height: '400px' }}>
-                            <h2 className="white">Social Account</h2>
+                            <h2 className="white">{t('HPstandardAccount')}</h2>
                             <div className="border-box"></div>
                             <ul>
-                              <li className="white">* Minimum Opening Balance: $100</li>
-                              <li className="white">* Leverage: Up to 1:400</li>
-                              <li className="white">* Spreads from 1.4</li>
-                              <li className="white">* No Commissions</li>
-                              <li className="white">* 300+ Trading Instruments</li>
-                              <li className="white">* Automated Trading</li>
-                              <li className="white">* Stop Out Level: 20%</li>
-                              <li className="white">* Account Currency: USD</li>
+                              <li className="white">* {t('HPminimumBalance')}</li>
+                              <li className="white">* {t('HPleverage')}</li>
+                              <li className="white">* {t('HPspreads')}</li>
+                              <li className="white">* {t('HPnoCommissions')}</li>
+                              <li className="white">* {t('HPtradingInstruments')}</li>
+                              <li className="white">* {t('HPautomatedTrading')}</li>
+                              <li className="white">* {t('HPstopOutLevel')}</li>
+                              <li className="white">* {t('HPaccountCurrency')}</li>
                             </ul>
                           </div>
                         </div>
+
+                        {/* Pro Account */}
                         <div className="col-xl-4 col-lg-4">
                           <div className="single-service-box-style1" style={{ backgroundColor: 'black', borderRadius: '20px', height: '400px' }}>
-                            <h2 className="white">Standard Account</h2>
+                            <h2 className="white">{t('HPproAccount')}</h2>
                             <div className="border-box"></div>
                             <ul>
-                              <li className="white">* Minimum Opening Balance: $100</li>
-                              <li className="white">* Leverage: Up to 1:400</li>
-                              <li className="white">* Spreads from 1.4</li>
-                              <li className="white">* No Commissions</li>
-                              <li className="white">* 300+ Trading Instruments</li>
-                              <li className="white">* Automated Trading</li>
-                              <li className="white">* Stop Out Level: 20%</li>
-                              <li className="white">* Account Currency: USD</li>
+                              <li className="white">* {t('HPminimumBalance').replace('$100', '$1,000')}</li>
+                              <li className="white">* {t('HPleverage')}</li>
+                              <li className="white">* {t('HPspreads').replace('1.4', '0.8')}</li>
+                              <li className="white">* {t('HPnoCommissions')}</li>
+                              <li className="white">* {t('HPadvancedTools')}</li>
+                              <li className="white">* {t('HPtradingInstruments')}</li>
+                              <li className="white">* {t('HPstopOutLevel')}</li>
+                              <li className="white">* {t('HPaccountCurrency')}</li>
                             </ul>
                           </div>
                         </div>
+
+                        {/* Raw Account */}
                         <div className="col-xl-4 col-lg-4">
                           <div className="single-service-box-style1" style={{ backgroundColor: 'black', borderRadius: '20px', height: '400px' }}>
-                            <h2 className="white">Pro Account</h2>
+                            <h2 className="white">{t('HPrawAccount')}</h2>
                             <div className="border-box"></div>
                             <ul>
-                              <li className="white">* Minimum Opening Balance: $5,000</li>
-                              <li className="white">* Leverage: Up to 1:400</li>
-                              <li className="white">* Spreads from 0.8</li>
-                              <li className="white">* No Commissions</li>
-                              <li className="white">* 300+ Trading Instruments</li>
-                              <li className="white">* Automated Trading</li>
-                              <li className="white">* Stop Out Level: 30%</li>
-                              <li className="white">* Account Currency: USD</li>
+                              <li className="white">* {t('HPminimumBalance').replace('$100', '$2,000')}</li>
+                              <li className="white">* {t('HPleverage')}</li>
+                              <li className="white">* {t('HPspreads').replace('1.4', '0.0')}</li>
+                              <li className="white">* {t('HPcommission')}</li>
+                              <li className="white">* {t('HPdirectMarketAccess')}</li>
+                              <li className="white">* {t('HPtradingInstruments')}</li>
+                              <li className="white">* {t('HPautomatedTrading')}</li>
+                              <li className="white">* {t('HPstopOutLevel')}</li>
+                              <li className="white">* {t('HPaccountCurrency')}</li>
                             </ul>
                           </div>
                         </div>
-                        {/* End Single Service Box Style1 */}
+
+                        {/* Copy Trading Account */}
+                        {/* <div className="row mt-2">
+                          <div className="col-xl-4 col-lg-4"></div>
+                          <div className="col-xl-4 col-lg-4">
+                            <div className="single-service-box-style1" style={{ backgroundColor: 'black', borderRadius: '20px', height: '400px' }}>
+                              <h2 className="white">{t('copyTradingAccount')}</h2>
+                              <div className="border-box"></div>
+                              <ul>
+                                <li className="white">* {t('minimumBalance')}</li>
+                                <li className="white">* {t('leverage')}</li>
+                                <li className="white">* {t('spreads')}</li>
+                                <li className="white">* {t('noCommissions')}</li>
+                                <li className="white">* {t('seamlessAccess')}</li>
+                                <li className="white">* {t('copyTrades')}</li>
+                                <li className="white">* {t('tradingInstruments')}</li>
+                                <li className="white">* {t('accountCurrency')}</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -442,17 +438,17 @@ const Home = () => {
                             height: '400px',
                           }}
                         >
-                          <h2 className="white">Social Account</h2>
+                          <h2 className="white">{t('HPstandardAccount')}</h2>
                           <div className="border-box"></div>
                           <ul>
-                            <li className="white">* Minimum Opening Balance: $100</li>
-                            <li className="white">* Leverage: Up to 1:400</li>
-                            <li className="white">* Spreads from 1.4</li>
-                            <li className="white">* No Commissions</li>
-                            <li className="white">* 300+ Trading Instruments</li>
-                            <li className="white">* Automated Trading</li>
-                            <li className="white">* Stop Out Level: 20%</li>
-                            <li className="white">* Account Currency: USD</li>
+                            <li className="white">* {t('HPminimumBalance')}</li>
+                            <li className="white">* {t('HPleverage')}</li>
+                            <li className="white">* {t('HPspreads')}</li>
+                            <li className="white">* {t('HPnoCommissions')}</li>
+                            <li className="white">* {t('HPtradingInstruments')}</li>
+                            <li className="white">* {t('HPautomatedTrading')}</li>
+                            <li className="white">* {t('HPstopOutLevel')}</li>
+                            <li className="white">* {t('HPaccountCurrency')}</li>
                           </ul>
                         </div>
                       </SwiperSlide>
@@ -465,17 +461,17 @@ const Home = () => {
                             height: '400px',
                           }}
                         >
-                          <h2 className="white">Standard Account</h2>
+                          <h2 className="white">{t('HPproAccount')}</h2>
                           <div className="border-box"></div>
                           <ul>
-                            <li className="white">* Minimum Opening Balance: $100</li>
-                            <li className="white">* Leverage: Up to 1:400</li>
-                            <li className="white">* Spreads from 1.4</li>
-                            <li className="white">* No Commissions</li>
-                            <li className="white">* 300+ Trading Instruments</li>
-                            <li className="white">* Automated Trading</li>
-                            <li className="white">* Stop Out Level: 20%</li>
-                            <li className="white">* Account Currency: USD</li>
+                            <li className="white">* {t('HPminimumBalance').replace('$100', '$1,000')}</li>
+                            <li className="white">* {t('HPleverage')}</li>
+                            <li className="white">* {t('HPspreads').replace('1.4', '0.8')}</li>
+                            <li className="white">* {t('HPnoCommissions')}</li>
+                            <li className="white">* {t('HPadvancedTools')}</li>
+                            <li className="white">* {t('HPtradingInstruments')}</li>
+                            <li className="white">* {t('HPstopOutLevel')}</li>
+                            <li className="white">* {t('HPaccountCurrency')}</li>
                           </ul>
                         </div>
                       </SwiperSlide>
@@ -488,17 +484,43 @@ const Home = () => {
                             height: '400px',
                           }}
                         >
-                          <h2 className="white">Pro Account</h2>
+                          <h2 className="white">{t('HPrawAccount')}</h2>
                           <div className="border-box"></div>
                           <ul>
-                            <li className="white">* Minimum Opening Balance: $5,000</li>
-                            <li className="white">* Leverage: Up to 1:400</li>
-                            <li className="white">* Spreads from 0.8</li>
-                            <li className="white">* No Commissions</li>
-                            <li className="white">* 300+ Trading Instruments</li>
-                            <li className="white">* Automated Trading</li>
-                            <li className="white">* Stop Out Level: 30%</li>
-                            <li className="white">* Account Currency: USD</li>
+                            <li className="white">* {t('HPminimumBalance').replace('$100', '$2,000')}</li>
+                            <li className="white">* {t('HPleverage')}</li>
+                            <li className="white">* {t('HPspreads').replace('1.4', '0.0')}</li>
+                            <li className="white">* {t('HPcommission')}</li>
+                            <li className="white">* {t('HPdirectMarketAccess')}</li>
+                            <li className="white">* {t('HPtradingInstruments')}</li>
+                            <li className="white">* {t('HPautomatedTrading')}</li>
+                            <li className="white">* {t('HPstopOutLevel')}</li>
+                            <li className="white">* {t('HPaccountCurrency')}</li>
+                          </ul>
+                        </div>
+                      </SwiperSlide>
+
+
+                      <SwiperSlide>
+                        <div
+                          className="single-service-box-style1"
+                          style={{
+                            backgroundColor: 'black',
+                            borderRadius: '20px',
+                            height: '400px',
+                          }}
+                        >
+                          <h2 className="white">{t('copyTradingAccount')}</h2>
+                          <div className="border-box"></div>
+                          <ul>
+                            <li className="white">* {t('minimumBalance')}</li>
+                            <li className="white">* {t('leverage')}</li>
+                            <li className="white">* {t('spreads')}</li>
+                            <li className="white">* {t('noCommissions')}</li>
+                            <li className="white">* {t('seamlessAccess')}</li>
+                            <li className="white">* {t('copyTrades')}</li>
+                            <li className="white">* {t('tradingInstruments')}</li>
+                            <li className="white">* {t('accountCurrency')}</li>
                           </ul>
                         </div>
                       </SwiperSlide>
@@ -515,7 +537,7 @@ const Home = () => {
             <div className="col-xl-12">
               <div className="service-style1__btns-box text-center">
                 <a className="btn-one" href="#">
-                  <span className="txt bold-title">Explore More Account Types</span>
+                  <span className="txt bold-title">{t('Open Your Preferred Account Today')}</span>
                 </a>
               </div>
             </div>
@@ -536,11 +558,11 @@ const Home = () => {
             <div className="col-xl-5 mobile-align">
               <div className="features-style3-content copy-trading-padding">
                 <div className="sec-title mobile-align">
-                  <h1 className="white bold-title copy-trading-text mobile-align">
-                    Copy Top Investors<span className="span-main span-main-font">.</span>
-                  </h1>
+                  <h6 className="white bold-title copy-trading-text mobile-align">
+                    {t('Master Trading with Ease Through Copy Trading')}
+                  </h6>
                   <div className="sub-title white mobile-align">
-                    <p>With Accuindex CopyTrader™, you can automatically copy the moves of other investors. Find investors you believe in and replicate their actions in real time.</p>
+                    <p>{t('suCtTwo')}</p>
                   </div>
                 </div>
 
@@ -551,33 +573,35 @@ const Home = () => {
                       <div className="icon">
                         <span className="icon-checkbox-mark pc"></span>
                       </div>
-                      <p className="white pc">What is copy trading</p>
+                      <p className="white pc">* {t('TPOne')}</p>
                     </li>
                     <li>
                       <div className="icon">
                         <span className="icon-checkbox-mark pc"></span>
                       </div>
-                      <p className="white pc">Advantage of copy trading</p>
+                      <p className="white pc">* {t('TPTwo')}</p>
                     </li>
                     <li>
                       <div className="icon">
                         <span className="icon-checkbox-mark pc"></span>
                       </div>
-                      <p className="white pc">How to successfully copy trade</p>
+                      <p className="white pc">* {t('TPThree')}</p>
                     </li>
                     <li>
                       <div className="icon pc">
                         <span className="icon-checkbox-mark"></span>
                       </div>
-                      <p className="white pc">The rise of copy trading</p>
+                      <p className="white pc">* {t('TPFour')}</p>
                     </li>
                   </ul>
 
                   <div className="btns-box">
                     <br className="pc" />
                     <a className="btn-main" href="#" style={{ backgroundColor: '#C02881' }}>
-                      Get The App
+                      {t('Get The App')}
                     </a>
+                    <br className="pc" />
+                    <br className="pc" />
                     <br className="mobile-seen" />
                     <br className="mobile-seen" />
                   </div>
@@ -592,19 +616,19 @@ const Home = () => {
         <div className="container">
           <div className="sec-title text-center">
             <h2 className="bold-title">
-              Why Choose <span className="span-main">Accuindex</span>
+              {t('whyChooseAccuindex')}<span className="span-main">{t('accuindex')}</span>
             </h2>
             <div className="sub-title">
-              <p>We help businesses and customers achieve more.</p>
+              <p>{t('WhyChooseSub')}</p>
             </div>
           </div>
           <ul className="row benefits-content text-center">
             <li className="col-xl-4 single-benefits-box-colum">
               <div className="single-benefits-box">
-                <img src={fundingImg} width="100px" alt="Flexible Funding Options" />
+                <img src={techImg} width="100px" alt="Flexible Funding Options" />
                 <div className="text">
-                  <h3 className="bold-p">Flexible Funding Options</h3>
-                  <p>Conveniently deposit and withdraw from your account using a variety of payment methods to suit your needs.</p>
+                  <h3 className="bold-p">{t('Cutting-Edge Technology')}</h3>
+                  <p>{t('Cutting-Edge TechnologySub')}</p>
                 </div>
               </div>
             </li>
@@ -612,17 +636,17 @@ const Home = () => {
               <div className="single-benefits-box">
                 <img src={zeroCommissionImg} width="100px" alt="Competitive Spreads" />
                 <div className="text">
-                  <h3 className="bold-p">Competitive Spreads</h3>
-                  <p>Trade confidently in a secure environment with spreads starting as low as 0.0 pips, providing a cost-effective trading experience.</p>
+                  <h3 className="bold-p">{t('Transparent Trading Conditions')}</h3>
+                  <p>{t('Transparent Trading ConditionsSub')}</p>
                 </div>
               </div>
             </li>
             <li className="col-xl-4 single-benefits-box-colum">
               <div className="single-benefits-box">
-                <img src={techImg} width="100px" alt="Advanced Trading Technology" />
+                <img src={support} width="100px" alt="Advanced Trading Technology" />
                 <div className="text">
-                  <h3 className="bold-p">Advanced Trading Technology</h3>
-                  <p>Access a wide range of assets, including currencies, energies, futures, metals, indices, and shares, all available as CFDs on a cutting-edge platform.</p>
+                  <h3 className="bold-p">{t('Dedicated Customer Support')}</h3>
+                  <p>{t('Dedicated Customer SupportSub')}</p>
                 </div>
               </div>
             </li>
@@ -638,35 +662,35 @@ const Home = () => {
               <div className="features-style3-content">
                 <div className="sec-title mobile-align">
                   <h1 className="white bold-title" style={{ fontSize: '45px' }}>
-                    Trade the Markets with Premier Platforms
+                    {t('Trade the Markets with Premier Platforms.')}
                     <span className="span-main" style={{ fontSize: '55px' }}>.</span>
                   </h1>
                   <div className="sub-title white">
-                    <p>Experience seamless trading with Accuindex through our user-friendly AccuPay app or the advanced MetaTrader 5 platform, accessible on any device, anytime, anywhere.</p>
+                    <p>{t('Experience seamless trading with Accuindex through our user-friendly AccuPay app or the advanced MetaTrader 5 platform, accessible on any device, anytime, anywhere.')}</p>
                   </div>
                 </div>
                 <div className="text-box">
                   <div className="row">
                     <div className="col-md-6 account-key-features pc">
-                      <h3 className="white mb-4">AccuPay Account</h3>
+                      <h3 className="white mb-4">{t('AccuPay Account')}</h3>
                       <ul>
-                        <li><div className="icon"><span className="icon-checkbox-mark"></span></div><p className="white">Instant Transactions</p></li>
-                        <li><div className="icon"><span className="icon-checkbox-mark"></span></div><p className="white">Global ATM Access</p></li>
-                        <li><div className="icon"><span className="icon-checkbox-mark"></span></div><p className="white">User-Friendly Mobile App</p></li>
+                        <li><div className="icon"><span className="icon-checkbox-mark"></span></div><p className="white">{t('SubPOne')}</p></li>
+                        <li><div className="icon"><span className="icon-checkbox-mark"></span></div><p className="white">{t('SubPTwo')}</p></li>
+                        <li><div className="icon"><span className="icon-checkbox-mark"></span></div><p className="white">{t('SubPThree')}</p></li>
                       </ul>
                     </div>
                     <div className="col-md-6 account-key-features pc">
-                      <h3 className="white mb-4">MT5 Account</h3>
+                      <h3 className="white mb-4">{t('MT5 Account')}</h3>
                       <ul>
-                        <li><div className="icon"><span className="icon-checkbox-mark"></span></div><p className="white">Advanced Trading Tools</p></li>
-                        <li><div className="icon"><span className="icon-checkbox-mark"></span></div><p className="white">Competitive Spreads</p></li>
-                        <li><div className="icon"><span className="icon-checkbox-mark"></span></div><p className="white">Real-Time Market Data</p></li>
+                        <li><div className="icon"><span className="icon-checkbox-mark"></span></div><p className="white">{t('SubPFour')}</p></li>
+                        <li><div className="icon"><span className="icon-checkbox-mark"></span></div><p className="white">{t('SubPFive')}</p></li>
+                        <li><div className="icon"><span className="icon-checkbox-mark"></span></div><p className="white">{t('SubPSix')}</p></li>
                       </ul>
                     </div>
                   </div>
                   <div className="btns-box mobile-align mt-5">
-                    <a className="btn-main2 mx-1" href="#">EXPLORE ACCUPAY APP</a>
-                    <a className="btn-one background-main" href="#">EXPLORE METATRADER 5</a>
+                    <a className="btn-main2 mx-1" href="#">{t('EXPLORE ACCUPAY APP')}</a>
+                    <a className="btn-one background-main" href="#">{t('EXPLORE METATRADER 5')}</a>
                   </div>
                 </div>
               </div>
@@ -692,28 +716,28 @@ const Home = () => {
               <div className="service-request-style2-content-box">
                 <div className="pattern-bottom" style={{ backgroundImage: 'url(assets/images/shapes/service-request-style2-content-box-pattern.png)' }}></div>
                 <div className="sec-title mobile-align">
-                  <h2 className="bold-title">Effortless and Swift Account Funding<span className="span-main span-main-font">.</span></h2>
+                  <h2 className="bold-title">{t('Effortless and Swift Account Funding')}<span className="span-main span-main-font">.</span></h2>
                   <div className="sub-title">
-                    <p>Enjoy seamless deposits and fast, secure withdrawals, keeping your funds safe and accessible.</p>
+                    <p>{t('Seamlessly deposit and withdraw funds with Accuindex’s secure, flexible, and fast payment solutions')}.</p>
                   </div>
                 </div>
                 <div className="service-request-style2-content-box__inner pc">
                   <ul>
-                    <li><div className="single-service-request-style2-box"><div className="icon"><span className="icon-credit-card"></span></div><div className="title"><h3>Instant Deposits</h3></div></div></li>
-                    <li><div className="single-service-request-style2-box"><div className="icon"><span className="icon-computer"></span></div><div className="title"><h3>Fast Withdrawals</h3></div></div></li>
-                    <li><div className="single-service-request-style2-box"><div className="icon"><span className="icon-book"></span></div><div className="title"><h3>Secure Transactions</h3></div></div></li>
-                    <li><div className="single-service-request-style2-box"><div className="icon"><span className="icon-check-book"></span></div><div className="title"><h3>Guaranteed Fund Safety</h3></div></div></li>
+                    <li><div className="single-service-request-style2-box"><div className="icon"><span className="icon-credit-card"></span></div><div className="title"><h3>{t('Instant Deposits')}</h3></div></div></li>
+                    <li><div className="single-service-request-style2-box"><div className="icon"><span className="icon-computer"></span></div><div className="title"><h3>{t('Flexible Options')}</h3></div></div></li>
+                    <li><div className="single-service-request-style2-box"><div className="icon"><span className="icon-book"></span></div><div className="title"><h3>{t('Secure Transactions')}</h3></div></div></li>
+                    <li><div className="single-service-request-style2-box"><div className="icon"><span className="icon-check-book"></span></div><div className="title"><h3>{t('Hassle-Free Withdrawals')}</h3></div></div></li>
                   </ul>
                 </div>
                 <div className="service-request-style2__btns-box mobile-align pc">
-                  <a className="btn-main2" href="#">Trade Now</a>
+                  <a className="btn-main2" href="#">{t('Trade Now')}</a>
                 </div>
                 <div className="mobile-seen mobile-align">
                   <img src={paymentsImg} alt="Payments" width="100%" />
                   <br></br>
                   <br></br>
 
-                  <a className="btn-main2" href="#">Trade Now</a>
+                  <a className="btn-main2" href="#">{t('Trade Now')}</a>
                 </div>
               </div>
             </div>
@@ -728,9 +752,9 @@ const Home = () => {
         <div className="facts-area-bg background-main"></div>
         <div className="container">
           <div className="sec-title text-center">
-            <h2>Award Winning Broker</h2>
+            <h2>{t('awardWinningBroker')}</h2>
             <div className="sub-title">
-              <p>Discover why millions of users from over countries choose to trade with Accuindex</p>
+              <p>{t('discoverWhyMillions')}</p>
             </div>
           </div>
           <div className="row">

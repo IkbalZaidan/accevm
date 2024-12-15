@@ -2735,7 +2735,7 @@ select:focus {
 }
 
 .features-style3-content .sec-title {
-  padding-bottom: 28px;
+  padding-bottom: 0px;
 }
 
 .features-style3-content .sec-title .sub-title {
@@ -11718,7 +11718,7 @@ a.third:hover {
 }
 
 .copy-trading-section {
-  background: linear-gradient(to bottom, white 15%, black 15%, black 85%, white 85%);
+  background: linear-gradient(to bottom, white 15%, black 15%, black 100%, white 85%);
 }
 
 .copy-trading-padding {
@@ -12146,4 +12146,16 @@ html[dir="rtl"] .features-style-content .text-box ul li .icon {
 
 .white-back{
   background: white !important;
+}
+
+.pdf-link {
+  text-decoration: none;
+  color: #000; /* Black text color */
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.pdf-link:hover {
+  color: #C02881; /* Change color on hover */
 }

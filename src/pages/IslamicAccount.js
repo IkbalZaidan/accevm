@@ -139,7 +139,7 @@ const IslamicAccounts = () => {
                   <h1 className="white bold-title" style={{ fontSize: "45px" }}>
                     {t("islamic.features2.title")}
                     <span className="span-main" style={{ fontSize: "55px" }}>
-                      ?
+                      {t("qMark")}
                     </span>
                   </h1>
                   <div className="sub-title white">
@@ -215,7 +215,7 @@ const IslamicAccounts = () => {
                           <ul>
                             {account.features.map((feature, idx) => (
                               <li className="white" key={idx}>
-                                {feature}
+                                * {feature}
                               </li>
                             ))}
                           </ul>
@@ -254,7 +254,7 @@ const IslamicAccounts = () => {
                           <ul>
                             {account.features.map((feature, idx) => (
                               <li className="white" key={idx}>
-                                {feature}
+                                * {feature}
                               </li>
                             ))}
                           </ul>

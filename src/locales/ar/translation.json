@@ -1277,7 +1277,221 @@
   "faqQuestion30": "كيف يمكنني إغلاق حساب التداول الخاص بي؟",
   "faqAnswer30": "تواصل مع فريق الدعم الخاص بنا، وسيقومون بإرشادك خلال عملية إغلاق الحساب.",
 
-  "faqAccPay.registerButton":"قدم الآن"
+  "faqAccPay.registerButton":"قدم الآن",
+  
+  "qMark":"⸮",
+
+
+
+  "privacyPolicy":"سياسة الخصوصية",
+  "termsAndConditions":"الشروط والاحكام",
+  "products":"المنتجات",
+  "Cost & Spreads":"فروق الأسعار والتكاليف",
+  "Deposits & Withdrawals":"عمليات الإيداع والسحب",
+  "Fees & Charges":"الرسوم والتكاليف",
+  "Cryptocurrencies":"العملات الرقمية",
+  "ForexNav":"الفوركس",
+  "StocksNav":"الاسهم",
+  "IndicesNav":"المؤشرات",
+  "CommoditiesNav":"السلع",
+  "PlatformsNav":"المنصات",
+  "OurStory":"قصتنا",
+  "Licenses&Regulations":"التراخيص واللوائح",
+  "Awards&Recognition":"الجوائز والتقدير",
+  "TradingAccountsNav":"حسابات التداول",
+  "AccountTypesNav":"أنواع الحسابات",
+  "IslamicAccountsNav":"حساب إسلامي",
+  "DemoAccountNav":"حساب تجريبي",
+  "MarketsNav":"المنتجات",
+  "TradingToolsNav":"أدوات التداول",
+  "SupportNav":"الدعم",
+  "HelpCenterNav":"مركز المساعدة",
+  "ContactUsNav":"تواصل معنا",
+  "IntroducingBrokersNav":"برنامج الوسيط المعرف",
+  "CorporateAccountsNav":"حسابات الشركات",
+  "FundMnagers":"مديري الصناديق",
+  "CompanyNav":"الشركة",
+
+  "termsPOne":"شركة Accuindex Limited هي شركة استثمار تأسست بموجب قوانين جمهورية موريشيوس وتحمل رقم الشركة 167867 GBC. وهي شركة مرخصة وخاضعة للرقابة من جانب هيئة الخدمات المالية (FSC) في موريشيوس بموجب (ترخيص رقم GB19024778). ويقع العنوان المسجل في The Cyberati Lounge, Ground Floor, The Catalyst, Silicon Avenue, 40 Cybercity, 72201 Ebène, Republic of Mauritius. تتولى مجموعة شركات Accuindex إدارة الموقع الإلكتروني www.accuindex.com وتوفير محتواه، وهي تضم ما يلي: • شركة Accuindex Limited (موريشيوس) • شركة شركة Accuindex EU Limited هي شركة استثمار قبرصية مسجلة بموجب رقم التسجيل HE 360650. وهي شركة مرخصة وخاضعة للرقابة من جانب الهيئة القبرصية للأوراق المالية والبورصة بموجب ترخيص رقم 340/17. شركة Accuindex EU Limited هي شركة خاضعة لتوجيه الأسواق في الأدوات المالية (MiFID) للاتحاد الأوروبي. ويقع العنوان المسجل في 1 AyiasZonis Street Nicolaou Pentadromos Centre Block B, Limassol 3026, Cyprus.",
+  "termsPTwo":"تخضع شركة Accuindex EU Limited لتوجيه الأسواق في الأدوات المالية (MiFID) للاتحاد الأوروبي. ويقع العنوان المسجل للشركة في 1 Ayias Zonis Street Nicolaou Pentadromos Centre Block B, Limassol 3026, Cyprus. The website www.accuindex.eu is operated by Accuindex EU Limited. تدير شركة Accuindex EU Limited الموقع الإلكتروني www.accuindex.eu. التحذير بشأن المخاطر: إن عقود الفروقات أدوات معقدة وتنطوي على مخاطرة مرتفعة بخسارة الأموال بشكل سريع بسبب استخدام الرافعة المالية. ويجب عليك أن تنظر فيما إذا كنت تفهم كيفية عمل عقود الفروقات وما إذا كان بمقدورك تحمل المخاطرة المرتفعة بخسارة أموالك. يرجى قراءة الإفصاح عن المخاطر بالكامل. قيود إقليمية: لا تقدم شركة Accuindex Limited خدمات الاستثمار والخدمات المساعدة في أراضي الولايات المتحدة الأمريكية وكندا وإسرائيل واليابان وكوريا الشمالية وبلجيكا وفي الدول الموقعة عليها عقوبات من جانب الأمم المتحدة/الاتحاد الأوروبي.",
+
+
+
+  "AccGoCT":"ابق على اتصال بالأسواق من خلال AccuGo، منصة التداول عبر الهاتف المحمول. سواء كنت تتبع اتجاهات السوق أو تنفذ الصفقات أو تدير محفظتك، فإن AccuGo تضمن لك عدم تفويت أي فرصة - متاح لكل من iOS وAndroid.",
+  "AccConnectCt":"قم بتكرار استراتيجيات أفضل المتداولين باستخدام AccuConnect. تتيح لك ميزة التداول بالنسخ المتقدمة هذه متابعة المستثمرين ذوي الخبرة والوصول إلى رؤى احترافية والتداول بشكل أكثر ذكاءً - مثالية للمبتدئين والمتداولين المخضرمين الذين يهدفون إلى تعزيز محفظتهم محافظهم.",
+  "AccPayCt":"تمتع بإيداعات وسحوبات خالية من المتاعب مع بطاقة AccuPay. تم تصميم حل الدفع هذا للسرعة والموثوقية، ويضمن توفر أموالك عند الحاجة إليها، مما يعزز تداولك من خلال العمليات المالية السلسة.",
+
+
+  "Multiple Account Types":"أنواع متعددة من الحسابات",
+  "subContent":"استكشف مجموعة أكيواندكس المتنوعة من حسابات التداول المصممة لتناسب أسلوبك الفريد في التداول وأهدافك الاستثمارية. سواء كنت مبتدئًا أو محترفًا خبيرًا، توفر حساباتنا المرونة والشفافية والأدوات التي تحتاجها للنجاح في الأسواق المالية العالمية.",
+  "Open Your Preferred Account Today":"افتح حسابك المُفضل اليوم",
+
+  
+  "HPstandardAccount": "حساب Standard",
+  "HPminimumBalance": "الحد الأدنى لرصيد الافتتاح: 100 دولار",
+  "HPleverage": "الرافعة المالية: حتى 1:400",
+  "HPspreads": "السبريد: من 1.4 نقطة",
+  "HPnoCommissions": "بدون عمولات",
+  "HPtradingInstruments": "الوصول إلى أكثر من 300 أداة تداول",
+  "HPautomatedTrading": "دعم التداول الآلي",
+  "HPstopOutLevel": "مستوى إيقاف الخسارة: 20%",
+  "HPaccountCurrency": "عملة الحساب: الدولار الأمريكي",
+  "HPproAccount": "حساب Pro",
+  "HPadvancedTools": "أدوات تداول متقدمة متضمنة",
+  "HPrawAccount": "حساب Raw",
+  "HPcommission": "العمولة: 7 دولارات لكل لوت متداول",
+  "HPdirectMarketAccess": "الوصول المباشر إلى السوق",
+  "HPcopyTradingAccount": "حساب تداول نسخ",
+  "HPcopyTrades": "مراقبة ونسخ الصفقات على الفور",
+  "HPseamlessAccess": "الوصول السلس إلى منصة AccuConnect",
+
+
+
+  "Master Trading with Ease Through Copy Trading":"احترف اتقان  التداول بسهولة من خلال نسخ الصفقات",
+  "suCtTwo":"احصل على الراحة تمتع بالراحة القصوى للتداول من خلال محاكاة استراتيجيات المتداولين الخبراء. يتيح حساب التداول بالنسخ من مع أكيواندكس للمبتدئين والمتداولين المشغولين على حد سواء المشاركة في الأسواق بثقة، دون الحاجة إلى بحث أو خبرة مكثفة.",
+
+
+  "TPOne":"قم بمحاكاة استراتيجيات المتداولين المخضرمين مباشرة على حسابك.",
+  "TPTwo":"ابدأ بإيداع أدنى يبلغ بقيمة 100 دولار فقط وتداول برافعة مالية تصل إلى 1:400.",
+  "TPThree":"يمكنك الوصول إلى أكثر من 300 أداة تداول عبر الفوركس والسلع والمؤشرات.",
+  "TPFour":"قم بمراقبة وتنفيذ الصفقات على الفور من خلال منصة AccuConnect.",
+
+  "Get The App":"حمل التطبيق",
+  "WhyChooseSub":"اكتشف مزايا تداول لا مثيل لها مع أكيواندكس—الجمع بين الابتكار والشفافية والدعم من الخبراء لمساعدتك على النجاح في الأسواق العالمية.",
+
+
+
+
+  "Cutting-Edge Technology":"تكنولوجيا متطورة",
+  "Cutting-Edge TechnologySub":"استخدم منصات التداول الحديثة مثل منصة أكيواندكس MT5 وAccuConnect، المصممة للدقة والسرعة والتنفيذ السلس عبر جميع الأجهزة.",
+  "Transparent Trading Conditions":"شروط تداول شفافة",
+  "Transparent Trading ConditionsSub":"استمتع تمتع بفروق أسعار تنافسية ورافعة مالية عالية وبيئة تداول آمنة، مدعومة بالامتثال التنظيمي لحماية استثماراتك.",
+  "Dedicated Customer Support":"دعم العملاء المخصص",
+  "Dedicated Customer SupportSub":"يتوفر فريقنا المحترف متواجد على مدار الساعة طوال أيام الأسبوع لمساعدتك في استراتيجيات التداول وإرشادات المنصة ورؤى السوق في الوقت الفعلي.",
+
+
+
+
+
+  "Trade the Markets with Premier Platforms.":"تداول في الأسواق باستخدام أفضل المنصات.",
+  "Experience seamless trading with Accuindex through our user-friendly AccuPay app or the advanced MetaTrader 5 platform, accessible on any device, anytime, anywhere.":"اختبر تجربة تداول سلسة مع Accuindex من خلال تطبيق AccuPay السهل الاستخدام أو منصة MetaTrader 5 المتقدمة، المتوفرة على أي جهاز، في أي وقت ومن أي مكان.",
+  "AccuPay Account":"حساب AccuPay",
+  "MT5 Account":"حساب MT5",
+  "EXPLORE ACCUPAY APP":"استكشف تطبيق AccuPay",
+  "EXPLORE METATRADER 5":"استكشف منصة Meta Trader 5",
+"SubPOne": "معاملات فورية",
+"SubPTwo": "الوصول إلى أجهزة الصراف الآلي العالمية",
+"SubPThree": "تطبيق جوال سهل الاستخدام",
+"SubPFour": "أدوات تداول متقدمة",
+"SubPFive": "فروق أسعار تنافسية",
+"SubPSix": "بيانات السوق في الوقت الحقيقي",
+
+
+
+
+"Instant Deposits":"إيداعات فورية",
+  "Flexible Options":"خيارات مرنة",
+  "Secure Transactions":"معاملات آمنة",
+  "Hassle-Free Withdrawals":"سحب خالي من المتاعب",
+  "Effortless and Swift Account Funding":"تمويل حسابك بسهولة وسرعة",
+  "Seamlessly deposit and withdraw funds with Accuindex’s secure, flexible, and fast payment solutions":"قم بإيداع وسحب الأموال بسهولة باستخدام حلول الدفع الآمنة والمرنة والسريعة من أكيواندكس",
+
+
+
+
+  "contact": {
+    "title": "افتح حساب تداول حقيقي",
+    "description": "ملتزمون بمساعدتكم في تلبية جميع احتياجاتكم المصرفية",
+    "corporateOffice": "المكتب الرئيسي",
+    "officeAddress": "141, First Floor, 12 St RootsTerrace, Los Angeles USA 90010.",
+    "officeHours": "ساعات العمل",
+    "hoursDetails": "Mon - Fri: 9.00am to 5.00pm",
+    "holiday": "[2nd Sat Holiday]",
+    "frontDesk": "",
+    "contactNumber": "+61 3 8376 6284",
+    "contactEmail": "supportyou@finbank.com",
+    "firstName": "الاسم الأول",
+    "lastName": "الكنية",
+    "country": "بلد الإقامة",
+    "selectCountry": "اختر البلد",
+    "emailLabel": "البريد الالكتروني",
+    "phoneLabel": "رقم الهاتف",
+    "subjectLabel": "الموضوع",
+    "messageLabel": "الرسالة",
+    "signup": "تسجيل",
+    "password": "كلمة السر",
+    "confirmPassword": "تأكيد كلمة السر",
+    "customerCare": "خدمة العملاء",
+    "agree": "بتسجيلك، أنت توافق على سياسة الخصوصية الخاصة بنا"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+  "Legal Documents":"المستندات القانونية",
+  "LegalDocsSub":"تحقيق فهم أفضل لتداول الفوركس بالهامش ومنتجات العقود مقابل الفارق ومعرفة حقوقك والتزاماتك عندما يتعلق الأمر بمعاملات الصرف الأجنبي، احرص على تنزيل وقراءة الملف الشامل بصيغة بي دي إف (PDF).",
+  "ReadMore":"اقرأ المزيد",
+  "Privacy Policy":"سياسة الخصوصية",
+  "PrivacyPolicySub":"هذا الموقع تمتلكه وتديره شركة AccuIndex. تمثل خصوصيتك أهمية قصوى لدى AccuIndex. ونهدف لضمان تجربة مُرضية وآمنة لجميع عملائنا.",
+  "PrivacyPolicySecOne":"ونحن ملزمون بالامتثال لتشريع الاتحاد الأوروبي لحماية البيانات، لذا نطبق إجراءات أمنية مشددة فيما يتعلق بكل من تخزين جميع المعلومات التي تشاركها معنا والإفصاح عنها. AccuIndex لن تشارك أي معلومات تخص أفراد محددين مع أي أطراف ثالثة خارجية، عدا إذا كان ذلك مطلوباً بموجب القانون، أو للامتثال مع الالتزامات التنظيمية الخاصة بنا.",
+  "PrivacyPolicySecTwo":"للمزيد من المعلومات حول الإفصاح عن المعلومات، يُرجى الرجوع إلى قسم 26 من شروط الأعمال.",
+  "PrivacyPolicySecThree":"نظراً لأننا نطلب من مستخدمينا مشاركة أنواع محددة من المعلومات معنا، فإننا نعتقد أنه يحق لهم فهم سياساتنا، والشروط والأحكام المتعلقة بجمع هذه المعلومات واستخدامها. يوضح بيان الخصوصية هذا طبيعة هذه المعلومات واستخدامها.",
+  "Accuindex Limited Gathers And Tracks":"تقوم شركة AccuIndex ليمتد بجمع وتتبع:",
+  "PrivacyPolicySecFour":"1.المعلومات التي يفصح عنها المستخدمون خلال عمليات التقديم الاختيارية والطوعية بهدف تلقي نشرتنا الإخبارية الإلكترونية.",
+  "PrivacyPolicySecFive":"2.المعلومات التي يفصح عنها المستخدمون لطلب حساب تجريبي مجاني أو طلب الحصول على وصول كامل لبرنامج التداول عبر الإنترنت الخاص بنا. هذه المعلومات مطلوبة لأغراض تنظيمية، وذلك بهدف إكمال عملية تعريف العميل وتقييم مدى ملاءمة المستخدمين المحتملين قبل السماح لهم بالحصول على خدماتنا.",
+  "License & Authorization":"التراخيص والهيئات",
+  "L&APone":"* شركة AccuIndex ليمتد مرخصة وخاضعة لرقابة هيئة الأوراق المالية والبورصات (CySEC) في قبرص (رقم الترخيص 17/340).",
+  "L&APTwo":"* شركة AccuIndex ليمتد مرخصة وخاضعة لرقابة هيئة الخدمات المالية (FSC) في موريشيوس (رقم الترخيص GB19024778).",
+  "High Risk Investment Warning":"تحذير الاستثمار عالي المخاطر",
+  "LiPOne":"* يحمل تداول العملات الأجنبية بالهامش درجة عالية من المخاطر وقد لا يناسب جميع المستثمرين. فالرافعة قد تعمل ضدك كما تعمل لصالحك.",
+  "LiPTwo":"* قبل أن تتخذ قرار بالتداول في العملات الأجنبية، يجب أن تفكر ملياً في أهدافك الاستثمارية، ومستوى خبرتك وقدرتك على تحمل المخاطر.",
+  "LiPThree":"* هناك احتمال أن تتعرض لخسارة هائلة لبعض أو كل استثمارك الأولي، وبالتالي ينبغي ألا تستثمر أي أموال لا يمكنك تحمل خسارتها.",
+  "LiPFour":"* كن على دراية كاملة بجميع المخاطر المرتبطة بتداول الصرف الأجنبي واطلب المشورة من مستشار مالي مستقل في حالة كانت لديك أية شكوك.",
+
+
+
+  "Accuindex Legal Documents":"مستندات Accuindex القانونية",
+
+  "Accuindex Client Agreement":"اتفاقية العميل",
+  "Accuindex Limited Privacy Notice":"اتفاقية اكيواندكس لسياسة الخصوصية",
+  "Accuindex Limited Website Terms and Conditions":"شروط وقوانين استخدام الموقع الالكتروني",
+  "AML Procedures Manual":"دليل إجراءات مكافحة غسل الأموال",
+  "Accuindex Limited Complaint Procedures":"اتفاقية اكيواندكس للشكاوي والاقتراحات",
+  "Safeguarding of Clients Assets Policy":"سياسة حماية أصول العملاء",
+
+
+  "AccuPay MasterCard Terms":"شروط بطاقة AccuPay MasterCard",
+  "Accuindex VPS Service - Terms and Conditions":"خدمة Accuindex VPS - الشروط والأحكام",
+  "Withdrawal and Refund Policy":"سياسة السحب واسترداد الأموال",
+  "Summary Order Execution Policy":"سياسة تنفيذ الأوامر الملخصة",
+  "Copy Trading Terms and Conditions":"شروط وأحكام التداول بالنسخ",
+  
+
+  "Accuindex 15% Bonus Terms and Conditions - SEA":"شروط وأحكام بونص 15% من Accuindex - جنوب شرق آسيا",
+  "Accuindex 20% Bonus Offer - Terms and Conditions":"عرض بونص 20% من Accuindex - الشروط والأحكام",
+  "30% Bonus Offer - Terms and Conditions":"عرض بونص 30% - الشروط والأحكام",
+  "Accuindex Bonus 50% offer Terms & Conditions":"عرض بونص 50% من Accuindex - الشروط والأحكام",
+  "Accuindex Ramadan offer Terms & Conditions":"عرض رمضان من Accuindex - الشروط والأحكام",
+  "Risk Warning Notice":"إشعار تحذير من المخاطر",
+
+
+  "promotionignite":{
+    "promotionsTitle":"عروض Accuindex الترويجية ",
+    "promotionsDescription":"في AccuIndex، نحن نكافئ عملائنا. لهذا السبب، نحن متحمسون لتقديم أحدث عروض الوساطة لدينا: مكافأة الإيداع بنسبة 30%. تتيح لك هذه العرض تعزيز حساب التداول الخاص بك وتعظيم أرباحك كما لم يحدث من قبل. اكتشف المزيد وتحقق مما إذا كان حسابك مؤهلاً لهذه المكافأة الرائدة في السوق اليوم!",
+    "ctaButton":"ابدأ التداول الآن"
+  }
+
+
+
+
 
 
 }

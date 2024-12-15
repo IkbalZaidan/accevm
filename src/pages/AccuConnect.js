@@ -72,7 +72,7 @@ const AccuConnect = () => {
                                 <div className="sec-title mobile-align">
                                     <br />
                                     <h1 className="white bold-title" style={{ fontSize: '45px' }}>
-                                        {t('whatIsCopyTrading')} <span className="span-main" style={{ fontSize: '55px' }}>?</span>
+                                        {t('whatIsCopyTrading')} <span className="span-main" style={{ fontSize: '55px' }}> {t('qMark')}</span>
                                     </h1>
                                     <div className="sub-title white">
                                         <p>{t('copyTradingDescription')}</p>

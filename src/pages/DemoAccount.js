@@ -241,7 +241,7 @@ const DemoAccount = () => {
                           <ul>
                             {account.features.map((feature, idx) => (
                               <li className="white" key={idx}>
-                                {feature}
+                                * {feature}
                               </li>
                             ))}
                           </ul>
@@ -280,7 +280,7 @@ const DemoAccount = () => {
                           <ul>
                             {account.features.map((feature, idx) => (
                               <li className="white" key={idx}>
-                                {feature}
+                                * {feature}
                               </li>
                             ))}
                           </ul>

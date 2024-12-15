@@ -151,7 +151,7 @@ const DemoAccount = () => {
                                 <div className="sec-title mobile-align">
                                     <br />
                                     <h1 className="white bold-title" style={{ fontSize: '45px' }}>
-                                        {t('whoShouldOpenAccount')}<span className="span-main" style={{ fontSize: '55px' }}></span>?
+                                        {t('whoShouldOpenAccount')}<span className="span-main" style={{ fontSize: '55px' }}></span>
                                     </h1>
                                     <div className="sub-title white">
                                         <p>{t('idealFor')}</p>

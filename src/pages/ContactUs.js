@@ -2,59 +2,25 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'swiper/css';
-import "swiper/css/navigation";
-import "swiper/css/pagination"; // Pagination styles
-import '../styles/about-section.css';
-import '../styles/blog-section.css';
+// import 'swiper/css';
+// import "swiper/css/navigation";
+// import "swiper/css/pagination";
 import '../styles/Style.css';
+import '../styles/Contact-sty.css';
 import '../styles/Responsive-sty.css';
-
-import img1 from '../assets/img/economicCalendar/SLIDE-1.png';
-import img2 from '../assets/img/fundManagers/IMG-2.png';
-
-import icon1 from "../assets/img/promotions/ICON-1.png";
-import icon2 from "../assets/img/promotions/ICON-2.png";
-import icon3 from "../assets/img/promotions/ICON-3.png";
 
 const ContactUs = () => {
     const { t } = useTranslation();
-    const [activeIndex, setActiveIndex] = useState(0);
 
-    const faqs = [
-        {
-            question: t("ecofaq.question1"),
-            answer: t("ecofaq.answer1"),
-        },
-        {
-            question: t("ecofaq.question2"),
-            answer: t("ecofaq.answer2"),
-        },
-        {
-            question: t("ecofaq.question3"),
-            answer: t("ecofaq.answer3"),
-        },
-        {
-            question: t("ecofaq.question4"),
-            answer: t("ecofaq.answer4"),
-        },
-        {
-            question: t("ecofaq.question5"),
-            answer: t("ecofaq.answer5"),
-        },
-    ];
 
-    const toggleAccordion = (index) => {
-        setActiveIndex(activeIndex === index ? null : index);
-    };
 
     return (
-        <div>
+        // <div>
             <section className="main-contact-form-area">
                 <div className="container">
                     <div className="row">
                         {/* Contact Info Section */}
-                        <div className="col-xl-6">
+                        <div className="col-xl-6 ">
                             <div className="contact-info-box-style1">
                                 <div className="box1"></div>
                                 <div className="title">
@@ -139,7 +105,7 @@ const ContactUs = () => {
                         </div>
 
                         {/* Contact Form Section */}
-                        <div className="col-xl-6">
+                        <div className="col-xl-6 ">
                             <div className="contact-form background-black">
                                 <form
                                     id="contact-form"
@@ -232,7 +198,7 @@ const ContactUs = () => {
                     </div>
                 </div>
             </section>
-        </div>
+        // </div>
 
     );
 };

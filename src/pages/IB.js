@@ -95,7 +95,7 @@ const DemoAccount = () => {
                                 <div className="sec-title mobile-align">
                                     <br />
                                     <h1 className="white bold-title" style={{ fontSize: '45px' }}>
-                                        {t('whyPartnerWith')} <span className="span-main" style={{ fontSize: '55px' }}>{t('Accuindex')}</span>?
+                                        {t('whyPartnerWith')} <span className="span-main" style={{ fontSize: '55px' }}>{t('Accuindex')}</span> {t('qMark')}
                                     </h1>
                                     <div className="sub-title white">
                                         <p>{t('discoverAdvantages')}</p>
@@ -184,7 +184,7 @@ const DemoAccount = () => {
                 </div>
             </section>
 
-            <section className="features-style-area background-black">
+            <section className="features-style-area background-black pc">
                 <div className="container">
                     <div className="sec-title mobile-align text-center">
                         <br />

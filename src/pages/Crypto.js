@@ -251,11 +251,11 @@ const Crypto = () => {
                                                             </div>
                                                             <div className="title">
                                                                 <h3>
-                                                                    <a href="#">{tab.title}</a>
+                                                                    <a>{tab.title}</a>
                                                                 </h3>
                                                             </div>
                                                             <div className="arrow-button">
-                                                                <a href="#">
+                                                                <a>
                                                                     <span className="icon-chevron"></span>
                                                                 </a>
                                                             </div>
@@ -368,7 +368,7 @@ const Crypto = () => {
             <section className="benefits-area white-back">
                 <div className="container">
                     <div className="sec-title text-center">
-                        <h2 className="bold-title">{t('whyTradeCryptoWith')} <span className="span-main">Accuindex</span>?</h2>
+                        <h2 className="bold-title">{t('whyTradeCryptoWith')} <span className="span-main">Accuindex</span>{t('qMark')}</h2>
                         <div className="sub-title">
                             <p>{t('unlockOpportunities')}</p>
                         </div>

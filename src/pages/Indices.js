@@ -174,7 +174,7 @@ const Forex = () => {
                                         <span className="span-main" style={{ fontSize: "55px" }}>
                                             {t('Indices')}
                                         </span>
-                                        ?
+                                        {t('qMark')}
                                     </h1>
                                     <div className="sub-title white">
                                         <p>{t('indeciesTradingDescription')}</p>
@@ -246,11 +246,11 @@ const Forex = () => {
                                                         </div>
                                                         <div className="title">
                                                             <h3>
-                                                                <a href="#">{tab.title}</a>
+                                                                <a>{tab.title}</a>
                                                             </h3>
                                                         </div>
                                                         <div className="arrow-button">
-                                                            <a href="#">
+                                                            <a>
                                                                 <span className="icon-chevron"></span>
                                                             </a>
                                                         </div>
@@ -367,7 +367,7 @@ const Forex = () => {
                         <h2 className="bold-title">
                             {t('Why Trade Indices with')}
                             <span className="span-main"> {t('Accuindex')} </span>
-                            ?
+                            {t('qMark')}
                         </h2>
                         <div className="sub-title">
                             <p>{t('whyTradeIndeciesDescription')}</p>

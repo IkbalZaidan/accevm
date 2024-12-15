@@ -6,8 +6,10 @@ import axios from "axios";
 import '../styles/about-section.css';
 import '../styles/blog-section.css';
 import '../styles/Style.css';
+import '../styles/Contact-sty.css';
 import '../styles/Responsive-sty.css';
-import '../styles/contact.css';
+
+import img1 from '../assets/img/BG.png';
 
 const Login = () => {
   const { t } = useTranslation();
@@ -329,193 +331,203 @@ const Login = () => {
 
   return (
     <div>
-      <section className="main-contact-form-area">
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-12">
-              <div className="contact-info-box-style1">
-                <div className="box1"></div>
-                <div className="title">
-                  <h2>{t('contact.title')}</h2>
-                  <p>{t('contact.description')}</p>
-                </div>
-                <div className="contact-form">
-                  <form id="contact-form" className="default-form2">
-                    <div className="row">
-                      <div className="col-md-6">
-                        <div className="form-group">
-                          <label>{t('contact.firstName')}</label>
-                          <div className="input-box">
-                            {/* <input type="text" name="form_name" placeholder="" required /> */}
-                            <input
-                              type="text"
-                              name="firstName"
-                              value={formData.firstName}
-                              onChange={handleInputChange}
-                              required
-                            />
-                            {errors.firstName && <span className="error-text">{errors.firstName}</span>}
+      <section className="main-contact-form-area"
+        style={{
+          backgroundImage: `url(${img1})`, // Use the imported image
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
 
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-md-6">
-                        <div className="form-group">
-                          <label>{t('contact.lastName')}</label>
-                          <div className="input-box">
-                            {/* <input type="text" name="form_name" placeholder="" required /> */}
-                            <input
-                              type="text"
-                              name="lastName"
-                              value={formData.lastName}
-                              onChange={handleInputChange}
-                              required
-                            />
-                            {errors.lastName && <span className="error-text">{errors.lastName}</span>}
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="form-group">
-                      <label>Country</label>
-                      <div className="input-box">
-                        <select
-                          value={formData.country}
-                          onChange={(e) => handleCountryChange(e)}
-                          required
-                        >
-                          <option value="" disabled>
-                            Select your country
-                          </option>
-                          {countriesWithCodes.map((country) => (
-                            <option key={country.code} value={country.name}>
-                              {country.name}
-                            </option>
-                          ))}
-                        </select>
-                      </div>
-
-                    </div>
-                    <div className="row">
-                      <div className="col-md-6">
-                        <div className="form-group">
-                          <label>{t('contact.phoneLabel')}</label>
-                          <div className="input-box">
-                            <div className="d-flex">
-                              <span className="country-code">{selectedCode}</span>
+        {/* <div className=''> */}
+          <div className="container">
+            {/* <div className="row"> */}
+              {/* <div className="col-xl-12"> */}
+                <div className="contact-info-box-style1">
+                  <div className="box1"></div>
+                  <div className="title">
+                    <h2>{t('contact.title')}</h2>
+                    <p>{t('contact.description')}</p>
+                  </div>
+                  <div className="contact-form">
+                    <form id="contact-form" className="default-form2">
+                      <div className="row">
+                        <div className="col-md-6">
+                          <div className="form-group">
+                            <label>{t('contact.firstName')}</label>
+                            <div className="input-box">
+                              {/* <input type="text" name="form_name" placeholder="" required /> */}
                               <input
                                 type="text"
-                                name="phone"
-                                value={formData.phone}
+                                name="firstName"
+                                value={formData.firstName}
                                 onChange={handleInputChange}
                                 required
                               />
-
+                              {errors.firstName && <span className="error-text">{errors.firstName}</span>}
 
                             </div>
-                            {errors.phone && <span className="error-text">{errors.phone}</span>}
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="form-group">
+                            <label>{t('contact.lastName')}</label>
+                            <div className="input-box">
+                              {/* <input type="text" name="form_name" placeholder="" required /> */}
+                              <input
+                                type="text"
+                                name="lastName"
+                                value={formData.lastName}
+                                onChange={handleInputChange}
+                                required
+                              />
+                              {errors.lastName && <span className="error-text">{errors.lastName}</span>}
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="form-group">
+                        <label>{t('contact.country')}</label>
+                        <div className="input-box">
+                          <select
+                            value={formData.country}
+                            onChange={(e) => handleCountryChange(e)}
+                            required
+                          >
+                            <option value="" disabled>
+                              {t('contact.selectCountry')}
+                            </option>
+                            {countriesWithCodes.map((country) => (
+                              <option key={country.code} value={country.name}>
+                                {country.name}
+                              </option>
+                            ))}
+                          </select>
+                        </div>
+
+                      </div>
+                      <div className="row">
+                        <div className="col-md-6">
+                          <div className="form-group">
+                            <label>{t('contact.phoneLabel')}</label>
+                            <div className="input-box">
+                              <div className="d-flex">
+                                <span className="country-code">{selectedCode}</span>
+                                <input
+                                  type="text"
+                                  name="phone"
+                                  value={formData.phone}
+                                  onChange={handleInputChange}
+                                  required
+                                />
+
+
+                              </div>
+                              {errors.phone && <span className="error-text">{errors.phone}</span>}
+
+                            </div>
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="form-group">
+                            <label>{t('contact.emailLabel')}</label>
+                            <div className="input-box">
+                              <input
+                                type="email"
+                                name="email"
+                                value={formData.email}
+                                onChange={handleInputChange}
+                                required
+                              />
+                              {errors.email && <span className="error-text">{errors.email}</span>}
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-md-6">
+                          <div className="form-group">
+                            <label>{t('contact.password')}</label>
+                            <div className="input-box d-flex">
+                              <input
+                                type={showPassword ? "text" : "password"}
+                                name="password" // Match the key in formData
+                                placeholder=""
+                                value={formData.password}
+                                onChange={handleInputChange}
+                                required
+                              />
+                              <button
+                                type="button"
+                                className="toggle-password-btn"
+                                onClick={togglePasswordVisibility}
+                                aria-label={showPassword ? "Hide password" : "Show password"}
+                              >
+                                <i className={`fas ${showPassword ? "fa-eye-slash" : "fa-eye"} eye-sty`}></i>
+                              </button>
+                            </div>
+                            {errors.password && <span className="error-text">{errors.password}</span>}
+
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="form-group">
+                            <label>{t('contact.confirmPassword')}</label>
+                            <div className="input-box d-flex">
+                              <input
+                                type={showPassword ? "text" : "password"}
+                                name="confirmPassword" // Match the key in formData
+                                placeholder=""
+                                value={formData.confirmPassword}
+                                onChange={handleInputChange}
+                                required
+                              />
+                              <button
+                                type="button"
+                                className="toggle-password-btn"
+                                onClick={togglePasswordVisibility}
+                                aria-label={showPassword ? "Hide password" : "Show password"}
+                              >
+                                <i className={`fas ${showPassword ? "fa-eye-slash" : "fa-eye"} eye-sty`}></i>
+                              </button>
+                            </div>
+                            {errors.confirmPassword && <span className="error-text">{errors.confirmPassword}</span>}
 
                           </div>
                         </div>
                       </div>
-                      <div className="col-md-6">
-                        <div className="form-group">
-                          <label>{t('contact.emailLabel')}</label>
-                          <div className="input-box">
-                            <input
-                              type="email"
-                              name="email"
-                              value={formData.email}
-                              onChange={handleInputChange}
-                              required
-                            />
-                            {errors.email && <span className="error-text">{errors.email}</span>}
 
-                          </div>
-                        </div>
+                      <div className='d-flex'>
+                        <input
+                          className='agreesty'
+                          type="checkbox"
+                          id="agree"
+                          name="agree"
+                          checked={formData.agree}
+                          onChange={handleInputChange}
+                          required
+                        />
+                        <label htmlFor="agree" className='agreeText'>
+                          {t("contact.agree")}
+                        </label>
                       </div>
-                    </div>
-                    <div className="row">
-                      <div className="col-md-6">
-                        <div className="form-group">
-                          <label>{t('contact.password')}</label>
-                          <div className="input-box d-flex">
-                            <input
-                              type={showPassword ? "text" : "password"}
-                              name="password" // Match the key in formData
-                              placeholder="Enter your password"
-                              value={formData.password}
-                              onChange={handleInputChange}
-                              required
-                            />
-                            <button
-                              type="button"
-                              className="toggle-password-btn"
-                              onClick={togglePasswordVisibility}
-                              aria-label={showPassword ? "Hide password" : "Show password"}
-                            >
-                              <i className={`fas ${showPassword ? "fa-eye-slash" : "fa-eye"} eye-sty`}></i>
-                            </button>
-                          </div>
-                          {errors.password && <span className="error-text">{errors.password}</span>}
+                      {errors.agree && <span className="error-text">{errors.agree}</span>}
 
-                        </div>
+                      <div className="button-box">
+
+                        <button className="btn-one" type="submit" onClick={handleSubmit}>
+                          <span className="txt">{t('contact.signup')}</span>
+                        </button>
                       </div>
-                      <div className="col-md-6">
-                        <div className="form-group">
-                          <label>{t('contact.confirmPassword')}</label>
-                          <div className="input-box d-flex">
-                            <input
-                              type={showPassword ? "text" : "password"}
-                              name="confirmPassword" // Match the key in formData
-                              placeholder="Confirm your password"
-                              value={formData.confirmPassword}
-                              onChange={handleInputChange}
-                              required
-                            />
-                            <button
-                              type="button"
-                              className="toggle-password-btn"
-                              onClick={togglePasswordVisibility}
-                              aria-label={showPassword ? "Hide password" : "Show password"}
-                            >
-                              <i className={`fas ${showPassword ? "fa-eye-slash" : "fa-eye"} eye-sty`}></i>
-                            </button>
-                          </div>
-                          {errors.confirmPassword && <span className="error-text">{errors.confirmPassword}</span>}
-
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className='d-flex'>
-                      <input
-                        className='agreesty'
-                        type="checkbox"
-                        id="agree"
-                        name="agree"
-                        checked={formData.agree}
-                        onChange={handleInputChange}
-                        required
-                      />
-                      <label htmlFor="agree" className='agreeText'>
-                        {t("contact.agree")}
-                      </label>
-                    </div>
-                    {errors.agree && <span className="error-text">{errors.agree}</span>}
-
-                    <div className="button-box">
-
-                      <button className="btn-one" type="submit" onClick={handleSubmit}>
-                        <span className="txt">{t('contact.signup')}</span>
-                      </button>
-                    </div>
-                  </form>
-                </div>
-                <div className="bottom-box">
-                  {/* <div className="btn-box">
+                      <br></br>
+                      <br></br>
+                    </form>
+                  </div>
+                  <div className="bottom-box">
+                    {/* <div className="btn-box">
                     <a href="#">
                       <i className="fas fa-arrow-down"></i> {t('contact.customerCare')}
                     </a>
@@ -528,11 +540,13 @@ const Login = () => {
                       <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
                     </ul>
                   </div> */}
+                  </div>
                 </div>
-              </div>
-            </div>
+              {/* </div> */}
+            {/* </div> */}
           </div>
-        </div>
+        {/* </div> */}
+
       </section>
     </div>
 

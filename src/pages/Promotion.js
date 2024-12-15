@@ -64,21 +64,21 @@ const Promotions = () => {
                                 {/* Title */}
                                 <div className="sec-title">
                                     <h2 className="bold-title">
-                                        {t("promotionintro.promotionsTitle")}
+                                        {t("promotionignite.promotionsTitle")}
                                         <span className="span-main" style={{ fontSize: "55px" }}>.</span>
                                     </h2>
                                 </div>
 
                                 {/* Description */}
                                 <div className="text">
-                                    <p>{t("promotionintro.promotionsDescription")}</p>
+                                    <p>{t("promotionignite.promotionsDescription")}</p>
                                 </div>
 
                                 <br className="mobile-seen" />
 
                                 {/* Call to Action */}
                                 <a className="btn-main6" href="#">
-                                    <span className="txt">{t("promotionintro.ctaButton")}</span>
+                                    <span className="txt">{t("promotionignite.ctaButton")}</span>
                                 </a>
                             </div>
                         </div>
@@ -96,6 +96,7 @@ const Promotions = () => {
                                     <br />
                                     <h1 className="white bold-title" style={{ fontSize: "45px" }}>
                                         {t("promotionfeatures.title")}
+                                        <br />
                                         <span className="span-main">{t("promotionfeatures.bonusAmount")}</span> {t("promotionfeatures.depositBonus")}
                                         <span className="span-main" style={{ fontSize: "55px" }}>.</span>
                                     </h1>
@@ -240,7 +241,7 @@ const Promotions = () => {
                                     <br />
                                     <h1 className="white bold-title" style={{ fontSize: "45px" }}>
                                         {t("ignite.readyToTrade")}
-                                        <span className="span-main" style={{ fontSize: "55px" }}>?</span>
+                                        <span className="span-main" style={{ fontSize: "55px" }}></span>
                                     </h1>
                                     <div className="sub-title white">
                                         <p>{t("ignite.description")}</p>
