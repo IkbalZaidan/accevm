@@ -71,10 +71,10 @@ const Home = () => {
                       </p>
                     </div>
                     <div className="btns-box mobile-align">
-                      <a className="btn-one a-second" href="#">
+                      <a className="btn-one a-second" href="/Register">
                         <span className="txt">{t('register')}</span>
                       </a>
-                      <a className="btn-one style2 a-second" href="#">
+                      <a className="btn-one style2 a-second" href="/RegisterDemo">
                         <span className="txt">{t('demo')}</span>
                       </a>
                     </div>
@@ -188,7 +188,7 @@ const Home = () => {
                               <p>{t('AccConnectCt')}</p>
                               <br></br>
 
-                              <a className="btn-main" href="#" style={{ backgroundColor: '#C02881' }}>
+                              <a className="btn-main" href="/Register" style={{ backgroundColor: '#C02881' }}>
                                 {t('register')}
                               </a>
                             </div>
@@ -212,7 +212,7 @@ const Home = () => {
 
                               <p>{t('AccGoCT')}</p>                              <br></br>
 
-                              <a className="btn-main" href="#" style={{ backgroundColor: '#C02881' }}>
+                              <a className="btn-main" href="/Register" style={{ backgroundColor: '#C02881' }}>
                                 {t('register')}
                               </a>
                             </div>
@@ -236,7 +236,7 @@ const Home = () => {
 
                               <p>{t('AccPayCt')}</p>                              <br></br>
 
-                              <a className="btn-main" href="#" style={{ backgroundColor: '#C02881' }}>
+                              <a className="btn-main" href="/Register" style={{ backgroundColor: '#C02881' }}>
                                 {t('register')}
                               </a>
                             </div>
@@ -536,7 +536,7 @@ const Home = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="service-style1__btns-box text-center">
-                <a className="btn-one" href="#">
+                <a className="btn-one" href="/Register">
                   <span className="txt bold-title">{t('Open Your Preferred Account Today')}</span>
                 </a>
               </div>
@@ -597,7 +597,7 @@ const Home = () => {
 
                   <div className="btns-box">
                     <br className="pc" />
-                    <a className="btn-main" href="#" style={{ backgroundColor: '#C02881' }}>
+                    <a className="btn-main" href="/accuconnect" style={{ backgroundColor: '#C02881' }}>
                       {t('Get The App')}
                     </a>
                     <br className="pc" />
@@ -689,8 +689,8 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="btns-box mobile-align mt-5">
-                    <a className="btn-main2 mx-1" href="#">{t('EXPLORE ACCUPAY APP')}</a>
-                    <a className="btn-one background-main" href="#">{t('EXPLORE METATRADER 5')}</a>
+                    <a className="btn-main2 mx-1" href="/AccPay">{t('EXPLORE ACCUPAY APP')}</a>
+                    <a className="btn-one background-main" href="/metatrader">{t('EXPLORE METATRADER 5')}</a>
                   </div>
                 </div>
               </div>
@@ -730,14 +730,14 @@ const Home = () => {
                   </ul>
                 </div>
                 <div className="service-request-style2__btns-box mobile-align pc">
-                  <a className="btn-main2" href="#">{t('Trade Now')}</a>
+                  <a className="btn-main2" href="/Register">{t('Trade Now')}</a>
                 </div>
                 <div className="mobile-seen mobile-align">
                   <img src={paymentsImg} alt="Payments" width="100%" />
                   <br></br>
                   <br></br>
 
-                  <a className="btn-main2" href="#">{t('Trade Now')}</a>
+                  <a className="btn-main2" href="/Register">{t('Trade Now')}</a>
                 </div>
               </div>
             </div>

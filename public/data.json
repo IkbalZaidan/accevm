@@ -1,0 +1,39 @@
+[
+    {
+      "symbol": "AUDCAD",
+      "description": "Australian Dollar vs Canadian Dollar",
+      "spread": "1",
+      "margin": "0.2%",
+      "shortSwap": "-5.51",
+      "longSwap": "2.08",
+      "contractSize": "100000",
+      "currency": "CAD",
+      "tradingHours": "Monday 00:05–23:59, Tuesday to Friday 00:05–23:55",
+      "category": "Forex"
+    },
+    {
+      "symbol": "AUDCHF",
+      "description": "Australian Dollar vs Swiss Franc",
+      "spread": "1.2",
+      "margin": "0.2%",
+      "shortSwap": "-6.81",
+      "longSwap": "5.14",
+      "contractSize": "100000",
+      "currency": "CHF",
+      "tradingHours": "Monday 00:05–23:59, Tuesday to Friday 00:05–23:55",
+      "category": "Forex"
+    },
+    {
+      "symbol": "AUDJPY",
+      "description": "Australian Dollar vs Japanese Yen",
+      "spread": "0.6",
+      "margin": "0.2%",
+      "shortSwap": "-12.78",
+      "longSwap": "6.62",
+      "contractSize": "100000",
+      "currency": "JPY",
+      "tradingHours": "Monday 00:05–23:59, Tuesday to Friday 00:05–23:55",
+      "category": "Forex"
+    }
+  ]
+  

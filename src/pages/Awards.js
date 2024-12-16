@@ -94,10 +94,10 @@ const Awards = () => {
                                 <div className="btns-box mobile-align">
                                     <br />
                                     <br />
-                                    <a className="btn-main2 mx-1" href="#">
+                                    <a className="btn-main2 mx-1" href="/Register">
                                         <span className="txt">{t("awards.awards-s1-btnOne")}</span>
                                     </a>
-                                    <a className="btn-one background-main" href="#">
+                                    <a className="btn-one background-main" href="/RegisterDemo">
                                         <span className="txt">{t("awards.awards-s1-btnTwo")}</span>
                                     </a>
                                 </div>
@@ -261,10 +261,10 @@ const Awards = () => {
                             <div className="btns-box mobile-align">
                                 <br />
                                 <br />
-                                <a className="btn-main2 mx-1" href="#">
+                                <a className="btn-main2 mx-1" href="/Register">
                                     <span className="txt">{t("awards.awards-s2-btnOne")}</span>
                                 </a>
-                                <a className="btn-one background-main" href="#">
+                                <a className="btn-one background-main" href="/metatrader">
                                     <span className="txt">{t("awards.awards-s2-btnTwo")}</span>
                                 </a>
                             </div>

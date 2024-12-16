@@ -89,7 +89,7 @@ const Awards = () => {
                                 <div className="btns-box mobile-align">
                                     <br />
                                     <br />
-                                    <a className="btn-main2 mx-1" href="#">
+                                    <a className="btn-main2 mx-1" href="#idsec">
                                         <span className="txt">{t("ReadMore")}</span>
                                     </a>
                                 </div>
@@ -99,7 +99,7 @@ const Awards = () => {
                 </div>
             </section>
 
-            <section className="awards-achivements-area background-black">
+            <section className="awards-achivements-area background-black" id='idsec'>
                 <div className="container">
                     {/* Section Title */}
                     <div className="sec-title text-center">

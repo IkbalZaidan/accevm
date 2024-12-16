@@ -98,10 +98,10 @@ const AboutUs = () => {
                 <div className="btns-box mobile-align">
                   <br />
                   <br />
-                  <a className="btn-main2" href="#">
+                  <a className="btn-main2" href="/Register">
                     <span className="txt">{t('liveAccount')}</span>
                   </a>
-                  <a className="btn-one background-main" href="#">
+                  <a className="btn-one background-main" href="/RegisterDemo">
                     <span className="txt">{t('demoAccount')}</span>
                   </a>
                 </div>
@@ -230,10 +230,10 @@ const AboutUs = () => {
                   <div className="btns-box mobile-align">
                     <br />
                     <br />
-                    <a className="btn-main2 mx-1" href="#">
+                    <a className="btn-main2 mx-1" href="/AccPay">
                       <span className="txt">{t('features.buttons.explore')}</span>
                     </a>
-                    <a className="btn-one background-main" href="#">
+                    <a className="btn-one background-main" href="/metatrader">
                       <span className="txt">{t('features.buttons.metatrader')}</span>
                     </a>
                   </div>
@@ -430,7 +430,7 @@ const AboutUs = () => {
                             <div className="title">
                               <h3 className="white">
                                 {feature.title}
-                                <a href={feature.link}>
+                                <a>
                                   <span className="icon-right-arrow"></span>
                                 </a>
                               </h3>
@@ -443,7 +443,7 @@ const AboutUs = () => {
                 </div>
 
                 <div className="service-request-style2__btns-box mobile-align pc">
-                  <a className="btn-main2" href={t("aboutUsP.section1.button.link")}>
+                  <a className="btn-main2" href="/Register">
                     <span className="txt">{t("aboutUsP.section1.button.text")}</span>
                   </a>
                 </div>
@@ -458,7 +458,7 @@ const AboutUs = () => {
                   </div>
                   <br />
                   <br />
-                  <a className="btn-main2" href={t("aboutUsP.section1.button.link")}>
+                  <a className="btn-main2" href="/Register">
                     <span className="txt">{t("aboutUsP.section1.button.text")}</span>
                   </a>
                 </div>
@@ -489,7 +489,7 @@ const AboutUs = () => {
                 <div className="btns-box">
                   <a
                     className="btn-main2"
-                    href={t("aboutUsP.section2.button.link")}
+                    href="/Register"
                   >
                     <span className="txt">{t("aboutUsP.section2.button.text")}</span>
                   </a>

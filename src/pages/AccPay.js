@@ -80,7 +80,7 @@ const DemoAccount = () => {
                                     <p>{t('experienceFastSecure')}</p>
                                 </div>
                                 <br className="mobile-seen" />
-                                <a className="btn-main6" href="#">
+                                <a className="btn-main6" href="/Register">
                                     <span className="txt">{t('startTradingNow')}</span>
                                 </a>
                             </div>
@@ -147,7 +147,7 @@ const DemoAccount = () => {
                     </div>
 
                     <div className="sec-title text-center">
-                        <a className="btn-main2" href="#">
+                        <a className="btn-main2" href="/Register">
                             <span className="txt">{t('startTrading')}</span>
                         </a>
                     </div>
@@ -192,7 +192,7 @@ const DemoAccount = () => {
                                     </div>
                                     <div className="btns-box mobile-align">
                                         <br />
-                                        <a className="btn-one background-main" href="#">
+                                        <a className="btn-one background-main" href="/Register">
                                             <span className="txt">{t('startTradingToday')}</span>
                                         </a>
                                     </div>
@@ -225,7 +225,7 @@ const DemoAccount = () => {
                                     </div>
                                 </div>
                                 <div className="btns-box">
-                                    <a className="btn-main5" href="#">
+                                    <a className="btn-main5" href="/Register">
                                         <span className="txt">{t('startSimplifying')}</span>
                                     </a>
                                 </div>
@@ -304,7 +304,7 @@ const DemoAccount = () => {
                                 </div>
                                 <br className="mobile-seen" />
 
-                                <a className="btn-main5" href="#">
+                                <a className="btn-main5" href="/Register">
                                     <span className="txt">
                                         {t('experiencePeaceOfMind')}
                                     </span>
@@ -361,7 +361,7 @@ const DemoAccount = () => {
                                     </div>
                                     <div className="btns-box mobile-align">
                                         <br />
-                                        <a className="btn-one background-main" href="#">
+                                        <a className="btn-one background-main" href="/Register">
                                             <span className="txt">{t('startUsingOurCard')}</span>
                                         </a>
                                     </div>
@@ -434,10 +434,10 @@ const DemoAccount = () => {
                         <div className="col-xl-12">
                             <div className="faq-style1-bottom-box text-center">
                                 <p>
-                                    {t('faqAccPay.ctaTextPOne')} <a href="#">{t('faqAccPay.ctaLinkText')}</a> {t('faqAccPay.ctaTextPTwo')}
+                                    {t('faqAccPay.ctaTextPOne')} <a href="/ContactUs">{t('faqAccPay.ctaLinkText')}</a> {t('faqAccPay.ctaTextPTwo')}
                                 </p>
                                 <div className="btns-box">
-                                    <a className="btn-main2" href="#">
+                                    <a className="btn-main2" href="/Register">
                                         <span className="txt">{t('faqAccPay.registerButton')}</span>
                                     </a>
                                 </div>

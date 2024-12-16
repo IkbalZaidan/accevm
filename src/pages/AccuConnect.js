@@ -1,14 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-import { Autoplay } from "swiper";
 import 'swiper/css';
 import "swiper/css/navigation";
 import "swiper/css/pagination"; // Pagination styles
-import { Pagination, Navigation } from "swiper/modules"; // Swiper modules
 import '../styles/about-section.css';
 import '../styles/blog-section.css';
 import '../styles/Style.css';
@@ -25,10 +21,11 @@ import ico4 from "../assets/img/accuConnect/icon_1.png";
 import ico5 from "../assets/img/accuConnect/icon_2.png";
 import ico6 from "../assets/img/accuConnect/icon_3.png";
 
+import android from "../assets/img/btns/googlePlay.png";
+import ios from "../assets/img/btns/appStore.png";
 
 
 const AccuConnect = () => {
-    const [activeTab, setActiveTab] = useState(1);
     const { t } = useTranslation(); // Use the t function to translate
 
 
@@ -54,7 +51,7 @@ const AccuConnect = () => {
                                     <p>{t('discoverCopyTrading')}</p>
                                 </div>
 
-                                <a className="btn-main2" href="#">
+                                <a className="btn-main2" href="#scid">
                                     <span className="txt">{t('tradeOnAccuConnect')}</span>
                                 </a>
                             </div>
@@ -64,7 +61,7 @@ const AccuConnect = () => {
             </section>
 
 
-            <section className="features-style-area background-black">
+            <section className="features-style-area background-black" id='scid'>
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-6">
@@ -85,11 +82,21 @@ const AccuConnect = () => {
                                     <div className="btns-box mobile-align">
                                         <br />
                                         <br />
-                                        <a className="btn-main2 mx-1" href="#">
-                                            <span className="txt">{t('downloadForIOS')}</span>
+                                        <a href="https://apps.apple.com/us/app/accuconnect/id6446891956" className="m-1" target="_blank">
+                                            <img
+                                                src={ios}
+                                                alt="Download for iOS"
+                                                style={{ maxWidth: '150px', height: 'auto' , background:"white" }}
+                                            />
                                         </a>
-                                        <a className="btn-one background-main" href="#">
-                                            <span className="txt">{t('downloadForAndroid')}</span>
+                                        <br className='mobile-seen' />
+                                        <br style={{ height: '10px' }} className='mobile-seen' />
+                                        <a href="https://play.google.com/store/apps/details?id=com.AccuindexLimitedREP.OFFICE.pelican&hl=en_US&pli=1" className="" target="_blank">
+                                            <img
+                                                src={android}
+                                                alt="Download for Android"
+                                                style={{ maxWidth: '150px', height: 'auto' , background:"white"  }}
+                                            />
                                         </a>
                                     </div>
                                 </div>
@@ -159,7 +166,7 @@ const AccuConnect = () => {
                     </div>
 
                     <div className="sec-title text-center">
-                        <a className="btn-main2" href="#">
+                        <a className="btn-main2" href="#scid">
                             <span className="txt">{t('useAccuConnect')}</span>
                         </a>
                     </div>
@@ -171,7 +178,7 @@ const AccuConnect = () => {
                 <div className="container">
                     <div className="sec-title text-center">
                         <h2 className="bold-title">
-                            {t('whyChooseAccuConnect')} <span className="span-main">{t('copyTrading')}</span>  {t('forCopyTrading')} 
+                            {t('whyChooseAccuConnect')} <span className="span-main">{t('copyTrading')}</span>  {t('forCopyTrading')}
                         </h2>
                         <div className="sub-title">
                             <p>{t('copyTradingDescriptionTwo')}</p>
@@ -219,7 +226,7 @@ const AccuConnect = () => {
                     <div className="text-center">
                         <br />
                         <br />
-                        <a className="btn-main2" href="#">
+                        <a className="btn-main2" href="#scid">
                             <span className="txt">{t('startCopyTrading')}</span>
                         </a>
                     </div>

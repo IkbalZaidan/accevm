@@ -1,5 +1,5 @@
 {
-  "joinWorld": "Join A World Trusted Broker.",
+  "joinWorld": "Join A World Trusted Broker",
   "tradeText": "Discover a world of opportunities with Accuindex, a trusted global leader in financial markets. we provide everything you need to trade confidently and achieve your financial goals.",
   "register": "Register",
   "demo": "Try free demo",
@@ -1573,7 +1573,51 @@
     "promotionsTitle":"AccuIndex Promotions",
     "promotionsDescription":"At Accuindex, we reward our clients. That's why we're thrilled to introduce our latest brokerage Promotion: the 30% Deposit Bonus. This offer allows you to supercharge your trading account and maximize your gains like never before. Find out more and see if your account could qualify for this market-leading sign-on bonus today!",
     "ctaButton":"Start Trading Now"
-  }
+  },
+
+
+  "Open Demo Account":"Open Demo Account",
+  "demoAccountSub":"Sign up for Accuindex Demo account.",
+  
+  "Open IB Account":"Open IB Account",
+  "ibAccountSub":"",
+
+
+
+
+
+
+
+  "webTraderAlt": "WebTrader illustration",
+  "webTraderTitle": "WebTrader – Your Flexible Trading Solution",
+  "webTraderDescription": "Access global markets instantly, without any downloads or installations.",
+  "seamlessTradingTitle": "Seamless Trading Right from Your Browser",
+  "seamlessTradingDescription": "The WebTrader platform is a browser-based solution designed for traders who need quick and flexible access to the markets. Whether you're at home, in the office, or on the move, WebTrader ensures you never miss a trading opportunity.",
+  "simplifyTrading": "Simplify Your Trading Experience with WebTrader",
+  "tradeAnywhere": "Trade Anywhere, Anytime with WebTrader – Your Browser-Based Trading Solution",
+  "fact1Title": "Real-Time Price Tracking",
+  "fact1Description": "Live price movements and market changes.",
+  "fact2Title": "Basic Charting and Analysis Tools",
+  "fact2Description": "Essential tools for market analysis.",
+  "fact3Title": "Order Execution",
+  "fact3Description": "Instant and pending orders for a hassle-free trading experience.",
+  "fact4Title": "Secure Login",
+  "fact4Description": "Trade confidently with security protocols ensuring your data is safe.",
+  "iconAlt1": "Icon for Real-Time Price Tracking",
+  "iconAlt2": "Icon for Basic Charting and Analysis Tools",
+  "iconAlt3": "Icon for Order Execution",
+  "iconAlt4": "Icon for Secure Login",
+  "whoIs": "Who Is",
+  "WebTrader":"WebTrader",
+  "for": "For?",
+  "webTraderPerfectFor": "WebTrader is perfect for",
+  "tradersValueConvenience": "Traders who value convenience and flexibility in their trading process.",
+  "beginnersLookingSimplePlatform": "Beginners looking for a simple yet efficient trading platform.",
+  "professionalsQuickAccess": "Professionals needing quick access to their accounts while on the move.",
+  "logInAndTradeNow": "Log In and Trade Now!",
+  "tradersIconAlt": "Traders Icon",
+  "beginnersIconAlt": "Beginners Icon",
+  "professionalsIconAlt": "Professionals Icon"
 
 
 

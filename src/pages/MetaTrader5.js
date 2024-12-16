@@ -19,6 +19,11 @@ import img2 from "../assets/img/metatrader5/slide-2.jpg";
 import img3 from "../assets/img/metatrader5/slide-3.png";
 import img4 from "../assets/img/metatrader5/slide-4.png";
 
+
+import win from "../assets/img/btns/microsoft.png";
+import android from "../assets/img/btns/googlePlay.png";
+import ios from "../assets/img/btns/appStore.png";
+
 import ico1 from "../assets/img/metatrader5/icon-1.png";
 import ico2 from "../assets/img/metatrader5/icon-2.png";
 import ico3 from "../assets/img/metatrader5/icon-3.png";
@@ -44,21 +49,37 @@ const MetaTrader5 = () => {
                             <div className="intro-style1-content-box">
                                 <div className="sec-title">
                                     <h2 className="bold-title">
-                                        {t('masterMarketsWithAccuindex')} <span className="span-main" style={{ fontSize: '55px' }}>.</span>
+                                        {t('masterMarketsWithAccuindex')}
+                                        <span className="span-main" style={{ fontSize: '55px' }}>.</span>
                                     </h2>
                                 </div>
                                 <div className="text">
                                     <p>{t('cuttingEdgeToolsDescription')}</p>
                                 </div>
 
-                                <a className="btn-main2" href="#">
-                                    <span className="txt">{t('downloadForWindows')}</span>
+                                <br className='mobile-seen' />
+                                <a href="https://download.mql5.com/cdn/web/accuindex.limited/mt5/accuindexlimited5setup.exe" className="" target="_blank">
+                                    <img
+                                        src={win}
+                                        alt="Download for Windows"
+                                        style={{ maxWidth: '150px', height: 'auto' }}
+                                    />
                                 </a>
-                                <a className="btn-main2" href="#">
-                                    <span className="txt">{t('downloadForIOS')}</span>
+                                <a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=AccuindexLimited-Demo,AccuindexLimited-Live" className="m-1" target="_blank">
+                                    <img
+                                        src={ios}
+                                        alt="Download for iOS"
+                                        style={{ maxWidth: '150px', height: 'auto' }}
+                                    />
                                 </a>
-                                <a className="btn-main2" href="#">
-                                    <span className="txt">{t('downloadForAndroid')}</span>
+                                <br className='mobile-seen' />
+                                <br style={{ height: '10px' }} className='mobile-seen' />
+                                <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=AccuindexLimited-Demo,AccuindexLimited-Live" className="" target="_blank">
+                                    <img
+                                        src={android}
+                                        alt="Download for Android"
+                                        style={{ maxWidth: '150px', height: 'auto' }}
+                                    />
                                 </a>
                             </div>
                         </div>
@@ -154,7 +175,7 @@ const MetaTrader5 = () => {
                                 </div>
 
                                 <div className="service-request-style2__btns-box mobile-align pc">
-                                    <a className="btn-main2" href="#">
+                                    <a className="btn-main2" href="#scid">
                                         <span className="txt">{t('tradeNow')}</span>
                                     </a>
                                 </div>
@@ -170,7 +191,7 @@ const MetaTrader5 = () => {
 
                                     <br />
                                     <br />
-                                    <a className="btn-main2" href="#">
+                                    <a className="btn-main2" href="#scid">
                                         <span className="txt">{t('tradeNow')}</span>
                                     </a>
                                 </div>
@@ -238,7 +259,7 @@ const MetaTrader5 = () => {
 
 
 
-            <section className="features-style4-area">
+            <section className="features-style4-area" id='scid'>
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-4 mobile-align">
@@ -252,23 +273,29 @@ const MetaTrader5 = () => {
                                     </div>
                                 </div>
 
-                                <div className="btns-box">
-                                    <a className="btn-main2" href="#">
-                                        <span className="txt">{t('downloadForWindows')}</span>
-                                    </a>
-                                </div>
+                                <a href="https://download.mql5.com/cdn/web/accuindex.limited/mt5/accuindexlimited5setup.exe" className="" target="_blank">
+                                    <img
+                                        src={win}
+                                        alt="Download for Windows"
+                                        style={{ maxWidth: '150px', height: 'auto' }}
+                                    />
+                                </a>
+                                <a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=AccuindexLimited-Demo,AccuindexLimited-Live" className="m-1" target="_blank">
+                                    <img
+                                        src={ios}
+                                        alt="Download for iOS"
+                                        style={{ maxWidth: '150px', height: 'auto' }}
+                                    />
+                                </a>
                                 <br />
-                                <div className="btns-box">
-                                    <a className="btn-main2" href="#">
-                                        <span className="txt">{t('downloadForIOS')}</span>
-                                    </a>
-                                </div>
                                 <br />
-                                <div className="btns-box">
-                                    <a className="btn-main2" href="#">
-                                        <span className="txt">{t('downloadForAndroid')}</span>
-                                    </a>
-                                </div>
+                                <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=AccuindexLimited-Demo,AccuindexLimited-Live" className="" target="_blank">
+                                    <img
+                                        src={android}
+                                        alt="Download for Android"
+                                        style={{ maxWidth: '150px', height: 'auto' }}
+                                    />
+                                </a>
                             </div>
                         </div>
 
@@ -344,10 +371,10 @@ const MetaTrader5 = () => {
                                     <div className="btns-box mobile-align">
                                         <br />
                                         <br />
-                                        <a className="btn-main2" href="#">
+                                        <a className="btn-main2" href="/Register">
                                             <span className="txt">{t('openLiveAccount')}</span>
                                         </a>
-                                        <a className="btn-one background-main" href="#">
+                                        <a className="btn-one background-main" href="/RegisterDemo">
                                             <span className="txt">{t('tryDemoAccount')}</span>
                                         </a>
                                     </div>

@@ -19,9 +19,6 @@ import icon2 from "../assets/img/islamicAccount/icon-2.png";
 import icon3 from "../assets/img/islamicAccount/icon-3.png";
 
 import img2 from '../assets/img/demoAccount/IMG-2.png';
-import icon11 from "../assets/img/demoAccount/icon-1.png";
-import icon22 from "../assets/img/demoAccount/icon-2.png";
-import icon33 from "../assets/img/demoAccount/icon-3.png";
 
 const IslamicAccounts = () => {
   const { t } = useTranslation();
@@ -114,7 +111,7 @@ const IslamicAccounts = () => {
                   <p>{t("islamic.intro.description")}</p>
                 </div>
 
-                <a className="btn-main2" href={t("islamic.intro.buttonLink")}>
+                <a className="btn-main2" href="/Register">
                   <span className="txt">{t("islamic.intro.buttonText")}</span>
                 </a>
               </div>
@@ -150,7 +147,7 @@ const IslamicAccounts = () => {
                   <div className="btns-box mobile-align">
                     <br />
                     <br />
-                    <a className="btn-main3" href={t("islamic.features2.buttonLink")}>
+                    <a className="btn-main3" href="/account-types">
                       <span className="txt">{t("islamic.features2.buttonText")}</span>
                     </a>
                   </div>
@@ -272,7 +269,7 @@ const IslamicAccounts = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="service-style1__btns-box text-center">
-                <a className="btn-main2" href="#">
+                <a className="btn-main2" href="/Register">
                   <span className="txt">{t("islamic.service.tradeNow")}</span>
                 </a>
               </div>
@@ -371,10 +368,10 @@ const IslamicAccounts = () => {
             <div className="col-xl-12">
               <div className="faq-style1-bottom-box text-center">
                 <p>
-                  {t('islamic.faq.ctaText')} <a href="#">{t('islamic.faq.ctaLinkText')}</a>
+                  {t('islamic.faq.ctaText')} <a href="/ContactUs">{t('islamic.faq.ctaLinkText')}</a>
                 </p>
                 <div className="btns-box">
-                  <a className="btn-main2" href="#">
+                  <a className="btn-main2" href="/Register">
                     <span className="txt">{t('islamic.faq.registerButton')}</span>
                   </a>
                 </div>

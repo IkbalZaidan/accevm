@@ -50,7 +50,7 @@ const DemoAccount = () => {
                                     <p>{t("Partner with us to unlock growth")}</p>
                                 </div>
 
-                                <a className="btn-main2" href={t("intro.buttonLink")}>
+                                <a className="btn-main2" href="#idsec">
                                     <span className="txt">{t("Explore Partnership Opportunities")}</span>
                                 </a>
                             </div>
@@ -95,7 +95,7 @@ const DemoAccount = () => {
                                     </div>
                                     <div className="btns-box mobile-align">
                                         <br />
-                                        <a className="btn-one background-main" href="#">
+                                        <a className="btn-one background-main" href="/RegisterIb">
                                             <span className="txt">{t('becomePartner')}</span>
                                         </a>
                                     </div>
@@ -115,7 +115,7 @@ const DemoAccount = () => {
             </section>
 
 
-            <section className="benefits-area" style={{ backgroundColor: 'white !important' }}>
+            <section className="benefits-area" style={{ backgroundColor: 'white !important' }} id='idsec'>
                 <div className="container">
                     <div className="sec-title text-center">
                         <h2 className="bold-title">
@@ -167,7 +167,7 @@ const DemoAccount = () => {
                     <div className="text-center">
                         <br />
                         <br />
-                        <a className="btn-main2" href="#">
+                        <a className="btn-main2" href="/RegisterIb">
                             <span className="txt">{t('becomePartner2')}</span>
                         </a>
                     </div>
@@ -365,7 +365,7 @@ const DemoAccount = () => {
                 <div className="text-center">
                     <br />
                     <br />
-                    <a className="btn-main2" href="#">
+                    <a className="btn-main2" href="/RegisterIb">
                         <span className="txt">{t('becomePartner2')}</span>
                     </a>
                 </div>

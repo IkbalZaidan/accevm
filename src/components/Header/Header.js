@@ -155,7 +155,7 @@ const Header = () => {
                 <div className="header-menu-style1">
                   <ul>
                     <li><a href="/faq" className="white">{t('supportCenter')}</a></li>
-                    <li><a href="#" className="white">{t('authorisedRegulated')}</a></li>
+                    <li><a href="/LegalDocuments" className="white">{t('authorisedRegulated')}</a></li>
                   </ul>
                 </div>
 
@@ -189,14 +189,23 @@ const Header = () => {
                       <img src={logo} width="200" alt="Awesome Logo" title="" />
                     </a>
                   </div>
+
+                  {/* <div className="logo-box-style1 nav-background">
+                    <form action="#" className='mobile-seen'>
+                      <select className='langSty mobile-seen' value={savedLanguage} onChange={handleLanguageChange} >
+                        <option id="en" value="en">{t('english')}</option>
+                        <option id="ar" value="ar">{t('arabic')}</option>
+                      </select>
+                    </form>
+                  </div> */}
+
+
                   <div className="main-menu-box">
                     <a href="#" className="mobile-nav__toggler" onClick={toggleMobileNav}>
                       <i className="icon-menu"></i>
                     </a>
+
                     <ul className="main-menu__list">
-                      {/* <li className="nav-li">
-                        <a href="#" className="nav-button nav-li">{t('home')}</a>
-                      </li> */}
 
                       <li className="dropdown nav-li">
                         <a href="#">{t('aboutUs')}</a>
@@ -241,8 +250,6 @@ const Header = () => {
                         </ul>
                       </li>
 
-
-
                       <li className="dropdown nav-li">
                         <a href="#">{t('PlatformsNav')}</a>
                         <ul>
@@ -251,11 +258,11 @@ const Header = () => {
                               {t('MetaTraderNav')}
                             </Link>
                           </li>
-                          {/* <li>
-                            <Link to="#" className="nav-li">
+                          <li>
+                            <Link to="/Webtrader" className="nav-li">
                               {t('WebTraderNav')}
                             </Link>
-                          </li> */}
+                          </li>
                           <li>
                             <Link to="/accugo" className="nav-li">
                               {t('AccuGoNav')}
@@ -268,9 +275,6 @@ const Header = () => {
                           </li>
                         </ul>
                       </li>
-
-
-
 
                       <li className="dropdown nav-li">
                         <a href="#">{t('MarketsNav')}</a>
@@ -302,6 +306,7 @@ const Header = () => {
                           </li>
                         </ul>
                       </li>
+
                       <li className="dropdown nav-li">
                         <a href="#">{t('TradingToolsNav')}</a>
                         <ul>
@@ -334,14 +339,22 @@ const Header = () => {
                         </ul>
                       </li>
 
+                      <li className="nav-li mobile-seen">
+                        <Link to="/IB" className="nav-li">
+                          {t('partnerView')}
+                        </Link>
+                      </li>
+
                     </ul>
                   </div>
                 </div>
 
+
+
                 <div className="main-menu-style1-right">
                   <div className="header-btn-one">
-                    <a href="#" className="a-main">{t('login')}</a>
-                    <a href="#" className="style2 a-main2">{t('openAccount2')}</a>
+                    <a href="https://my.accuindex.com/login" className="a-main">{t('login')}</a>
+                    <a href="/Register" className="style2 a-main2">{t('openAccount2')}</a>
                   </div>
                 </div>
               </div>
@@ -375,17 +388,23 @@ const Header = () => {
             <ul className="mobile-nav__contact list-unstyled">
               <li>
                 <i className="fa fa-envelope"></i>
-                <a href="mailto:info@example.com">info@example.com</a>
+                <a href="mailto:info@accuindex.com">info@accuindex.com</a>
               </li>
               <li>
                 <i className="fa fa-phone-alt"></i>
-                <a href="tel:123456789">444 000 777 66</a>
+                <a href="tel:002304644888">+230 464 4888</a>
               </li>
             </ul>
+
+            <div className="mobile-nav__social mb-3">
+              <a href="https://my.accuindex.com/login" style={{ width: "120px", borderRadius: "unset" }} className="a-main">{t('login')}</a>
+              <a href="/Register" style={{ width: "160px", borderRadius: "unset" }} className="style2 a-main2">{t('openAccount2')}</a>
+            </div>
+
             <div className="mobile-nav__social">
-              <a href="#" className="fab fa-twitter"></a>
+              <a href="#" className="fab fa-x"></a>
               <a href="#" className="fab fa-facebook-square"></a>
-              <a href="#" className="fab fa-pinterest-p"></a>
+              <a href="#" className="fab fa-youtube"></a>
               <a href="#" className="fab fa-instagram"></a>
             </div>
           </div>
@@ -487,11 +506,11 @@ const Header = () => {
                               {t('MetaTraderNav')}
                             </Link>
                           </li>
-                          {/* <li>
-                            <Link to="/awards" className="nav-li">
+                          <li>
+                            <Link to="/Webtrader" className="nav-li">
                               {t('WebTraderNav')}
                             </Link>
-                          </li> */}
+                          </li>
                           <li>
                             <Link to="/accugo" className="nav-li">
                               {t('AccuGoNav')}
@@ -544,7 +563,7 @@ const Header = () => {
 
 
 
-{/* 
+                      {/* 
                       <li className="dropdown nav-li">
                         <a href="#">{t('PartnershipNav')}</a>
                         <ul>

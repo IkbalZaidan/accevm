@@ -95,7 +95,7 @@ const DemoAccount = () => {
                                     <p>{t("Fully regulated")}</p>
                                 </div>
 
-                                <a className="btn-main6" href={t("intro.buttonLink")}>
+                                <a className="btn-main6" href="/RegisterIb">
                                     <span className="txt">{t("Become a Partner Today")}</span>
                                 </a>
                             </div>
@@ -133,7 +133,7 @@ const DemoAccount = () => {
                         ))}
                     </div>
                     <div className="sec-title text-center">
-                        <a className="btn-main2" href="#">
+                        <a className="btn-main2" href="/RegisterIb">
                             <span className="txt">{t('openAccountRaw')}</span>
                         </a>
                     </div>
@@ -173,7 +173,7 @@ const DemoAccount = () => {
                                     </div>
                                     <div className="btns-box mobile-align">
                                         <br />
-                                        <a className="btn-one background-main" href="#">
+                                        <a className="btn-one background-main" href="/RegisterIb">
                                             <span className="txt">{t('Explore Partnership Opportunities')}</span>
                                         </a>
                                     </div>
@@ -248,10 +248,10 @@ const DemoAccount = () => {
                         <div className="col-xl-12">
                             <div className="faq-style1-bottom-box text-center">
                                 <p>
-                                    {t('faqCO.ctaTextPOne')} <a href="#">{t('faqCO.ctaLinkText')}</a> {t('faqCO.ctaTextPTwo')}
+                                    {t('faqCO.ctaTextPOne')} <a href="/RegisterIb">{t('faqCO.ctaLinkText')}</a> {t('faqCO.ctaTextPTwo')}
                                 </p>
                                 <div className="btns-box">
-                                    <a className="btn-main2" href="#">
+                                    <a className="btn-main2" href="/RegisterIb">
                                         <span className="txt">{t('faqCO.registerButton')}</span>
                                     </a>
                                 </div>

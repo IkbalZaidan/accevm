@@ -1487,7 +1487,50 @@
     "promotionsTitle":"عروض Accuindex الترويجية ",
     "promotionsDescription":"في AccuIndex، نحن نكافئ عملائنا. لهذا السبب، نحن متحمسون لتقديم أحدث عروض الوساطة لدينا: مكافأة الإيداع بنسبة 30%. تتيح لك هذه العرض تعزيز حساب التداول الخاص بك وتعظيم أرباحك كما لم يحدث من قبل. اكتشف المزيد وتحقق مما إذا كان حسابك مؤهلاً لهذه المكافأة الرائدة في السوق اليوم!",
     "ctaButton":"ابدأ التداول الآن"
-  }
+  },
+
+    "Open Demo Account":"افتح حساب تجريبي",
+  "demoAccountSub":"افتح حساب تداول تجريبي مع Accuindex ",
+
+    "Open IB Account":"سجل الآن ، الأمر بسيط!",
+  "ibAccountSub":"",
+
+
+
+
+
+
+
+  "webTraderAlt": "منصة ويب تريدر",
+  "webTraderTitle": "منصة ويب تريدر – حل التداول المرن من أكيواندكس",
+  "webTraderDescription": " يمكنك الوصول إلى الأسواق العالمية على الفور، دون الحاجة إلى تنزيل أو تثبيت أي برامج.",
+  "seamlessTradingTitle": "تداول سهل من متصفحك مباشرةً",
+  "seamlessTradingDescription": " منصة ويب تريدر هي حل قائم على المتصفح مصمم للمتداولين الذين يحتاجون إلى وصول سريع ومرن إلى الأسواق. سواء كنت في المنزل أو في المكتب أو في أثناء التنقل، تضمن لك منصة ويب تريدر عدم تفويت أي فرصة للتداول.",
+  "simplifyTrading": "تداولاتك أسهل مع أكيواندس على منصة ويب تريدر",
+  "tradeAnywhere": " تداول في أي مكان وفي أي وقت باستخدام WebTrader – حل التداول المستند إلى المتصفح",
+  "fact1Title": "تتبع الأسعار في الوقت الفعلي",
+  "fact1Description": "اطلاع بحركات الأسعار المباشرة وتغيرات السوق.",
+  "fact2Title": "أدوات التحليل والرسم البياني",
+  "fact2Description": "أدوات أساسية لتحليل السوق لدعم قرارات التداول.",
+  "fact3Title": "تنفيذ الطلبات",
+  "fact3Description": "طلبات فورية ومعلقة للحصول على تجربة تداول خالية من المتاعب.",
+  "fact4Title": " تسجيل آمن",
+  "fact4Description": "تداول بثقة مع بروتوكولات أمان قوية تضمن أمان بياناتك.",
+  "iconAlt1": "Icon for Real-Time Price Tracking",
+  "iconAlt2": "Icon for Basic Charting and Analysis Tools",
+  "iconAlt3": "Icon for Order Execution",
+  "iconAlt4": "Icon for Secure Login",
+  "whoIs": "من هو المتداول الملائم لمنصة",
+  "WebTrader":"ويب تريدر؟",
+  "for": "",
+  "webTraderPerfectFor": " تُعد منصة ويب تريدر مثالية لكل من",
+  "tradersValueConvenience": " المتداولين الذين يقدرون الراحة والمرونة في عملية التداول الخاصة بهم.",
+  "beginnersLookingSimplePlatform": " المبتدئين الذين يبحثون عن منصة تداول بسيطة وفعّالة.",
+  "professionalsQuickAccess": " المحترفون الذين يحتاجون إلى الوصول السريع إلى حساباتهم أثناء التنقل.",
+  "logInAndTradeNow": " سجل الدخول وتداول الآن!",
+  "tradersIconAlt": "Traders Icon",
+  "beginnersIconAlt": "Beginners Icon",
+  "professionalsIconAlt": "Professionals Icon"
 
 
 

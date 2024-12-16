@@ -92,10 +92,10 @@ const LAndR = () => {
                                 <div className="btns-box mobile-align">
                                     <br />
                                     <br />
-                                    <a className="btn-main2" href="#">
+                                    <a className="btn-main2" href="/Register">
                                         <span className="txt">{t('statistics.liveAccount')}</span>
                                     </a>
-                                    <a className="btn-one background-main" href="#">
+                                    <a className="btn-one background-main" href="/RegisterDemo">
                                         <span className="txt">{t('statistics.demoAccount')}</span>
                                     </a>
                                 </div>
@@ -154,10 +154,10 @@ const LAndR = () => {
                                     <div className="btns-box mobile-align">
                                         <br />
                                         <br />
-                                        <a className="btn-main2" href="#">
+                                        <a className="btn-main2" href="/AccPay">
                                             <span className="txt">{t('features7.exploreAccuPay')}</span>
                                         </a>
-                                        <a className="btn-one background-main" href="#">
+                                        <a className="btn-one background-main" href="/metatrader">
                                             <span className="txt">{t('features7.accuindexMT5')}</span>
                                         </a>
                                     </div>
@@ -314,7 +314,7 @@ const LAndR = () => {
                     <div className="row">
                         <div className="col-xl-12">
                             <div className="service-style1__btns-box text-center">
-                                <a className="btn-main2" href="#">
+                                <a className="btn-main2" href="/Register">
                                     <span className="txt">{t("service3.startNow")}</span>
                                 </a>
                             </div>

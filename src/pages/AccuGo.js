@@ -1,14 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-import { Autoplay } from "swiper";
 import 'swiper/css';
 import "swiper/css/navigation";
 import "swiper/css/pagination"; // Pagination styles
-import { Pagination, Navigation } from "swiper/modules"; // Swiper modules
 import '../styles/about-section.css';
 import '../styles/blog-section.css';
 import '../styles/Style.css';
@@ -27,8 +23,13 @@ import ico5 from "../assets/img/accuGo/icon-1.png";
 import ico6 from "../assets/img/accuGo/icon-2.png";
 import ico7 from "../assets/img/accuGo/icon-3.png";
 
+
+import win from "../assets/img/btns/microsoft.png";
+import android from "../assets/img/btns/googlePlay.png";
+import ios from "../assets/img/btns/appStore.png";
+
+
 const AccuGo = () => {
-    const [activeTab, setActiveTab] = useState(1);
     const { t } = useTranslation(); // Use the t function to translate
 
 
@@ -53,14 +54,25 @@ const AccuGo = () => {
                                 <div className="text">
                                     <p>{t('tradingJourneyDescription')}</p>
                                 </div>
-
-                                <a className="btn-main2 mx-1" href="#">
-                                    <span className="txt">{t('downloadForIOS')}</span>
+                                <a href="https://apps.apple.com/us/app/accugo/id1665870172" className="m-1" target="_blank">
+                                    <img
+                                        src={ios}
+                                        alt="Download for iOS"
+                                        style={{ maxWidth: '150px', height: 'auto' }}
+                                    />
+                                </a>
+                                <br className='mobile-seen' />
+                                <br style={{ height: '10px' }} className='mobile-seen' />
+                                <a href="https://play.google.com/store/apps/details?id=com.accutrade&hl=en_US" className="" target="_blank">
+                                    <img
+                                        src={android}
+                                        alt="Download for Android"
+                                        style={{ maxWidth: '150px', height: 'auto' }}
+                                    />
                                 </a>
 
-                                <a className="btn-main2" href="#">
-                                    <span className="txt">{t('downloadForAndroid')}</span>
-                                </a>
+
+
                             </div>
                         </div>
                     </div>
@@ -135,7 +147,7 @@ const AccuGo = () => {
                     </div>
 
                     <div className="sec-title text-center">
-                        <a className="btn-main2" href="#">
+                        <a className="btn-main2" href="/Register">
                             <span className="txt">{t('openYourAccount')}</span>
                         </a>
                     </div>
@@ -160,20 +172,26 @@ const AccuGo = () => {
                                 </div>
                                 <div className="text-box">
                                     <div className="col-xl-6 mobile-seen">
-                                        <img src="assets/img/accuGo/SLIDE-2.png" alt="MetaTrader 5" width="100%" />
+                                        <img src={img2} alt="MetaTrader 5" width="100%" />
                                     </div>
                                     <div className="btns-box mobile-align">
                                         <br />
                                         <br />
-                                        <a className="btn-main2 mx-1" href="#">
-                                            <span className="txt">
-                                                {t('downloadForIOS')}
-                                            </span>
+                                        <a href="https://apps.apple.com/us/app/accugo/id1665870172" className="m-1" target="_blank">
+                                            <img
+                                                src={ios}
+                                                alt="Download for iOS"
+                                                style={{ maxWidth: '150px', height: 'auto' , background:"white"}}
+                                            />
                                         </a>
-                                        <a className="btn-one background-main" href="#">
-                                            <span className="txt">
-                                                {t('downloadForAndroid')}
-                                            </span>
+                                        <br className='mobile-seen' />
+                                        <br style={{ height: '10px' }} className='mobile-seen' />
+                                        <a href="https://play.google.com/store/apps/details?id=com.accutrade&hl=en_US" className="" target="_blank">
+                                            <img
+                                                src={android}
+                                                alt="Download for Android"
+                                                style={{ maxWidth: '150px', height: 'auto' , background:"white"}}
+                                            />
                                         </a>
                                     </div>
                                 </div>
@@ -241,7 +259,7 @@ const AccuGo = () => {
                     <div className="text-center">
                         <br />
                         <br />
-                        <a className="btn-main2" href="#">
+                        <a className="btn-main2" href="/Register">
                             <span className="txt">{t('openYourAccount')}</span>
                         </a>
                     </div>

@@ -104,7 +104,7 @@ const EconomicCalendar = () => {
                                     <p>{t("ecointro.description")}</p>
                                 </div>
                                 <br className="mobile-seen" />
-                                <a className="btn-main6" href="#">
+                                <a className="btn-main6" href="/Register">
                                     <span className="txt">{t("ecointro.buttonText")}</span>
                                 </a>
                             </div>
@@ -153,7 +153,7 @@ const EconomicCalendar = () => {
 
                     {/* Call to Action Button */}
                     <div className="sec-title text-center mt-xl-5">
-                        <a className="btn-main2" href="#">
+                        <a className="btn-main2" href="/Register">
                             <span className="txt">{t("ecofacts.buttonText")}</span>
                         </a>
                     </div>
@@ -223,10 +223,10 @@ const EconomicCalendar = () => {
                             <div className="faq-style1-bottom-box text-center">
                                 <p>
                                     {t("ecofaq.bottomText")}{" "}
-                                    <a href="#">{t("ecofaq.bottomLinkText")} </a>{t("ecofaq.bottomLinkTextTwo")}
+                                    <a href="/Register">{t("ecofaq.bottomLinkText")} </a>{t("ecofaq.bottomLinkTextTwo")}
                                 </p>
                                 <div className="btns-box">
-                                    <a className="btn-main2" href="#">
+                                    <a className="btn-main2" href="/Register">
                                         <span className="txt">{t("ecofaq.buttonText")}</span>
                                     </a>
                                 </div>

@@ -5,7 +5,6 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import { Autoplay } from "swiper";
 import 'swiper/css';
 import "swiper/css/navigation";
 import "swiper/css/pagination"; // Pagination styles
@@ -147,7 +146,7 @@ const Forex = () => {
                                 <div className="text">
                                     <p>{t('Get exposure to global markets with top-performing indices.')}</p>
                                 </div>
-                                <a className="btn-main2" href="#">
+                                <a className="btn-main2" href="/Register">
                                     <span className="txt">{t('Trade Indices')}</span>
                                 </a>
                             </div>
@@ -184,7 +183,7 @@ const Forex = () => {
                                     <div className="btns-box mobile-align">
                                         <br />
                                         <br />
-                                        <a className="btn-main2" href="#">
+                                        <a className="btn-main2" href="/Register">
                                             <span className="txt">{t('openAccountRaw')}</span>
                                         </a>
                                     </div>
@@ -289,7 +288,7 @@ const Forex = () => {
                                                             <br />
                                                             <a
                                                                 className="btn-main"
-                                                                href="#"
+                                                                href="/Register"
                                                                 style={{ backgroundColor: "#C02881" }}
                                                             >
                                                                 {t("tradeNow")}
@@ -350,7 +349,7 @@ const Forex = () => {
                         <div className="col-xl-2 col-md-12 col-sm-12"></div>
                     </div>
                     <div className="text-center">
-                        <a className="btn-main2 " href="#">
+                        <a className="btn-main2 " href="/Register">
                             <span className="txt">{t("startTradingNow")}</span>
                         </a>
                     </div>
@@ -414,7 +413,7 @@ const Forex = () => {
                     <div className="text-center">
                         <br />
                         <br />
-                        <a className="btn-main5" href="#">
+                        <a className="btn-main5" href="/Register">
                             <span className="txt">{t('tradeIndeciesBtn')}</span>
                         </a>
                     </div>
@@ -439,7 +438,7 @@ const Forex = () => {
                                     </div>
                                 </div>
                                 <div className="btns-box">
-                                    <a className="btn-main2" href="#">
+                                    <a className="btn-main2" href="/Register">
                                         <span className="txt">{t('Open Account')}</span>
                                     </a>
                                 </div>

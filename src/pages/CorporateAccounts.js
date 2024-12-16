@@ -95,7 +95,7 @@ const DemoAccount = () => {
                                     <p>{t("Tailored solutions")}</p>
                                 </div>
 
-                                <a className="btn-main6" href={t("intro.buttonLink")}>
+                                <a className="btn-main6" href="/RegisterIb">
                                     <span className="txt">{t("Become a Partner Today")}</span>
                                 </a>
                             </div>
@@ -133,7 +133,7 @@ const DemoAccount = () => {
                         ))}
                     </div>
                     <div className="sec-title text-center">
-                        <a className="btn-main2" href="#">
+                        <a className="btn-main2" href="/RegisterIb">
                             <span className="txt">{t('openYourAccount')}</span>
                         </a>
                     </div>
@@ -175,7 +175,7 @@ const DemoAccount = () => {
                                     </div>
                                     <div className="btns-box mobile-align">
                                         <br />
-                                        <a className="btn-one background-main" href="#">
+                                        <a className="btn-one background-main" href="/RegisterIb">
                                             <span className="txt">{t('becomePartner')}</span>
                                         </a>
                                     </div>
@@ -250,10 +250,10 @@ const DemoAccount = () => {
                         <div className="col-xl-12">
                             <div className="faq-style1-bottom-box text-center">
                                 <p>
-                                    {t('faqCA.ctaTextPOne')} <a href="#">{t('faqCA.ctaLinkText')}</a> {t('faqCA.ctaTextPTwo')}
+                                    {t('faqCA.ctaTextPOne')} <a href="/RegisterIb">{t('faqCA.ctaLinkText')}</a> {t('faqCA.ctaTextPTwo')}
                                 </p>
                                 <div className="btns-box">
-                                    <a className="btn-main2" href="#">
+                                    <a className="btn-main2" href="/RegisterIb">
                                         <span className="txt">{t('faqCA.registerButton')}</span>
                                     </a>
                                 </div>

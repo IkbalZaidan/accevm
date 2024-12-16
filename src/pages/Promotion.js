@@ -77,7 +77,7 @@ const Promotions = () => {
                                 <br className="mobile-seen" />
 
                                 {/* Call to Action */}
-                                <a className="btn-main6" href="#">
+                                <a className="btn-main6" href="/Register">
                                     <span className="txt">{t("promotionignite.ctaButton")}</span>
                                 </a>
                             </div>
@@ -127,7 +127,7 @@ const Promotions = () => {
                                     {/* Call to Action Button */}
                                     <div className="btns-box mobile-align">
                                         <br />
-                                        <a className="btn-one background-main" href="#">
+                                        <a className="btn-one background-main" href="/Register">
                                             <span className="txt">{t("promotionfeatures.ctaButton")}</span>
                                         </a>
                                     </div>
@@ -187,7 +187,7 @@ const Promotions = () => {
                     {/* Call to Action */}
                     <div className="sec-title text-center">
                         <br />
-                        <a className="btn-main2" href="#">
+                        <a className="btn-main2" href="/Register">
                             <span className="txt">{t("promotionfacts.ctaButton")}</span>
                         </a>
                     </div>
@@ -217,7 +217,7 @@ const Promotions = () => {
                                 </div>
                                 <br className="mobile-seen" />
 
-                                <a className="btn-main5" href="#">
+                                <a className="btn-main5" href="/Register">
                                     <span className="txt">{t("warning.ctaButton")}</span>
                                 </a>
                             </div>
@@ -263,10 +263,10 @@ const Promotions = () => {
                                         <div className="btns-box mobile-align">
                                             <br />
                                             <br />
-                                            <a className="btn-main2" href="#">
+                                            <a className="btn-main2" href="/Register">
                                                 <span className="txt">{t("ignite.openLiveAccount")}</span>
                                             </a>
-                                            <a className="btn-one background-main" href="#">
+                                            <a className="btn-one background-main" href="/RegisterDemo">
                                                 <span className="txt">{t("ignite.tryDemoAccount")}</span>
                                             </a>
                                         </div>

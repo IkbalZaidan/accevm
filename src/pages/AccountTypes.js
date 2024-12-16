@@ -62,7 +62,7 @@ const AccountTypes = () => {
                 </div>
 
                 {/* Button */}
-                <a className="btn-main2" href="#">
+                <a className="btn-main2" href="/Register">
                   <span className="txt">{t("introStyle1.buttonText")}</span>
                 </a>
               </div>
@@ -104,7 +104,7 @@ const AccountTypes = () => {
                   <div className="btns-box mobile-align">
                     <br />
                     <br />
-                    <a className="btn-main3" href="#">
+                    <a className="btn-main3" href="#tradingAccountTypes">
                       <span className="txt">{t("featuresStyle.buttonText")}</span>
                     </a>
                   </div>
@@ -122,7 +122,7 @@ const AccountTypes = () => {
         </div>
       </section>
 
-      <section className="service-style1-area">
+      <section className="service-style1-area" id='tradingAccountTypes'>
         <div className="container">
           {/* Title Section */}
           <div className="row">
@@ -221,7 +221,7 @@ const AccountTypes = () => {
                             ))}
                           </ul>
                           <div className="text-center mb-3">
-                            <a className="btn-main2" href="#">
+                            <a className="btn-main2" href="/Register">
                               <span className="txt">
                                 {t("tradeNow")}
                               </span>
@@ -241,7 +241,7 @@ const AccountTypes = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="service-style1__btns-box text-center">
-                <a className="btn-one" href="#">
+                <a className="btn-one">
                   <span className="txt bold-title">
                     {t("serviceStyle.swipeHint")}
                   </span>

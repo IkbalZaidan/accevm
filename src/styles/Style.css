@@ -12159,3 +12159,79 @@ html[dir="rtl"] .features-style-content .text-box ul li .icon {
 .pdf-link:hover {
   color: #C02881; /* Change color on hover */
 }
+
+
+
+
+/* background: linear-gradient(99.93deg, rgba(136, 149, 172, .4), rgba(32, 40, 59, .4) 10.42%, rgba(74, 92, 135, .4) 32.81%, rgba(32, 40, 59, .4)); */
+/* background: #0d1117; */
+.contract-table {
+  position: relative; /* Make sure pseudo-element aligns correctly */
+  padding: 20px;
+  background: #0b0e15; /* Table background */
+  border-radius: 8px; /* Optional: for rounded corners */
+  z-index: 1; /* Ensure content is above the gradient */
+}
+
+.contract-table::before {
+  content: ""; /* Required for pseudo-elements */
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  z-index: -1; /* Place it behind the actual element */
+  border-radius: 8px; /* Match the container's border radius */
+  background: linear-gradient(
+    99.93deg,
+    rgba(136, 149, 172, 0.4),
+    rgba(32, 40, 59, 0.4) 10.42%,
+    rgba(74, 92, 135, 0.4) 32.81%,
+    rgba(32, 40, 59, 0.4)
+  );
+}
+
+
+.filter-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.filter-btn {
+  margin: 0 10px;
+  padding: 6px 12px;
+  border: none;
+  background-color: #21262d;
+  color: #c9d1d9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  background-color: #58a6ff;
+  color: #fff;
+}
+
+/* Table Container */
+/* .container {
+  background-color: #0d1117;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+} */
+
+.table-container {
+  width: 100%;
+  /* Make the table container take full width */
+  overflow: hidden;
+  /* Prevent unwanted scrollbars */
+}
+
+.react-data-table {
+  width: 100%;
+  /* Ensure table fits container */
+  table-layout: auto;
+  /* Columns adjust their size automatically */
+}

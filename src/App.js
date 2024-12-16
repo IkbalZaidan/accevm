@@ -32,6 +32,12 @@ import ContactUs from './pages/ContactUs';
 import AccPay from './pages/AccPay';
 import Faq from './pages/Faq';
 import LegalDocuments from './pages/LegalDocuments';
+import Register from './pages/Register';
+import RegisterDemo from './pages/RegisterDemo';
+import RegisterIb from './pages/RegisterIb';
+import Webtrader from './pages/Webtrader';
+import ContractSpecification from './pages/ContractSpecification';
+
 
 function App() {
   return (
@@ -53,8 +59,12 @@ function App() {
         <Route path="/indices" element={<Indices />} />
         <Route path="/crypto" element={<Crypto />} />
         <Route path="/commodities" element={<Commodities />} />
+
         <Route path="/login" element={<Login />} />
         <Route path="/thanks" element={<Thanks />} />
+
+
+
         <Route path="/FundMnagers" element={<FundMnagaers />} />
         <Route path="/HomePartners" element={<HomePartners />} />
         <Route path="/IB" element={<IB />} />
@@ -64,8 +74,15 @@ function App() {
         <Route path="/EconomicCalendar" element={<EconomicCalendar />} />
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/AccPay" element={<AccPay />} />
+
         <Route path="/faq" element={<Faq />} />
         <Route path="/LegalDocuments" element={<LegalDocuments />} />
+        <Route path="/Register" element={<Register />} />
+        <Route path="/RegisterDemo" element={<RegisterDemo />} />
+        <Route path="/RegisterIb" element={<RegisterIb />} />
+        <Route path="/Webtrader" element={<Webtrader />} />
+        <Route path="/ContractSpecification" element={<ContractSpecification />} />
+
       </Routes>
       <FooterSelector />
     </Router>
