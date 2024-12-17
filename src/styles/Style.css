@@ -1,41 +1,28 @@
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Utility
-# Cards
-# Common
-# Form
-# Navigations
-# Animations
-# Mobile Nav
-# Search Popup
-# Page Header
-# Google Map
-# Client Carousel
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Common
---------------------------------------------------------------*/
 
 
-/*== Default Css ======*/
 @font-face {
-  font-family: 'Gilroy';
-  src: url('../../public/fonts/gilroy-regular-webfont.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Alexander';
+  src: url('../../public/fonts/Alexandria/static/Alexandria-Bold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Gilroy';
-  src: url('../../public/fonts/gilroy-bold-webfont.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
+  font-family: 'Tajawal';
+  src: url('../../public/fonts/Tajawal/Tajawal-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../public/fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../public/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
 }
 
 :root {
-  --thm-font: 'Gilroy', sans-serif !important;
-  --thm-font-2: 'Gilroy', sans-serif !important;
+  /* --thm-font: 'Alexander', sans-serif !important;
+  --thm-font-2: 'Tajawal', sans-serif !important; */
   --thm-base: #C02881;
   --thm-base-rgb: 207, 23, 60;
   --thm-gray: #7f7873;
@@ -48,6 +35,16 @@
   --thm-primary-rgb: 255, 180, 0;
 }
 
+
+ h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700; /* Bold weight for Alexandria */
+}
+
+html[dir="rtl"] h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alexandria', sans-serif;
+  font-weight: 700; /* Bold weight for Alexandria */
+}
 
 .auto-container {
   position: static;
@@ -65,12 +62,17 @@
 }
 
 body {
-  font-family: var(--thm-font);
+  font-family: 'Montserrat', sans-serif;
   color: var(--thm-gray);
-  font-size: 16px;
+  font-size: 14px;
   line-height: 26px;
   font-weight: 400;
   overflow-x: hidden;
+}
+
+html[dir="rtl"]body {
+  font-family: 'Tajawal', sans-serif;
+ 
 }
 
 body.locked {
@@ -11089,7 +11091,7 @@ html[dir="rtl"] .facts-box-style2 .counting:before {
 .error-page-area {
   position: relative;
   display: block;
-  padding: 92px 0 100px;
+  padding: 150px 0 100px;
   background: #ffffff;
   z-index: 10;
 }
