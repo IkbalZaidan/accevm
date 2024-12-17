@@ -2298,10 +2298,11 @@ select:focus {
   position: relative;
   display: block;
   padding-top: 23px;
+
 }
 
 .single-features-box-style2 .title h3 {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 28px;
 }
 
@@ -11490,11 +11491,17 @@ select.wide.white:focus {
 
 .a-second {
 
-  width: 200px !important;
+  width: auto !important;
   text-align: center;
   border-radius: 5px;
 }
 
+.a-second2 {
+
+  width: 100% !important;
+  text-align: center;
+  border-radius: 5px;
+}
 
 
 .a-main:hover {
@@ -11703,7 +11710,7 @@ a.third:hover {
 
 
 .mini-box {
-  height: 50vh;
+  height: auto;
   color: white;
   text-align: center;
 }
@@ -11730,8 +11737,27 @@ a.third:hover {
 }
 
 .mobile-seen {
-  display: none;
+  display: none ;
 }
+
+.mobile-seen2 {
+  display: none !important;
+}
+
+.mobile-seen3 {
+  display: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .mobile-seen2 {
+    display: block  !important;
+  }
+
+  .mobile-seen3 {
+    display: flex  !important;
+  }
+}
+
 
 .not-clickable {
   pointer-events: none;
@@ -12234,4 +12260,21 @@ html[dir="rtl"] .features-style-content .text-box ul li .icon {
   /* Ensure table fits container */
   table-layout: auto;
   /* Columns adjust their size automatically */
+}
+
+
+
+
+
+
+
+.language-selector {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.language-text {
+  margin-left: 5px;
+  font-weight: bold;
 }

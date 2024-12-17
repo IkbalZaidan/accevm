@@ -395,7 +395,7 @@
 
   .main-slider-style2 .main-slider-content .btns-box a.style2 {
   
-    margin-left: 0;
+    margin-inline-start: 0;
   }
 }
 .main-slider-style2 .main-slider-content .btns-box a.style2:hover {

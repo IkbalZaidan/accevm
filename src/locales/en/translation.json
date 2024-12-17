@@ -10,41 +10,39 @@
   "supportCenter": "Support Center",
   "authorisedRegulated": "Legal Documents",
   "fscm": "FSCM",
-
   "home": "Home",
   "company": "Company",
   "aboutUs": "About Us",
   "OurStory": "Our Story",
-  "Licenses&Regulations":"Licenses & Regulations",
-  "Awards&Recognition":"Awards & Recognition",
-  "TradingAccountsNav":"Trading Accounts",
-  "AccountTypesNav":"Account Types",
-  "IslamicAccountsNav":"Islamic Accounts",
-  "DemoAccountNav":"Demo Account",
-  "PlatformsNav":"Platforms",
-  "MetaTraderNav":"MetaTrader 5",
-  "WebTraderNav":"WebTrader",
-  "AccuGoNav":"AccuGo",
-  "AccuConnectNav":"AccuConnect",
-  "MarketsNav":"Markets",
-  "ForexNav":"Forex",
-  "CommoditiesNav":"Commodities",
-  "IndicesNav":"Indices",
-  "StocksNav":"Stocks",
-  "Cryptocurrencies":"Cryptocurrencies",
-  "PartnershipNav":"Partnership",
-  "IntroducingBrokersNav":"Introducing Brokers",
-  "WhitelabelPartnershipsNav":"White label Partnerships",
-  "CorporateAccountsNav":"Corporate Accounts",
-  "FundManagersNav":"Fund Managers",
-  "CompanyNav":"Company",
-  "TradingToolsNav":"Trading Tools",
-  "AccuPayNav":"AccuPay",
-  "EconomicCalendarNav":"Economic Calendar",
-  "SupportNav":"Support",
-  "HelpCenterNav":"Help Center",
-  "ContactUsNav":"Contact Us",
-
+  "Licenses&Regulations": "Licenses & Regulations",
+  "Awards&Recognition": "Awards & Recognition",
+  "TradingAccountsNav": "Trading Accounts",
+  "AccountTypesNav": "Account Types",
+  "IslamicAccountsNav": "Islamic Accounts",
+  "DemoAccountNav": "Demo Account",
+  "PlatformsNav": "Platforms",
+  "MetaTraderNav": "MetaTrader 5",
+  "WebTraderNav": "WebTrader",
+  "AccuGoNav": "AccuGo",
+  "AccuConnectNav": "AccuConnect",
+  "MarketsNav": "Markets",
+  "ForexNav": "Forex",
+  "CommoditiesNav": "Commodities",
+  "IndicesNav": "Indices",
+  "StocksNav": "Stocks",
+  "Cryptocurrencies": "Cryptocurrencies",
+  "PartnershipNav": "Partnership",
+  "IntroducingBrokersNav": "Introducing Brokers",
+  "WhitelabelPartnershipsNav": "White label Partnerships",
+  "CorporateAccountsNav": "Corporate Accounts",
+  "FundManagersNav": "Fund Managers",
+  "CompanyNav": "Company",
+  "TradingToolsNav": "Trading Tools",
+  "AccuPayNav": "AccuPay",
+  "EconomicCalendarNav": "Economic Calendar",
+  "SupportNav": "Support",
+  "HelpCenterNav": "Help Center",
+  "ContactUsNav": "Contact Us",
   "careers": "Careers",
   "legalDocuments": "Legal Documents",
   "promotions": "Promotions",
@@ -1219,8 +1217,6 @@
     "openLiveAccount": "Open Live Account",
     "tryDemoAccount": "Try Demo Account"
   },
-
-
   "ecointro": {
     "title": "Stay Ahead with Real-Time Market Insights",
     "description": "Access the Economic Calendar for key global events, announcements, and market-moving data to make informed trading decisions.",
@@ -1251,8 +1247,6 @@
     "bottomLinkTextTwo": "",
     "buttonText": "Open Your Account"
   },
-
-
   "contactus": {
     "titleLine1": "Get Support for",
     "titleLine2": "any Queries or Complaints",
@@ -1281,8 +1275,6 @@
       "submitButton": "Send a Message"
     }
   },
-
-
   "seamlessPaymentsWithAccuPay": "Seamless Payments with AccuPay",
   "experienceFastSecure": "Experience fast, secure, and hassle-free deposits and withdrawals with AccuPay. Simplify your trading journey today.",
   "accuPayAlt": "AccuPay Slide",
@@ -1363,9 +1355,6 @@
       "answer": "Absolutely. AccuPay uses advanced encryption, two-factor authentication, and real-time alerts to ensure your financial information is always protected."
     }
   },
-
-
-
   "faqTitle": "Find Answers Instantly with Our Help Center",
   "faqSubtitle": "Your go-to resource for frequently asked questions, trading guides, and platform support. Navigate your trading journey with confidence.",
   "faqQuestion1": "What trading platforms does Accuindex offer?",
@@ -1428,32 +1417,22 @@
   "faqAnswer29": "Use stop-loss orders, take-profit orders, and margin protection tools to manage your risk effectively.",
   "faqQuestion30": "How can I close my trading account?",
   "faqAnswer30": "Contact our support team, and they will guide you through the process of account closure.",
-  "faqAccPay.registerButton":"Apply Now",
-  "qMark":"?",
-
-
-  "privacyPolicy":"Privacy Policy",
-  "termsAndConditions":"Terms & Conditions",
-  "products":"Products",
-  "Cost & Spreads":"Cost & Spreads",
-  "Deposits & Withdrawals":"Deposits & Withdrawals",
-  "Fees & Charges":"Fees & Charges",
-  "termsPOne":"Accuindex Limited is an Investment Firm incorporated under the laws of Republic of Mauritius with company number 167867 GBC. Authorized and regulated by the Financial Service Commission (FSC) in Mauritius. (License No GB19024778, Registered address at The Cyberati Lounge, Ground Floor, The Catalyst, Silicon Avenue, 40 Cybercity, 72201 Ebène, Republic of Mauritius. The website www.accuindex.com is operated and provides content by Accuindex Group of companies, which include: • Accuindex Limited (Mauritius) Accuindex EU Limited is a Cypriot Investment Firm (CIF) under number HE 360650. Regulated by the Cyprus Securities and Exchange Commission (CySEC) under license number 340/17.",
-  "termsPTwo":"Accuindex EU Limited is governed by the Markets of Financial Instruments Directive (MiFID) of the European Union. Registered address at 1 Ayias Zonis Street Nicolaou Pentadromos Centre Block B, Limassol 3026, Cyprus. The website www.accuindex.eu is operated by Accuindex EU Limited. Risk Warning: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money. Please read the full Risk Disclosure. Regional Restrictions: Accuindex Limited does not provide investment and ancillary services in the territories of the United States of America, Canada, Israel, Japan, North Korea, Belgium, and UN/EU Sanctioned countries.",
-
-
-  "AccGoCT":"Stay connected to the markets with AccuGo, our mobile trading platform. Whether you’re tracking market trends, executing trades, or managing your portfolio, AccuGo ensures you never miss an opportunity—available for both iOS and Android.",
-  "AccConnectCt":"Replicate the strategies of top traders with AccuConnect. This advanced copy trading feature allows you to follow experienced investors, access professional insights, and trade smarter—perfect for both beginners and seasoned traders aiming to enhance their portfolio.",
-  "AccPayCt":"Experience hassle-free deposits and withdrawals with AccuPay. Designed for speed and reliability, this payment solution ensures your funds are available when you need them, empowering your trading with seamless financial operations.",
-
-  "Multiple Account Types":"Multiple Account Types",
-  "subContent":"Explore Accuindex’s diverse range of trading accounts tailored to fit your unique trading style and objectives. Whether you're a beginner or a seasoned professional, our accounts provide the flexibility, transparency, and tools you need to thrive in global financial markets.",
-  "Open Your Preferred Account Today":"Open Your Preferred Account Today",
-
-
-
-
-
+  "faqAccPay.registerButton": "Apply Now",
+  "qMark": "?",
+  "privacyPolicy": "Privacy Policy",
+  "termsAndConditions": "Terms & Conditions",
+  "products": "Products",
+  "Cost & Spreads": "Cost & Spreads",
+  "Deposits & Withdrawals": "Deposits & Withdrawals",
+  "Fees & Charges": "Fees & Charges",
+  "termsPOne": "Accuindex Limited is an Investment Firm incorporated under the laws of Republic of Mauritius with company number 167867 GBC. Authorized and regulated by the Financial Service Commission (FSC) in Mauritius. (License No GB19024778, Registered address at The Cyberati Lounge, Ground Floor, The Catalyst, Silicon Avenue, 40 Cybercity, 72201 Ebène, Republic of Mauritius. The website www.accuindex.com is operated and provides content by Accuindex Group of companies, which include: • Accuindex Limited (Mauritius) Accuindex EU Limited is a Cypriot Investment Firm (CIF) under number HE 360650. Regulated by the Cyprus Securities and Exchange Commission (CySEC) under license number 340/17.",
+  "termsPTwo": "Accuindex EU Limited is governed by the Markets of Financial Instruments Directive (MiFID) of the European Union. Registered address at 1 Ayias Zonis Street Nicolaou Pentadromos Centre Block B, Limassol 3026, Cyprus. The website www.accuindex.eu is operated by Accuindex EU Limited. Risk Warning: CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money. Please read the full Risk Disclosure. Regional Restrictions: Accuindex Limited does not provide investment and ancillary services in the territories of the United States of America, Canada, Israel, Japan, North Korea, Belgium, and UN/EU Sanctioned countries.",
+  "AccGoCT": "Stay connected to the markets with AccuGo, our mobile trading platform. Whether you’re tracking market trends, executing trades, or managing your portfolio, AccuGo ensures you never miss an opportunity—available for both iOS and Android.",
+  "AccConnectCt": "Replicate the strategies of top traders with AccuConnect. This advanced copy trading feature allows you to follow experienced investors, access professional insights, and trade smarter—perfect for both beginners and seasoned traders aiming to enhance their portfolio.",
+  "AccPayCt": "Experience hassle-free deposits and withdrawals with AccuPay. Designed for speed and reliability, this payment solution ensures your funds are available when you need them, empowering your trading with seamless financial operations.",
+  "Multiple Account Types": "Multiple Account Types",
+  "subContent": "Explore Accuindex’s diverse range of trading accounts tailored to fit your unique trading style and objectives. Whether you're a beginner or a seasoned professional, our accounts provide the flexibility, transparency, and tools you need to thrive in global financial markets.",
+  "Open Your Preferred Account Today": "Open Your Preferred Account Today",
   "HPstandardAccount": "Standard Account",
   "HPminimumBalance": "Minimum Opening Balance: $100",
   "HPleverage": "Leverage: Up to 1:400",
@@ -1471,123 +1450,84 @@
   "HPcopyTradingAccount": "Copy Trading Account",
   "HPcopyTrades": "Monitor and Copy Trades Instantly",
   "HPseamlessAccess": "Seamless Access to AccuConnect",
-
-
-
-  "Master Trading with Ease Through Copy Trading":"Master Trading with Ease Through Copy Trading",
-  "suCtTwo":"Experience the ultimate convenience of trading by mirroring the strategies of expert traders. Accuindex’s Copy Trading Account empowers beginners and busy traders alike to participate in the markets confidently, without extensive research or experience.",
-
-
-  "TPOne":"Replicate the strategies of seasoned traders directly on your account.",
-  "TPTwo":"Start with a minimum deposit of just $100 and trade with leverage up to 1:400",
-  "TPThree":"Access 300+ trading instruments across Forex, commodities, and indices",
-  "TPFour":"Instantly monitor and execute trades through the AccuConnect platform",
-
-  "Get The App":"Get The App",
-  "WhyChooseSub":"Discover unparalleled trading advantages with Accuindex—combining innovation, transparency, and expert support to help you succeed in the global markets.",
-
-
-
-  "Cutting-Edge Technology":"Cutting-Edge Technology",
-  "Cutting-Edge TechnologySub":"Access state-of-the-art trading platforms like Accuindex MT5 and AccuConnect, designed for precision, speed, and seamless execution across all devices.",
-  "Transparent Trading Conditions":"Transparent Trading Conditions",
-  "Transparent Trading ConditionsSub":"Enjoy competitive spreads, high leverage, and a secure trading environment, backed by regulatory compliance to protect your investments.",
-  "Dedicated Customer Support":"Dedicated Customer Support",
-  "Dedicated Customer SupportSub":"Our professional team is available 24/7 to assist you with trading strategies, platform guidance, and real-time market insights.",
-
-
-
-  "Trade the Markets with Premier Platforms.":"Trade the Markets with Premier Platforms.",
-  "Experience seamless trading with Accuindex through our user-friendly AccuPay app or the advanced MetaTrader 5 platform, accessible on any device, anytime, anywhere.":"Experience seamless trading with Accuindex through our user-friendly AccuPay app or the advanced MetaTrader 5 platform, accessible on any device, anytime, anywhere.",
-  "AccuPay Account":"AccuPay Account",
-  "MT5 Account":"MT5 Account",
-  "EXPLORE ACCUPAY APP":"EXPLORE ACCUPAY APP",
-  "EXPLORE METATRADER 5":"EXPLORE METATRADER 5",
-  "SubPOne":"Instant Transactions",
-  "SubPTwo":"Global ATM Access",
-  "SubPThree":"User-Friendly Mobile App",
-  "SubPFour":"Advanced Trading Tools",
-  "SubPFive":"Competitive Spreads",
-  "SubPSix":"Real-Time Market Data",
-
-
-
-
-  "Instant Deposits":"Instant Deposits",
-  "Flexible Options":"Flexible Options",
-  "Secure Transactions":"Secure Transactions",
-  "Hassle-Free Withdrawals":"Hassle-Free Withdrawals",
-  "Effortless and Swift Account Funding":"Effortless and Swift Account Funding",
-  "Seamlessly deposit and withdraw funds with Accuindex’s secure, flexible, and fast payment solutions":"Seamlessly deposit and withdraw funds with Accuindex’s secure, flexible, and fast payment solutions",
-
-
-
-  "Legal Documents":"Legal Documents",
-  "LegalDocsSub":"To better understand Forex margin trading and CFD products and learn your rights and obligations when it comes to Foreign Exchange transactions, make sure to download and read our comprehensive PDF file.",
-  "ReadMore":"Read More",
-  "Privacy Policy":"Privacy Policy",
-  "PrivacyPolicySub":"This site is owned and operated by Accuindex. Your privacy is of the utmost importance to Accuindex. We aim to guarantee a satisfying and safe experience for all our clients.",
-  "PrivacyPolicySecOne":"We are obligated to comply with EU data protection legislation and, as such, have strict security procedures in place in respect of both the storage and the disclosure of any information shared with us. Accuindex will never share any information about specific individuals with any external third party, unless required to do so by Law, or in compliance with our regulatory obligations.",
-  "PrivacyPolicySecTwo":"For further information on disclosure of information, please refer to Section 26 of the Terms of Business.",
-  "PrivacyPolicySecThree":"Because we require our users to share certain types of information with us, we believe they are entitled to understand our policies, terms and conditions regarding the capture and use of that information. This privacy statement discloses the nature and use of such information.",
-  "Accuindex Limited Gathers And Tracks":"Accuindex Limited Gathers And Tracks",
-  "PrivacyPolicySecFour":"1.Information that users disclose through optional and voluntary submissions in order to receive our electronic newsletter.",
-  "PrivacyPolicySecFive":"2.Information that users disclose to request a free Demo account or acquire full access to our online trading software. This information is required for regulatory purposes, in order to complete the client identification process and assess the suitability of potential users before allowing them to access our services.",
-  "License & Authorization":"License & Authorization",
-  "L&APone":"* ACCUINDEX LTD Is Authorised And Regulated By The Cyprus Securities And Exchange Commission (Cysec) In Cyprus (License Number 340/17).",
-  "L&APTwo":"* ACCUINDEX LTD Is Authorised And Regulated By The Financial Service Commission (FSC) In Mauritius (License Number GB19024778).",
-  "High Risk Investment Warning":"High Risk Investment Warning",
-  "LiPOne":"* Trading in Foreign Exchange on margin carries a high level of risk and may not be suitable for all investors. The leverage can work against you as well as for you.",
-  "LiPTwo":"* Before deciding to trade in Foreign Exchange, you should carefully consider your investment objectives, level of experience and risk appetite.",
-  "LiPThree":"* There exists a possibility that you could sustain a substantial loss of some or all of your initial investment, and therefore should not invest any money that you cannot afford to lose.",
-  "LiPFour":"* Make yourself aware of all the risks associated with Foreign Exchange trading and seek advice from an independent financial adviser should you have any doubts.",
-
-
-
-  "Accuindex Legal Documents":"Accuindex Legal Documents",
-  "Accuindex Client Agreement":"Accuindex Client Agreement",
-  "Accuindex Limited Privacy Notice":"Accuindex Limited Privacy Notice",
-  "Accuindex Limited Website Terms and Conditions":"Accuindex Terms and Conditions",
-  "AML Procedures Manual":"AML Procedures Manual",
-  "Accuindex Limited Complaint Procedures":"Accuindex Limited Complaint Procedures",
-  "Safeguarding of Clients Assets Policy":"Safeguarding of Clients Assets Policy",
-
-
-  "AccuPay MasterCard Terms":"AccuPay MasterCard Terms",
-  "Accuindex VPS Service - Terms and Conditions":"Accuindex VPS Service - Terms and Conditions",
-  "Withdrawal and Refund Policy":"Withdrawal and Refund Policy",
-  "Summary Order Execution Policy":"Summary Order Execution Policy",
-  "Copy Trading Terms and Conditions":"Copy Trading Terms and Conditions",
-  
-
-  "Accuindex 15% Bonus Terms and Conditions - SEA":"Accuindex 15% Bonus Terms and Conditions - SEA",
-  "Accuindex 20% Bonus Offer - Terms and Conditions":"Accuindex 20% Bonus Offer - Terms and Conditions",
-  "30% Bonus Offer - Terms and Conditions":"30% Bonus Offer - Terms and Conditions",
-  "Accuindex Bonus 50% offer Terms & Conditions":"Accuindex Bonus 50% offer Terms & Conditions",
-  "Accuindex Ramadan offer Terms & Conditions":"Accuindex Ramadan offer Terms & Conditions",
-  "Risk Warning Notice":"Risk Warning Notice",
-
-
-
-  "promotionignite":{
-    "promotionsTitle":"AccuIndex Promotions",
-    "promotionsDescription":"At Accuindex, we reward our clients. That's why we're thrilled to introduce our latest brokerage Promotion: the 30% Deposit Bonus. This offer allows you to supercharge your trading account and maximize your gains like never before. Find out more and see if your account could qualify for this market-leading sign-on bonus today!",
-    "ctaButton":"Start Trading Now"
+  "Master Trading with Ease Through Copy Trading": "Master Trading with Ease Through Copy Trading",
+  "suCtTwo": "Experience the ultimate convenience of trading by mirroring the strategies of expert traders. Accuindex’s Copy Trading Account empowers beginners and busy traders alike to participate in the markets confidently, without extensive research or experience.",
+  "TPOne": "Replicate the strategies of seasoned traders directly on your account.",
+  "TPTwo": "Start with a minimum deposit of just $100 and trade with leverage up to 1:400",
+  "TPThree": "Access 300+ trading instruments across Forex, commodities, and indices",
+  "TPFour": "Instantly monitor and execute trades through the AccuConnect platform",
+  "Get The App": "Get The App",
+  "WhyChooseSub": "Discover unparalleled trading advantages with Accuindex—combining innovation, transparency, and expert support to help you succeed in the global markets.",
+  "Cutting-Edge Technology": "Cutting-Edge Technology",
+  "Cutting-Edge TechnologySub": "Access state-of-the-art trading platforms like Accuindex MT5 and AccuConnect, designed for precision, speed, and seamless execution across all devices.",
+  "Transparent Trading Conditions": "Transparent Trading Conditions",
+  "Transparent Trading ConditionsSub": "Enjoy competitive spreads, high leverage, and a secure trading environment, backed by regulatory compliance to protect your investments.",
+  "Dedicated Customer Support": "Dedicated Customer Support",
+  "Dedicated Customer SupportSub": "Our professional team is available 24/7 to assist you with trading strategies, platform guidance, and real-time market insights.",
+  "Trade the Markets with Premier Platforms.": "Trade the Markets with Premier Platforms.",
+  "Experience seamless trading with Accuindex through our user-friendly AccuPay app or the advanced MetaTrader 5 platform, accessible on any device, anytime, anywhere.": "Experience seamless trading with Accuindex through our user-friendly AccuPay app or the advanced MetaTrader 5 platform, accessible on any device, anytime, anywhere.",
+  "AccuPay Account": "AccuPay Account",
+  "MT5 Account": "MT5 Account",
+  "EXPLORE ACCUPAY APP": "EXPLORE ACCUPAY APP",
+  "EXPLORE METATRADER 5": "EXPLORE METATRADER 5",
+  "SubPOne": "Instant Transactions",
+  "SubPTwo": "Global ATM Access",
+  "SubPThree": "User-Friendly Mobile App",
+  "SubPFour": "Advanced Trading Tools",
+  "SubPFive": "Competitive Spreads",
+  "SubPSix": "Real-Time Market Data",
+  "Instant Deposits": "Instant Deposits",
+  "Flexible Options": "Flexible Options",
+  "Secure Transactions": "Secure Transactions",
+  "Hassle-Free Withdrawals": "Hassle-Free Withdrawals",
+  "Effortless and Swift Account Funding": "Effortless and Swift Account Funding",
+  "Seamlessly deposit and withdraw funds with Accuindex’s secure, flexible, and fast payment solutions": "Seamlessly deposit and withdraw funds with Accuindex’s secure, flexible, and fast payment solutions",
+  "Legal Documents": "Legal Documents",
+  "LegalDocsSub": "To better understand Forex margin trading and CFD products and learn your rights and obligations when it comes to Foreign Exchange transactions, make sure to download and read our comprehensive PDF file.",
+  "ReadMore": "Read More",
+  "Privacy Policy": "Privacy Policy",
+  "PrivacyPolicySub": "This site is owned and operated by Accuindex. Your privacy is of the utmost importance to Accuindex. We aim to guarantee a satisfying and safe experience for all our clients.",
+  "PrivacyPolicySecOne": "We are obligated to comply with EU data protection legislation and, as such, have strict security procedures in place in respect of both the storage and the disclosure of any information shared with us. Accuindex will never share any information about specific individuals with any external third party, unless required to do so by Law, or in compliance with our regulatory obligations.",
+  "PrivacyPolicySecTwo": "For further information on disclosure of information, please refer to Section 26 of the Terms of Business.",
+  "PrivacyPolicySecThree": "Because we require our users to share certain types of information with us, we believe they are entitled to understand our policies, terms and conditions regarding the capture and use of that information. This privacy statement discloses the nature and use of such information.",
+  "Accuindex Limited Gathers And Tracks": "Accuindex Limited Gathers And Tracks",
+  "PrivacyPolicySecFour": "1.Information that users disclose through optional and voluntary submissions in order to receive our electronic newsletter.",
+  "PrivacyPolicySecFive": "2.Information that users disclose to request a free Demo account or acquire full access to our online trading software. This information is required for regulatory purposes, in order to complete the client identification process and assess the suitability of potential users before allowing them to access our services.",
+  "License & Authorization": "License & Authorization",
+  "L&APone": "* ACCUINDEX LTD Is Authorised And Regulated By The Cyprus Securities And Exchange Commission (Cysec) In Cyprus (License Number 340/17).",
+  "L&APTwo": "* ACCUINDEX LTD Is Authorised And Regulated By The Financial Service Commission (FSC) In Mauritius (License Number GB19024778).",
+  "High Risk Investment Warning": "High Risk Investment Warning",
+  "LiPOne": "* Trading in Foreign Exchange on margin carries a high level of risk and may not be suitable for all investors. The leverage can work against you as well as for you.",
+  "LiPTwo": "* Before deciding to trade in Foreign Exchange, you should carefully consider your investment objectives, level of experience and risk appetite.",
+  "LiPThree": "* There exists a possibility that you could sustain a substantial loss of some or all of your initial investment, and therefore should not invest any money that you cannot afford to lose.",
+  "LiPFour": "* Make yourself aware of all the risks associated with Foreign Exchange trading and seek advice from an independent financial adviser should you have any doubts.",
+  "Accuindex Legal Documents": "Accuindex Legal Documents",
+  "Accuindex Client Agreement": "Accuindex Client Agreement",
+  "Accuindex Limited Privacy Notice": "Accuindex Limited Privacy Notice",
+  "Accuindex Limited Website Terms and Conditions": "Accuindex Terms and Conditions",
+  "AML Procedures Manual": "AML Procedures Manual",
+  "Accuindex Limited Complaint Procedures": "Accuindex Limited Complaint Procedures",
+  "Safeguarding of Clients Assets Policy": "Safeguarding of Clients Assets Policy",
+  "AccuPay MasterCard Terms": "AccuPay MasterCard Terms",
+  "Accuindex VPS Service - Terms and Conditions": "Accuindex VPS Service - Terms and Conditions",
+  "Withdrawal and Refund Policy": "Withdrawal and Refund Policy",
+  "Summary Order Execution Policy": "Summary Order Execution Policy",
+  "Copy Trading Terms and Conditions": "Copy Trading Terms and Conditions",
+  "Accuindex 15% Bonus Terms and Conditions - SEA": "Accuindex 15% Bonus Terms and Conditions - SEA",
+  "Accuindex 20% Bonus Offer - Terms and Conditions": "Accuindex 20% Bonus Offer - Terms and Conditions",
+  "30% Bonus Offer - Terms and Conditions": "30% Bonus Offer - Terms and Conditions",
+  "Accuindex Bonus 50% offer Terms & Conditions": "Accuindex Bonus 50% offer Terms & Conditions",
+  "Accuindex Ramadan offer Terms & Conditions": "Accuindex Ramadan offer Terms & Conditions",
+  "Risk Warning Notice": "Risk Warning Notice",
+  "promotionignite": {
+    "promotionsTitle": "AccuIndex Promotions",
+    "promotionsDescription": "At Accuindex, we reward our clients. That's why we're thrilled to introduce our latest brokerage Promotion: the 30% Deposit Bonus. This offer allows you to supercharge your trading account and maximize your gains like never before. Find out more and see if your account could qualify for this market-leading sign-on bonus today!",
+    "ctaButton": "Start Trading Now"
   },
-
-
-  "Open Demo Account":"Open Demo Account",
-  "demoAccountSub":"Sign up for Accuindex Demo account.",
-  
-  "Open IB Account":"Open IB Account",
-  "ibAccountSub":"",
-
-
-
-
-
-
-
+  "Open Demo Account": "Open Demo Account",
+  "demoAccountSub": "Sign up for Accuindex Demo account.",
+  "Open IB Account": "Open IB Account",
+  "ibAccountSub": "",
   "webTraderAlt": "WebTrader illustration",
   "webTraderTitle": "WebTrader – Your Flexible Trading Solution",
   "webTraderDescription": "Access global markets instantly, without any downloads or installations.",
@@ -1608,7 +1548,7 @@
   "iconAlt3": "Icon for Order Execution",
   "iconAlt4": "Icon for Secure Login",
   "whoIs": "Who Is",
-  "WebTrader":"WebTrader",
+  "WebTrader": "WebTrader",
   "for": "For?",
   "webTraderPerfectFor": "WebTrader is perfect for",
   "tradersValueConvenience": "Traders who value convenience and flexibility in their trading process.",
@@ -1618,18 +1558,4 @@
   "tradersIconAlt": "Traders Icon",
   "beginnersIconAlt": "Beginners Icon",
   "professionalsIconAlt": "Professionals Icon"
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
 }

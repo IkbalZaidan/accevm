@@ -70,13 +70,31 @@ const Home = () => {
                         {t('tradeText')}
                       </p>
                     </div>
-                    <div className="btns-box mobile-align">
+                    <div className="btns-box mobile-align pc">
                       <a className="btn-one a-second" href="/Register">
                         <span className="txt">{t('register')}</span>
                       </a>
                       <a className="btn-one style2 a-second" href="/RegisterDemo">
                         <span className="txt">{t('demo')}</span>
                       </a>
+                    </div>
+
+                    <div className="btns-box mobile-align mobile-seen2">
+                      <div className='row '>
+                        <div className='col-12 '>
+                          <a className="btn-one a-second2" href="/Register">
+                            <span className="txt">{t('register')}</span>
+                          </a>
+                        </div>
+                        <div className='col-12'>
+                          <a className="btn-one style2 a-second2" href="/RegisterDemo">
+                            <span className="txt">{t('demo')}</span>
+                          </a>
+                        </div>
+
+                      </div>
+
+
                     </div>
                     <div className="bottom-text mobile-align">
                       <p>
@@ -191,6 +209,9 @@ const Home = () => {
                               <a className="btn-main" href="/Register" style={{ backgroundColor: '#C02881' }}>
                                 {t('register')}
                               </a>
+                              <br className="mobile-seen" />
+                              <br className="mobile-seen" />
+
                             </div>
                           </div>
                           <div className="col-xl-6 p-0">
@@ -215,6 +236,9 @@ const Home = () => {
                               <a className="btn-main" href="/Register" style={{ backgroundColor: '#C02881' }}>
                                 {t('register')}
                               </a>
+                              <br className="mobile-seen" />
+                              <br className="mobile-seen" />
+
                             </div>
                           </div>
                           <div className="col-xl-6 p-0">
@@ -239,6 +263,9 @@ const Home = () => {
                               <a className="btn-main" href="/Register" style={{ backgroundColor: '#C02881' }}>
                                 {t('register')}
                               </a>
+                              <br className="mobile-seen" />
+                              <br className="mobile-seen" />
+
                             </div>
                           </div>
                           <div className="col-xl-6 p-0">
@@ -547,7 +574,7 @@ const Home = () => {
 
       <section className="copy-trading-section">
         <div className="container">
-          <div className="row" style={{ width: '100%' }} id="copyTrading1">
+          <div className="row" id="copyTrading1">
             <br className="mobile-seen" />
             <br className="mobile-seen" />
 
@@ -557,6 +584,9 @@ const Home = () => {
 
             <div className="col-xl-5 mobile-align">
               <div className="features-style3-content copy-trading-padding">
+                <br className="mobile-seen" />
+                <br className="mobile-seen" />
+
                 <div className="sec-title mobile-align">
                   <h6 className="white bold-title copy-trading-text mobile-align">
                     {t('Master Trading with Ease Through Copy Trading')}

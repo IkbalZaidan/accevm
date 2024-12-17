@@ -14,6 +14,13 @@ import logo from '../../assets/img/accuLogo.png'; // Adjust path if necessary
 const SecondaryHeader = () => {
     const { t, i18n } = useTranslation();
 
+    const handleLanguageToggle = () => {
+        const newLanguage = savedLanguage === 'en' ? 'ar' : 'en';
+        i18n.changeLanguage(newLanguage).catch(err => console.error("Language change error:", err));
+        localStorage.setItem('language', newLanguage);
+        setSavedLanguage(newLanguage);
+    };
+
     // State for language
     const [savedLanguage, setSavedLanguage] = useState(localStorage.getItem('language') || 'en');
     const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
@@ -182,14 +189,14 @@ const SecondaryHeader = () => {
                                         </a>
                                     </div>
 
-                                    {/* <div className="logo-box-style1 nav-background">
-                                        <form action="#" className='mobile-seen'>
-                                            <select className='langSty mobile-seen' value={savedLanguage} onChange={handleLanguageChange} >
-                                                <option id="en" value="en">{t('english')}</option>
-                                                <option id="ar" value="ar">{t('arabic')}</option>
-                                            </select>
-                                        </form>
-                                    </div> */}
+                                    <div className="logo-box-style1 nav-background">
+                                        <div className="language-selector mobile-seen3" onClick={handleLanguageToggle}>
+                                            <i className="fas fa-globe"></i> {/* Globe icon */}
+                                            <span className="language-text">
+                                                {savedLanguage === 'en' ? t('arabic') : t('english')}
+                                            </span>
+                                        </div>
+                                    </div>
 
                                     <div className="main-menu-box">
                                         <a href="#" className="mobile-nav__toggler" onClick={toggleMobileNav}>
@@ -223,10 +230,18 @@ const SecondaryHeader = () => {
                                             </li>
 
                                             <li className="nav-li mobile-seen">
+                                                <Link to="/LegalDocuments" className="nav-li">
+                                                    {t('authorisedRegulated')}
+                                                </Link>
+                                            </li>
+
+                                            <li className="nav-li mobile-seen">
                                                 <Link to="/" className="nav-li">
                                                     {t('individualView')}
                                                 </Link>
                                             </li>
+
+
 
                                         </ul>
                                     </div>

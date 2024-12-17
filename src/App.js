@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Header from './components/Header/Header';
 import SecondaryHeader from './components/Header/SecondaryHeader'; // A different header component
+import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer/Footer';
 import SecondaryFooter from './components/Footer/SecondaryFooter';
 import Home from './pages/Home';
@@ -42,6 +43,7 @@ import ContractSpecification from './pages/ContractSpecification';
 function App() {
   return (
     <Router>
+       <ScrollToTop />
       <HeaderSelector />
       <Routes>
         <Route path="/" element={<Home />} />

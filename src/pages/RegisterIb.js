@@ -270,8 +270,8 @@ const Login = () => {
     if (!formData.country) newErrors.country = "Country is required.";
     if (!formData.phone) {
       newErrors.phone = "Phone number is required.";
-    } else if (!/^\d{10}$/.test(formData.phone)) {
-      newErrors.phone = "Phone number must be 10 digits.";
+    } else if (!/^\d{9}$/.test(formData.phone)) {
+      newErrors.phone = "Phone number must be 9 digits.";
     }
     if (!formData.email) {
       newErrors.email = "Email is required.";

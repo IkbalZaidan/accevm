@@ -304,10 +304,7 @@ const Login = () => {
       setLoading(true);
       setMessage("");
 
-      const apiUrl =
-        apiType === "demo"
-          ? "http://192.168.0.126:9095/call-api?isLive=false"
-          : "http://192.168.0.126:9095/api/v1/cp/gate/register/live";
+      const apiUrl = "http://192.168.0.126:9095/api/v1/cp/gate/register/live";
 
       try {
         const response = await axios.post(apiUrl, formData, {
